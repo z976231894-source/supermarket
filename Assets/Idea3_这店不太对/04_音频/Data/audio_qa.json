@@ -1,0 +1,637 @@
+{
+  "count": 33,
+  "wav": 33,
+  "ogg": 33,
+  "sample_rate": 48000,
+  "all_pass": true,
+  "checks": [
+    {
+      "id": "I3_BGM_NightShift_Main",
+      "duration_s": 106.66666666666667,
+      "channels": 2,
+      "peak_dbfs": -14.999999350936557,
+      "rms_dbfs": -31.954460653559032,
+      "seam_abs": 0.0,
+      "ogg_seam_abs": 2.650137275850284e-06,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_BGM_NightShift_Quiet",
+      "duration_s": 106.66666666666667,
+      "channels": 2,
+      "peak_dbfs": -16.00000503931823,
+      "rms_dbfs": -31.85576590721618,
+      "seam_abs": 0.0,
+      "ogg_seam_abs": 2.651298700584448e-06,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_BGM_ColdAir",
+      "duration_s": 106.66666666666667,
+      "channels": 2,
+      "peak_dbfs": -16.00000503931823,
+      "rms_dbfs": -31.98383597000545,
+      "seam_abs": 0.0,
+      "ogg_seam_abs": 3.569852651708061e-06,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_BGM_ShiftClosed",
+      "duration_s": 8.0,
+      "channels": 2,
+      "peak_dbfs": -13.000001874457997,
+      "rms_dbfs": -25.95130002042726,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_AMB_Fluorescent",
+      "duration_s": 20.0,
+      "channels": 2,
+      "peak_dbfs": -29.99996977074821,
+      "rms_dbfs": -34.57306160819462,
+      "seam_abs": 0.0005972385406494141,
+      "ogg_seam_abs": 0.0012734219199046493,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_AMB_Refrigerator",
+      "duration_s": 20.0,
+      "channels": 2,
+      "peak_dbfs": -26.99998505916634,
+      "rms_dbfs": -31.605857559202057,
+      "seam_abs": 0.0006082057952880859,
+      "ogg_seam_abs": 0.0003666611446533352,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_cow_hmm",
+      "duration_s": 0.78,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -20.63385562369659,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_cow_welcome",
+      "duration_s": 1.5,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -20.24479748028345,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_print_loop",
+      "duration_s": 1.0,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -26.759813830945657,
+      "seam_abs": 0.0034105777740478516,
+      "ogg_seam_abs": 0.0036510974168777466,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_print_end",
+      "duration_s": 0.55,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -19.925703523920934,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_box_step",
+      "duration_s": 0.24,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -27.367112251409075,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_box_fanfare",
+      "duration_s": 1.4,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -19.501790774249972,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_fridge_open",
+      "duration_s": 0.65,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -26.681671297783133,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_fridge_choir",
+      "duration_s": 0.95,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -24.291726080686015,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_fridge_close",
+      "duration_s": 0.4,
+      "channels": 1,
+      "peak_dbfs": -11.85609088840099,
+      "rms_dbfs": -29.683582657295688,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_product_turn",
+      "duration_s": 0.25,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -30.522034623618744,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_product_whistle",
+      "duration_s": 0.6,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -19.460355658781744,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_card_pick",
+      "duration_s": 0.17,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -31.185628330357744,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_card_drop",
+      "duration_s": 0.24,
+      "channels": 1,
+      "peak_dbfs": -12.129648506679576,
+      "rms_dbfs": -29.703793554400953,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_crate_pick",
+      "duration_s": 0.35,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -29.981803951155324,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_crate_place",
+      "duration_s": 0.45,
+      "channels": 1,
+      "peak_dbfs": -13.007872795798253,
+      "rms_dbfs": -29.497526480681504,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_cart_roll",
+      "duration_s": 1.0,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -28.597189031763573,
+      "seam_abs": 0.0021332502365112305,
+      "ogg_seam_abs": 0.005920129362493753,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_cart_brake",
+      "duration_s": 0.4,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -29.907711886560506,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_gate_click",
+      "duration_s": 0.26,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -30.74638292634582,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_scale_zero",
+      "duration_s": 0.7,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -19.92933530854499,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_stamp_hit",
+      "duration_s": 0.43,
+      "channels": 1,
+      "peak_dbfs": -11.64183954336565,
+      "rms_dbfs": -29.29213971827556,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_loading_bell",
+      "duration_s": 1.4,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -24.377670576765873,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_final_small_fanfare",
+      "duration_s": 2.6,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -21.023812532928506,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_footstep_left",
+      "duration_s": 0.22,
+      "channels": 1,
+      "peak_dbfs": -16.963377026792777,
+      "rms_dbfs": -34.684712895156515,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_footstep_right",
+      "duration_s": 0.23,
+      "channels": 1,
+      "peak_dbfs": -13.99999658399324,
+      "rms_dbfs": -31.180279857386658,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_ui_confirm",
+      "duration_s": 0.22,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -19.00200207545373,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_ui_photo",
+      "duration_s": 0.23,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -27.053613305781916,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    },
+    {
+      "id": "I3_SFX_ui_saved",
+      "duration_s": 0.65,
+      "channels": 1,
+      "peak_dbfs": -10.999999854613165,
+      "rms_dbfs": -20.83191557876106,
+      "seam_abs": null,
+      "ogg_seam_abs": null,
+      "verified": {
+        "wav_decode": true,
+        "ogg_decode": true,
+        "frame_count_equal": true,
+        "finite": true,
+        "no_clipping_wav": true,
+        "no_clipping_ogg": true,
+        "not_silent": true,
+        "loop_seam_below_0_015": true
+      }
+    }
+  ],
+  "listening": "Technical file decode / peak / seam tests completed. No human critical-listening or engine speaker test claimed."
+}

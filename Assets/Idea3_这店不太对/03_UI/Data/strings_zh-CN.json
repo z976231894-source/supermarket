@@ -1,0 +1,43 @@
+{
+  "title": "这店不太对",
+  "tagline": "随便走走。奇怪的事情就在旁边。",
+  "enter": "进去看看",
+  "interact": "看一看",
+  "interact_try": "试一下",
+  "help": "操作说明",
+  "pause": "休息一下",
+  "resume": "继续看看",
+  "photo": "拍个本地纪念",
+  "saved": "照片已保存到本地",
+  "save_failed": "保存失败，请检查路径或权限",
+  "save": "保存到本地",
+  "hide": "隐藏 UI",
+  "copy": "复制文案",
+  "caption": "今天一切正常。只是这店不太对。",
+  "leave": "离开场景",
+  "leave_note": "没看完也没关系，随时可以回来。",
+  "choose_level": "换个地方看看",
+  "title_return": "返回标题",
+  "no_gates": "无需清单，也没有必须做完的事。",
+  "volume_master": "总音量",
+  "volume_music": "背景音乐",
+  "volume_event": "事件与交互",
+  "volume_ambience": "环境声音",
+  "levels": {
+    "L1": {
+      "name": "便民店初访",
+      "description": "门一开，熟悉的小店先露出一点不对劲。",
+      "kind": "第一眼就能看见"
+    },
+    "L2": {
+      "name": "后仓夜游",
+      "description": "挪一步，换个方向，普通物件各有想法。",
+      "kind": "转个角，再回头"
+    },
+    "L3": {
+      "name": "整店不对劲",
+      "description": "一个小动静，让整间店互相接了话。",
+      "kind": "这次不只一个"
+    }
+  }
+}

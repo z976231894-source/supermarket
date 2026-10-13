@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "mode": "free_exploration",
+  "source": "Feishu idea3; current user expands MVP to 3 independent levels",
+  "reference_resolution": [
+    1920,
+    1080
+  ],
+  "canvas_scaler": {
+    "mode": "ScaleWithScreenSize",
+    "match": 0.5
+  },
+  "font": {
+    "preview": "Microsoft YaHei system installed, not redistributed",
+    "runtime": "Project-licensed CJK TextMeshPro font asset",
+    "min_px_1080": 21,
+    "min_px_720": 14
+  },
+  "levels": [
+    {
+      "id": "L1",
+      "name": "便民店初访",
+      "kind": "第一眼就能看见",
+      "description": "门一开，熟悉的小店先露出一点不对劲。",
+      "gag_count": 4,
+      "complexity": "obvious single-object observations",
+      "bgm": "I3_BGM_NightShift_Main",
+      "editable_blend": "../01_场景与模型/Levels/L1_便民店初访/L1_便民店初访.blend",
+      "scene_manifest": "../01_场景与模型/Levels/L1_便民店初访/scene-manifest.json",
+      "runtime_scene_key": "L1"
+    },
+    {
+      "id": "L2",
+      "name": "后仓夜游",
+      "kind": "转个角，再回头",
+      "description": "挪一步，换个方向，普通物件各有想法。",
+      "gag_count": 5,
+      "complexity": "corner and look-back observations",
+      "bgm": "I3_BGM_NightShift_Quiet",
+      "editable_blend": "../01_场景与模型/Levels/L2_后仓夜游/L2_后仓夜游.blend",
+      "scene_manifest": "../01_场景与模型/Levels/L2_后仓夜游/scene-manifest.json",
+      "runtime_scene_key": "L2"
+    },
+    {
+      "id": "L3",
+      "name": "整店不对劲",
+      "kind": "这次不只一个",
+      "description": "一个小动静，让整间店互相接了话。",
+      "gag_count": 5,
+      "complexity": "multi-object chains with readable local feedback",
+      "bgm": "I3_BGM_ColdAir",
+      "editable_blend": "../01_场景与模型/Levels/L3_整店不对劲/L3_整店不对劲.blend",
+      "scene_manifest": "../01_场景与模型/Levels/L3_整店不对劲/scene-manifest.json",
+      "runtime_scene_key": "L3"
+    }
+  ],
+  "screen_ids": [
+    "title",
+    "hud",
+    "help",
+    "pause",
+    "photo",
+    "saved",
+    "leave"
+  ],
+  "forbidden_main_flow": [
+    "mandatory tasks",
+    "handover clipboard",
+    "progress counter",
+    "score",
+    "countdown",
+    "failure",
+    "combat",
+    "management numbers",
+    "collect-all exit lock"
+  ],
+  "input": {
+    "move": "WASD / LeftStick",
+    "look": "Mouse / RightStick",
+    "interact": "E / Gamepad A",
+    "help": "Tab",
+    "photo": "P",
+    "pause": "Esc"
+  },
+  "runtime_contract": {
+    "select_level": "Load selected independent scene directly; all unlocked, no level-completion prerequisite",
+    "hud": "One nearby-object action line. Hidden when no target. Optional location label; never a checklist.",
+    "help": "Tab shows controls only, not task guidance",
+    "leave": "Always available. Do not require all gags/photos/items. No success/fail result UI.",
+    "photo": "Optional, explicit local save. Show success only after disk write confirmation; no auto network sharing.",
+    "trigger": "Proximity/look/E as each scene gag config specifies; one local performance at a time; player may continue walking",
+    "quiet_rule": "20s environmental quiet is a pacing suggestion, never a gate or timer",
+    "difficulty": "Observation layering and multi-object linkage only; no puzzle penalties"
+  },
+  "archived": "_旧版任务UI留档 is not an active dependency or Unity import source",
+  "unity_validation": "Not run in Unity Editor",
+  "background": {
+    "kind": "Blender scene render",
+    "source": "CAM_01_Checkout.png",
+    "file": "Scene_Background.png",
+    "gameplay_capture": false
+  }
+}

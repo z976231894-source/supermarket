@@ -1,0 +1,615 @@
+{
+  "version": 2,
+  "palette": {
+    "background": "#17221b",
+    "panel": "#25332c",
+    "green": "#677968",
+    "purple": "#6e5879",
+    "orange": "#e0a05b",
+    "cyan": "#9ac5c0",
+    "text": "#d8d0b8",
+    "line": "#617765"
+  },
+  "sprites": [
+    {
+      "id": "I3_Icon_Interact",
+      "path": "Sprites/I3_Icon_Interact.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Camera",
+      "path": "Sprites/I3_Icon_Camera.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Eye",
+      "path": "Sprites/I3_Icon_Eye.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Save",
+      "path": "Sprites/I3_Icon_Save.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Copy",
+      "path": "Sprites/I3_Icon_Copy.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Volume",
+      "path": "Sprites/I3_Icon_Volume.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Pause",
+      "path": "Sprites/I3_Icon_Pause.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Back",
+      "path": "Sprites/I3_Icon_Back.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Check",
+      "path": "Sprites/I3_Icon_Check.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Close",
+      "path": "Sprites/I3_Icon_Close.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Icon_Arrow",
+      "path": "Sprites/I3_Icon_Arrow.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Crosshair",
+      "path": "Sprites/I3_Crosshair.png",
+      "size": [
+        32,
+        32
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Crosshair_Interact",
+      "path": "Sprites/I3_Crosshair_Interact.png",
+      "size": [
+        40,
+        40
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Panel",
+      "path": "Sprites/I3_Panel.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Button",
+      "path": "Sprites/I3_Button.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Button_Hover",
+      "path": "Sprites/I3_Button_Hover.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Button_Pressed",
+      "path": "Sprites/I3_Button_Pressed.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Button_Disabled",
+      "path": "Sprites/I3_Button_Disabled.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Keycap",
+      "path": "Sprites/I3_Keycap.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Slider_Track",
+      "path": "Sprites/I3_Slider_Track.png",
+      "size": [
+        64,
+        16
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Slider_Fill",
+      "path": "Sprites/I3_Slider_Fill.png",
+      "size": [
+        64,
+        16
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Slider_Handle",
+      "path": "Sprites/I3_Slider_Handle.png",
+      "size": [
+        20,
+        32
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Photo_Corner",
+      "path": "Sprites/I3_Photo_Corner.png",
+      "size": [
+        64,
+        64
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "I3_Pixel_Spark",
+      "path": "Sprites/I3_Pixel_Spark.png",
+      "size": [
+        32,
+        32
+      ],
+      "pixels_per_unit": 100,
+      "filter": "Point",
+      "compression": "None",
+      "mesh_type": "FullRect",
+      "type": "Sprite",
+      "sRGB": true,
+      "alpha_transparency": true,
+      "border_LBRT": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

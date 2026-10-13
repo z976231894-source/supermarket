@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "enabled_toggle": true,
+  "render_material": "URP Unlit Transparent; no additive full-screen bloom; Point filter",
+  "VFX_PIXEL_SPARK": {
+    "texture": "VFX_PIXEL_SPARK.png",
+    "size_px": [
+      32,
+      32
+    ],
+    "max_particles": 12,
+    "burst": 5,
+    "lifetime_s": [
+      0.35,
+      0.65
+    ],
+    "size_m": [
+      0.015,
+      0.03
+    ],
+    "speed_m_s": [
+      0.02,
+      0.08
+    ],
+    "emission_loop": false,
+    "trigger": "confirmed slot or stamp only",
+    "collision": false
+  },
+  "VFX_FRIDGE_MIST": {
+    "texture": "VFX_FRIDGE_MIST.png",
+    "size_px": [
+      64,
+      64
+    ],
+    "max_particles": 12,
+    "visible_extent_m": [
+      0.8,
+      0.4,
+      0.25
+    ],
+    "local_space": true,
+    "lifetime_s": [
+      1,
+      1.8
+    ],
+    "size_m": [
+      0.16,
+      0.3
+    ],
+    "speed_m_s": [
+      0.015,
+      0.045
+    ],
+    "alpha_max": 0.22,
+    "emission_rate_s": 3,
+    "trigger": "fridge door open; stop emitting on close",
+    "collision": false,
+    "soft_particles_optional": true
+  },
+  "warnings": [
+    "No strobe",
+    "No opaque smoke",
+    "Do not obscure symbol cards or interaction rays",
+    "Runtime prefab wiring and draw-order testing required"
+  ]
+}

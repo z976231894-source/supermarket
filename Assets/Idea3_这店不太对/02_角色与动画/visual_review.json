@@ -1,0 +1,14 @@
+{
+  "reviewed_images": [
+    "cow rest/idle/deepbow",
+    "box rest/idle/turnticket",
+    "milk idle/step"
+  ],
+  "corrections": [
+    "isolated box shoulder weights from rigid body",
+    "corrected original box internal yaw using bilateral arm principal axis",
+    "rejected weld+collapse variant because it distorted face UV; retained UV split vertices",
+    "full T-pose framing"
+  ],
+  "result": "local preview accepted; final Unity camera and deformation test pending"
+}

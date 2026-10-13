@@ -1,0 +1,1220 @@
+{
+  "scope": "three independent optional-observation levels; actual Blender/FBX/GLB reopen",
+  "all_pass": true,
+  "levels": [
+    {
+      "level_id": "L1",
+      "manifest_sha256": "cf2d74c2f6fd9afb96348e6268e879a24ec9493c7eaf98fb6c6a06ca1195db93",
+      "blend": {
+        "mesh_objects": 3692,
+        "triangles": 88451,
+        "vertices": 117027,
+        "armatures": 3,
+        "lights": 8,
+        "images": {
+          "PRP_ODD_PRODUCT_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "I3_Packaging_Atlas": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_REGISTER_FACE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_SHIFT_CLIPBOARD_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_SYMBOL_CARD_SET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_ROUTE_SIGN_SET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "CHR_CLERK_COW_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "CHR_BOX_CUSTOMER_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          }
+        },
+        "missing_or_undecoded_images": [],
+        "no_material_meshes": [],
+        "nonfinite_vertices": 0,
+        "bounds": {
+          "min": [
+            -0.5,
+            -2.0999999046325684,
+            -0.5
+          ],
+          "max": [
+            14.149999618530273,
+            9.114999771118164,
+            3.069999933242798
+          ]
+        }
+      },
+      "trigger_count": 4,
+      "expected_trigger_count": 4,
+      "legacy_mission_markers": [],
+      "missing_relative_references": [],
+      "all_optional_no_prerequisites": true,
+      "preview_files": {
+        "01_总览.png": 1798335,
+        "02_近景.png": 2105046,
+        "03_近景.png": 2215440,
+        "04_完整平面.png": 1602224
+      },
+      "exports": [
+        {
+          "format": "fbx",
+          "file": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\01_场景与模型\\Levels\\L1_便民店初访\\L1_便民店初访.fbx",
+          "bytes": 5925372,
+          "container": {
+            "version": 7400,
+            "embedded_images_count": 8,
+            "embedded_images_bytes": 859943
+          },
+          "stats": {
+            "mesh_objects": 3692,
+            "triangles": 88449,
+            "vertices": 117027,
+            "armatures": 0,
+            "lights": 0,
+            "images": {
+              "CHR_BOX_CUSTOMER_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_SYMBOL_CARD_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_SHIFT_CLIPBOARD_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "I3_Packaging_Atlas": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "CHR_CLERK_COW_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_ODD_PRODUCT_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_ROUTE_SIGN_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_REGISTER_FACE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              }
+            },
+            "missing_or_undecoded_images": [],
+            "no_material_meshes": [],
+            "nonfinite_vertices": 0,
+            "bounds": {
+              "min": [
+                -0.14999961853027344,
+                -2.1000001430511475,
+                -0.3149998188018799
+              ],
+              "max": [
+                14.149999618530273,
+                9.11500072479248,
+                3.080000877380371
+              ]
+            }
+          },
+          "pass": true,
+          "static_visual_expected": true,
+          "rigs_intentionally_in_blend_and_separate_prefabs": true
+        },
+        {
+          "format": "glb",
+          "file": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\01_场景与模型\\Levels\\L1_便民店初访\\L1_便民店初访.glb",
+          "bytes": 5214104,
+          "container": {
+            "version": 2,
+            "embedded_images_count": 8,
+            "external_image_uris": [],
+            "samplers": [
+              {
+                "magFilter": 9728,
+                "minFilter": 9984
+              }
+            ],
+            "extras_character_placeholders": 3
+          },
+          "stats": {
+            "mesh_objects": 3690,
+            "triangles": 88449,
+            "vertices": 165340,
+            "armatures": 0,
+            "lights": 0,
+            "images": {
+              "PRP_ODD_PRODUCT_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "Shelf_Packaging_Atlas_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_REGISTER_FACE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_SHIFT_CLIPBOARD_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_SYMBOL_CARD_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_ROUTE_SIGN_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "CHR_CLERK_COW_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "CHR_BOX_CUSTOMER_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              }
+            },
+            "missing_or_undecoded_images": [],
+            "no_material_meshes": [],
+            "nonfinite_vertices": 0,
+            "bounds": {
+              "min": [
+                -0.14999961853027344,
+                -2.0999999046325684,
+                -0.3149999976158142
+              ],
+              "max": [
+                14.149999618530273,
+                9.114999771118164,
+                3.080000162124634
+              ]
+            }
+          },
+          "pass": true,
+          "static_visual_expected": true,
+          "rigs_intentionally_in_blend_and_separate_prefabs": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "level_id": "L2",
+      "manifest_sha256": "630febbb8d0ae4ec46dbf17b43660cb7be375c736bbc9f2ab6a4d4bcde5ed6a6",
+      "blend": {
+        "mesh_objects": 2055,
+        "triangles": 99535,
+        "vertices": 187397,
+        "armatures": 5,
+        "lights": 8,
+        "images": {
+          "I3_Packaging_Atlas": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_CARGO_CRATE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_ROUTE_SIGN_SET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_HAND_CART_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_FRIDGE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_WEIGH_SCALE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_STAMP_STATION_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_LOADING_PALLET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_ODD_PRODUCT_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          }
+        },
+        "missing_or_undecoded_images": [],
+        "no_material_meshes": [],
+        "nonfinite_vertices": 0,
+        "bounds": {
+          "min": [
+            -0.5,
+            -2.0999999046325684,
+            -0.5
+          ],
+          "max": [
+            14.149999618530273,
+            11.149999618530273,
+            3.069999933242798
+          ]
+        }
+      },
+      "trigger_count": 5,
+      "expected_trigger_count": 5,
+      "legacy_mission_markers": [],
+      "missing_relative_references": [],
+      "all_optional_no_prerequisites": true,
+      "preview_files": {
+        "01_总览.png": 1711377,
+        "02_近景.png": 1830980,
+        "03_近景.png": 1973510,
+        "04_完整平面.png": 1878926
+      },
+      "exports": [
+        {
+          "format": "fbx",
+          "file": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\01_场景与模型\\Levels\\L2_后仓夜游\\L2_后仓夜游.fbx",
+          "bytes": 5253612,
+          "container": {
+            "version": 7400,
+            "embedded_images_count": 9,
+            "embedded_images_bytes": 906546
+          },
+          "stats": {
+            "mesh_objects": 2055,
+            "triangles": 99535,
+            "vertices": 187397,
+            "armatures": 0,
+            "lights": 0,
+            "images": {
+              "I3_Packaging_Atlas": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_CARGO_CRATE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_LOADING_PALLET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_HAND_CART_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_ODD_PRODUCT_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_ROUTE_SIGN_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_FRIDGE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_STAMP_STATION_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_WEIGH_SCALE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              }
+            },
+            "missing_or_undecoded_images": [],
+            "no_material_meshes": [],
+            "nonfinite_vertices": 0,
+            "bounds": {
+              "min": [
+                -0.14999961853027344,
+                -2.1000001430511475,
+                -0.31500163674354553
+              ],
+              "max": [
+                14.149999618530273,
+                11.149999618530273,
+                3.080000638961792
+              ]
+            }
+          },
+          "pass": true,
+          "static_visual_expected": true,
+          "rigs_intentionally_in_blend_and_separate_prefabs": true
+        },
+        {
+          "format": "glb",
+          "file": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\01_场景与模型\\Levels\\L2_后仓夜游\\L2_后仓夜游.glb",
+          "bytes": 6371140,
+          "container": {
+            "version": 2,
+            "embedded_images_count": 9,
+            "external_image_uris": [],
+            "samplers": [
+              {
+                "magFilter": 9728,
+                "minFilter": 9984
+              }
+            ],
+            "extras_character_placeholders": 5
+          },
+          "stats": {
+            "mesh_objects": 2055,
+            "triangles": 99535,
+            "vertices": 215404,
+            "armatures": 0,
+            "lights": 0,
+            "images": {
+              "Shelf_Packaging_Atlas_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_CARGO_CRATE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_ROUTE_SIGN_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_HAND_CART_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_FRIDGE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_WEIGH_SCALE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_STAMP_STATION_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_LOADING_PALLET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_ODD_PRODUCT_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              }
+            },
+            "missing_or_undecoded_images": [],
+            "no_material_meshes": [],
+            "nonfinite_vertices": 0,
+            "bounds": {
+              "min": [
+                -0.14999961853027344,
+                -2.0999999046325684,
+                -0.3149999976158142
+              ],
+              "max": [
+                14.149999618530273,
+                11.149999618530273,
+                3.0799999237060547
+              ]
+            }
+          },
+          "pass": true,
+          "static_visual_expected": true,
+          "rigs_intentionally_in_blend_and_separate_prefabs": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "level_id": "L3",
+      "manifest_sha256": "96c26200c764548c7a814efbf0129334f4768a52ace3feebdefc4353dca076c4",
+      "blend": {
+        "mesh_objects": 5734,
+        "triangles": 203562,
+        "vertices": 331451,
+        "armatures": 9,
+        "lights": 16,
+        "images": {
+          "CHR_BOX_CUSTOMER_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "I3_Packaging_Atlas": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_REGISTER_FACE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_SHIFT_CLIPBOARD_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_SYMBOL_CARD_SET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_ROUTE_SIGN_SET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_CARGO_CRATE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_HAND_CART_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_FRIDGE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_WEIGH_SCALE_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_STAMP_STATION_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_LOADING_PALLET_BaseColor": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "CHR_CLERK_COW_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          },
+          "PRP_ODD_PRODUCT_BaseColor_256": {
+            "size": [
+              256,
+              256
+            ],
+            "packed": true,
+            "interpolation": "Closest",
+            "decoded": true
+          }
+        },
+        "missing_or_undecoded_images": [],
+        "no_material_meshes": [],
+        "nonfinite_vertices": 0,
+        "bounds": {
+          "min": [
+            -0.5,
+            -2.0999999046325684,
+            -0.5
+          ],
+          "max": [
+            14.149999618530273,
+            20.149999618530273,
+            3.069999933242798
+          ]
+        }
+      },
+      "trigger_count": 5,
+      "expected_trigger_count": 5,
+      "legacy_mission_markers": [],
+      "missing_relative_references": [],
+      "all_optional_no_prerequisites": true,
+      "preview_files": {
+        "01_总览.png": 1900130,
+        "02_近景.png": 2123068,
+        "03_近景.png": 1831687,
+        "04_完整平面.png": 2889941
+      },
+      "exports": [
+        {
+          "format": "fbx",
+          "file": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\01_场景与模型\\Levels\\L3_整店不对劲\\L3_整店不对劲.fbx",
+          "bytes": 11024956,
+          "container": {
+            "version": 7400,
+            "embedded_images_count": 14,
+            "embedded_images_bytes": 1431228
+          },
+          "stats": {
+            "mesh_objects": 5734,
+            "triangles": 203560,
+            "vertices": 331451,
+            "armatures": 0,
+            "lights": 0,
+            "images": {
+              "I3_Packaging_Atlas": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "CHR_BOX_CUSTOMER_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_SYMBOL_CARD_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_CARGO_CRATE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_SHIFT_CLIPBOARD_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "CHR_CLERK_COW_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_LOADING_PALLET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_HAND_CART_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_ODD_PRODUCT_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_ROUTE_SIGN_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_REGISTER_FACE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_FRIDGE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_STAMP_STATION_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              },
+              "PRP_WEIGH_SCALE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Linear",
+                "decoded": true
+              }
+            },
+            "missing_or_undecoded_images": [],
+            "no_material_meshes": [],
+            "nonfinite_vertices": 0,
+            "bounds": {
+              "min": [
+                -0.15000009536743164,
+                -2.1000001430511475,
+                -0.31500163674354553
+              ],
+              "max": [
+                14.149999618530273,
+                20.149999618530273,
+                3.080000638961792
+              ]
+            }
+          },
+          "pass": true,
+          "static_visual_expected": true,
+          "rigs_intentionally_in_blend_and_separate_prefabs": true
+        },
+        {
+          "format": "glb",
+          "file": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\01_场景与模型\\Levels\\L3_整店不对劲\\L3_整店不对劲.glb",
+          "bytes": 11901576,
+          "container": {
+            "version": 2,
+            "embedded_images_count": 14,
+            "external_image_uris": [],
+            "samplers": [
+              {
+                "magFilter": 9728,
+                "minFilter": 9984
+              }
+            ],
+            "extras_character_placeholders": 9
+          },
+          "stats": {
+            "mesh_objects": 5734,
+            "triangles": 203560,
+            "vertices": 406993,
+            "armatures": 0,
+            "lights": 0,
+            "images": {
+              "CHR_BOX_CUSTOMER_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "Shelf_Packaging_Atlas_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_REGISTER_FACE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_SHIFT_CLIPBOARD_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_SYMBOL_CARD_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_ROUTE_SIGN_SET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_CARGO_CRATE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_HAND_CART_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_FRIDGE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_WEIGH_SCALE_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_STAMP_STATION_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_LOADING_PALLET_BaseColor": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "CHR_CLERK_COW_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              },
+              "PRP_ODD_PRODUCT_BaseColor_256": {
+                "size": [
+                  256,
+                  256
+                ],
+                "packed": true,
+                "interpolation": "Closest",
+                "decoded": true
+              }
+            },
+            "missing_or_undecoded_images": [],
+            "no_material_meshes": [],
+            "nonfinite_vertices": 0,
+            "bounds": {
+              "min": [
+                -0.15000009536743164,
+                -2.0999999046325684,
+                -0.3149999976158142
+              ],
+              "max": [
+                14.149999618530273,
+                20.149999618530273,
+                3.0799999237060547
+              ]
+            }
+          },
+          "pass": true,
+          "static_visual_expected": true,
+          "rigs_intentionally_in_blend_and_separate_prefabs": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "not_verified": [
+    "Unity project import",
+    "player controller",
+    "observation event runtime",
+    "runtime collision/navigation",
+    "actual first-play duration"
+  ],
+  "static_scene_export_policy": "FBX/GLB contain baked Idle character visuals; use replacement map for actual animation. Editable Blend files retain rigs."
+}

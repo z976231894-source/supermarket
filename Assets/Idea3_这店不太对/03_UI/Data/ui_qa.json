@@ -1,0 +1,365 @@
+{
+  "version": 2,
+  "scope": "free_exploration",
+  "sprite_count": 24,
+  "preview_count": 14,
+  "checks": [
+    {
+      "id": "title",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "hud",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "help",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "pause",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "photo",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "saved",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "leave",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "title",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "hud",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "help",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "pause",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "photo",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "saved",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "id": "leave",
+      "resolution": [
+        1280,
+        720
+      ],
+      "images": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "test": "L3_direct_entry_without_gates",
+      "pass": true
+    },
+    {
+      "test": "Tab_opens_controls_not_tasks",
+      "pass": true
+    },
+    {
+      "test": "audio_slider",
+      "pass": true
+    }
+  ],
+  "sprite_checks": [
+    {
+      "id": "I3_Icon_Interact",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Camera",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Eye",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Save",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Copy",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Volume",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Pause",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Back",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Check",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Close",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Icon_Arrow",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Crosshair",
+      "rgba": true,
+      "dimensions": [
+        32,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Crosshair_Interact",
+      "rgba": true,
+      "dimensions": [
+        40,
+        40
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Panel",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Button",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Button_Hover",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Button_Pressed",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Button_Disabled",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Keycap",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Slider_Track",
+      "rgba": true,
+      "dimensions": [
+        64,
+        16
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Slider_Fill",
+      "rgba": true,
+      "dimensions": [
+        64,
+        16
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Slider_Handle",
+      "rgba": true,
+      "dimensions": [
+        20,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Photo_Corner",
+      "rgba": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "pass": true
+    },
+    {
+      "id": "I3_Pixel_Spark",
+      "rgba": true,
+      "dimensions": [
+        32,
+        32
+      ],
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

@@ -1,0 +1,225 @@
+{
+  "blender_preview_lights": [
+    {
+      "name": "LIGHT_FLUOR_0",
+      "type": "area_preview",
+      "position": [
+        3,
+        3.9,
+        2.65
+      ],
+      "energy_blender_w": 155,
+      "srgb_hex": "CBDED0",
+      "size_m": 3.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_FLUOR_1",
+      "type": "area_preview",
+      "position": [
+        10.5,
+        4.5,
+        2.65
+      ],
+      "energy_blender_w": 155,
+      "srgb_hex": "CBDED0",
+      "size_m": 3.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_FLUOR_2",
+      "type": "area_preview",
+      "position": [
+        4.2,
+        11.8,
+        2.65
+      ],
+      "energy_blender_w": 155,
+      "srgb_hex": "CBDED0",
+      "size_m": 3.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_FLUOR_3",
+      "type": "area_preview",
+      "position": [
+        11.2,
+        12,
+        2.65
+      ],
+      "energy_blender_w": 155,
+      "srgb_hex": "CBDED0",
+      "size_m": 3.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_FLUOR_4",
+      "type": "area_preview",
+      "position": [
+        4.0,
+        18.0,
+        2.65
+      ],
+      "energy_blender_w": 155,
+      "srgb_hex": "CBDED0",
+      "size_m": 3.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_FLUOR_5",
+      "type": "area_preview",
+      "position": [
+        11.0,
+        18.0,
+        2.65
+      ],
+      "energy_blender_w": 155,
+      "srgb_hex": "CBDED0",
+      "size_m": 3.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_COUNTER_WARM",
+      "type": "area_preview",
+      "position": [
+        2,
+        1.75,
+        2.55
+      ],
+      "energy_blender_w": 105,
+      "srgb_hex": "E0A05B",
+      "size_m": 2,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_COLD_FILL",
+      "type": "area_preview",
+      "position": [
+        12.5,
+        13.8,
+        2.25
+      ],
+      "energy_blender_w": 90,
+      "srgb_hex": "9AC5C0",
+      "size_m": 1.8,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_LOADING_WARM",
+      "type": "area_preview",
+      "position": [
+        8.7,
+        18.8,
+        2.6
+      ],
+      "energy_blender_w": 100,
+      "srgb_hex": "E0A05B",
+      "size_m": 2.8,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_1.0",
+      "type": "area_preview",
+      "position": [
+        1.0,
+        0.25,
+        1.9
+      ],
+      "energy_blender_w": 90,
+      "srgb_hex": "FFA750",
+      "size_m": 1.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_4.7",
+      "type": "area_preview",
+      "position": [
+        4.7,
+        0.25,
+        1.9
+      ],
+      "energy_blender_w": 90,
+      "srgb_hex": "FFA750",
+      "size_m": 1.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_9.2",
+      "type": "area_preview",
+      "position": [
+        9.2,
+        0.25,
+        1.9
+      ],
+      "energy_blender_w": 90,
+      "srgb_hex": "FFA750",
+      "size_m": 1.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_13.0",
+      "type": "area_preview",
+      "position": [
+        13.0,
+        0.25,
+        1.9
+      ],
+      "energy_blender_w": 90,
+      "srgb_hex": "FFA750",
+      "size_m": 1.5,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_BACK_ORANGE",
+      "type": "area_preview",
+      "position": [
+        6.5,
+        18.8,
+        2.5
+      ],
+      "energy_blender_w": 180,
+      "srgb_hex": "FFAD55",
+      "size_m": 4,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_COLD_CABINET",
+      "type": "area_preview",
+      "position": [
+        12.7,
+        14.1,
+        1.8
+      ],
+      "energy_blender_w": 45,
+      "srgb_hex": "A8F4DF",
+      "size_m": 0.8,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    },
+    {
+      "name": "LIGHT_FRONT_SOFT",
+      "type": "area_preview",
+      "position": [
+        7,
+        5,
+        2.85
+      ],
+      "energy_blender_w": 55,
+      "srgb_hex": "DCE5D8",
+      "size_m": 7,
+      "unity_note": "Bake static indirect; rebuild runtime lights/probes from lighting-profile, not raw watts."
+    }
+  ],
+  "recommended_unity": {
+    "pipeline": "URP or Built-in with matching shader",
+    "ambient_color_srgb": "78938C",
+    "static_gi": "Bake room/fixtures",
+    "dynamic_probes": "Probe grid at .35/1.2/2.1m in all four zones",
+    "reflection_probes": "one per zone, blend distance1m",
+    "bloom": "subtle threshold1.2 intensity.08, optional",
+    "tonemapping": "Neutral/AgX comparison required",
+    "texture_filter": "Point, check mip shimmer",
+    "metallic": 0,
+    "smoothness": 0.16,
+    "area_lights_not_runtime_portable": true
+  }
+}

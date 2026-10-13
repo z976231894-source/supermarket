@@ -1,0 +1,365 @@
+{
+  "asset_id": "CHR_BOX_CUSTOMER",
+  "collection": "CHR_BOX_CUSTOMER",
+  "mesh": "CHR_BOX_CUSTOMER_Mesh",
+  "rig": "CHR_BOX_CUSTOMER_Rig",
+  "height_m": 1.0,
+  "geometry_original_triangles": 9536,
+  "geometry_runtime_triangles": 1200,
+  "vertex_count": 3525,
+  "bones": 10,
+  "unweighted_vertices": 0,
+  "weight_sum_min": 0.9999999701976776,
+  "weight_sum_max": 1.0000000298023224,
+  "maximum_weights_per_vertex": 2,
+  "uv_layers": 1,
+  "basecolor_size": [
+    256,
+    256
+  ],
+  "texture_embedded": true,
+  "original_basecolor_preserved": true,
+  "coordinates": "meters, Z up, front -Y, soles at Z0 in rest",
+  "fbx_export": "-Z forward, Y up; Unity Generic; Apply Root Motion off for in-place clips",
+  "default_pose": "Idle arms down",
+  "source_revision": "User Tripo ZIP, original geometry-derived automatic LOD; no regenerated character",
+  "clips": [
+    {
+      "name": "Idle",
+      "file": "Clips/CHR_BOX_CUSTOMER__Idle.fbx",
+      "frames": [
+        1,
+        121
+      ],
+      "fps": 30,
+      "duration_seconds": 4,
+      "loop": true,
+      "endpoint_matrix_max_delta": 0.0,
+      "loop_pass": true,
+      "root_translation": "none; drive path in game",
+      "root_heading_degrees": 0,
+      "sampled_deformation_bounds": [
+        {
+          "frame": 1,
+          "min": [
+            -0.4849697947502136,
+            -0.2132771611213684,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45680147409439087,
+            0.3390691876411438,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 30,
+          "min": [
+            -0.4852064847946167,
+            -0.21616627275943756,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.4564209580421448,
+            0.34226417541503906,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 60,
+          "min": [
+            -0.4849846065044403,
+            -0.21342961490154266,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.4567837417125702,
+            0.3392382860183716,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 90,
+          "min": [
+            -0.48463869094848633,
+            -0.21320848166942596,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45709311962127686,
+            0.33580827713012695,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 121,
+          "min": [
+            -0.4849697947502136,
+            -0.2132771611213684,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45680147409439087,
+            0.3390691876411438,
+            1.0014290809631348
+          ]
+        }
+      ],
+      "nonfinite_vertices": 0
+    },
+    {
+      "name": "ShortStep",
+      "file": "Clips/CHR_BOX_CUSTOMER__ShortStep.fbx",
+      "frames": [
+        1,
+        37
+      ],
+      "fps": 30,
+      "duration_seconds": 1.2,
+      "loop": true,
+      "endpoint_matrix_max_delta": 0.0,
+      "loop_pass": true,
+      "root_translation": "none; drive path in game",
+      "root_heading_degrees": 0,
+      "sampled_deformation_bounds": [
+        {
+          "frame": 1,
+          "min": [
+            -0.4849697947502136,
+            -0.2132771611213684,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45680147409439087,
+            0.3390691876411438,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 9,
+          "min": [
+            -0.48520392179489136,
+            -0.22776474058628082,
+            -0.0018209554255008698
+          ],
+          "max": [
+            0.45642685890197754,
+            0.33058226108551025,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 18,
+          "min": [
+            -0.4850177466869354,
+            -0.21414436399936676,
+            -0.0009858463890850544
+          ],
+          "max": [
+            0.45674166083335876,
+            0.33926767110824585,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 27,
+          "min": [
+            -0.48464399576187134,
+            -0.22484123706817627,
+            0.006080298218876123
+          ],
+          "max": [
+            0.45708972215652466,
+            0.3242156505584717,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 37,
+          "min": [
+            -0.4849697947502136,
+            -0.2132771611213684,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45680147409439087,
+            0.3390691876411438,
+            1.0014290809631348
+          ]
+        }
+      ],
+      "nonfinite_vertices": 0
+    },
+    {
+      "name": "ThreeStepTurn",
+      "file": "Clips/CHR_BOX_CUSTOMER__ThreeStepTurn.fbx",
+      "frames": [
+        1,
+        109
+      ],
+      "fps": 30,
+      "duration_seconds": 3.6,
+      "loop": false,
+      "endpoint_matrix_max_delta": 2.0,
+      "loop_pass": null,
+      "root_translation": "none; drive path in game",
+      "root_heading_degrees": 180,
+      "sampled_deformation_bounds": [
+        {
+          "frame": 1,
+          "min": [
+            -0.4849697947502136,
+            -0.2132771611213684,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45680147409439087,
+            0.3390691876411438,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 27,
+          "min": [
+            -0.4852064847946167,
+            -0.2263665348291397,
+            0.006015971302986145
+          ],
+          "max": [
+            0.4564211368560791,
+            0.3320619761943817,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 54,
+          "min": [
+            -0.45797160267829895,
+            -0.2761416435241699,
+            -0.0009857389377430081
+          ],
+          "max": [
+            0.42422839999198914,
+            0.4003180265426636,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 81,
+          "min": [
+            -0.39709994196891785,
+            -0.43963316082954407,
+            -0.002036185935139656
+          ],
+          "max": [
+            0.29324668645858765,
+            0.415622740983963,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 109,
+          "min": [
+            -0.45680153369903564,
+            -0.3390691876411438,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.4849698543548584,
+            0.2132771611213684,
+            1.0014290809631348
+          ]
+        }
+      ],
+      "nonfinite_vertices": 0
+    },
+    {
+      "name": "TurnTicket",
+      "file": "Clips/CHR_BOX_CUSTOMER__TurnTicket.fbx",
+      "frames": [
+        1,
+        121
+      ],
+      "fps": 30,
+      "duration_seconds": 4,
+      "loop": false,
+      "endpoint_matrix_max_delta": 2.0,
+      "loop_pass": null,
+      "root_translation": "none; drive path in game",
+      "root_heading_degrees": 180,
+      "sampled_deformation_bounds": [
+        {
+          "frame": 1,
+          "min": [
+            -0.4849697947502136,
+            -0.2132771611213684,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.45680147409439087,
+            0.3390691876411438,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 30,
+          "min": [
+            -0.3846881687641144,
+            -0.6635934114456177,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.2641790509223938,
+            0.4475746750831604,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 60,
+          "min": [
+            -0.4568556547164917,
+            -0.3385377526283264,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.6983679533004761,
+            0.21286797523498535,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 90,
+          "min": [
+            -0.45709311962127686,
+            -0.3358082175254822,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.6783674955368042,
+            0.21320849657058716,
+            1.0014290809631348
+          ]
+        },
+        {
+          "frame": 121,
+          "min": [
+            -0.45680153369903564,
+            -0.3390691876411438,
+            -5.268495442578569e-05
+          ],
+          "max": [
+            0.4849698543548584,
+            0.2132771611213684,
+            1.0014290809631348
+          ]
+        }
+      ],
+      "nonfinite_vertices": 0
+    }
+  ],
+  "remaining_engine_validation": [
+    "Unity import in actual project not executed",
+    "Cloth/joint silhouette must be checked at target in-game camera",
+    "Faces are original fixed texture; no fabricated expression blendshapes"
+  ]
+}

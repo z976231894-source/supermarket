@@ -1,0 +1,92 @@
+[
+  {
+    "instance_id": "L3_CUSTOMER_MEETING_A",
+    "asset_id": "CHR_BOX_CUSTOMER",
+    "rigged_prefab_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "L3_CUSTOMER_MEETING_B",
+    "asset_id": "CHR_BOX_CUSTOMER",
+    "rigged_prefab_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "COW_CLERK",
+    "asset_id": "CHR_CLERK_COW",
+    "rigged_prefab_path": "../../../02_角色与动画/CHR_CLERK_COW/CHR_CLERK_COW__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/CHR_CLERK_COW/CHR_CLERK_COW_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "BOX_CUSTOMER",
+    "asset_id": "CHR_BOX_CUSTOMER",
+    "rigged_prefab_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_1",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_2",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_3",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_4",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_5",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  }
+]

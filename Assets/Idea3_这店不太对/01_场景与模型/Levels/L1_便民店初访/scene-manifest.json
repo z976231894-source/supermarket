@@ -1,0 +1,1244 @@
+{
+  "level_id": "L1",
+  "title": "便民店初访",
+  "source_base_sha256": "fe75bb3547c1112fbd99608e39165e489caa6cd27cfa5f67323b6940e28a4ccf",
+  "room_dimensions_m": [
+    14,
+    9,
+    3
+  ],
+  "entry_apron_m": [
+    14,
+    2
+  ],
+  "source_y_range": [
+    0,
+    9
+  ],
+  "origin_shift_blender_m": [
+    0,
+    0,
+    0
+  ],
+  "units": "m",
+  "axes": {
+    "blender": "Z up, fronts -Y",
+    "unity_export": "FBX -Z forward/Y up; glTF Y-up"
+  },
+  "design": "Single-player free walking observation comedy; no quest, combat, failure, collecting, required sequence or locked ending",
+  "gag_count": 4,
+  "triggers": [
+    {
+      "id": "TRG_L1_01",
+      "title": "欢迎得过于郑重",
+      "observation_targets": [
+        "COW_CLERK"
+      ],
+      "focus_blender_m": [
+        2.25,
+        3.2,
+        1.6
+      ],
+      "safe_stand_blender_m": [
+        2.25,
+        1.65,
+        1.65
+      ],
+      "range_m": 2,
+      "observation_hold_seconds": 0.6,
+      "trigger_modes": [
+        "observe",
+        "optional_E_replay"
+      ],
+      "prerequisites": [],
+      "optional": true,
+      "replay_allowed": true,
+      "replay_cooldown_seconds": 4,
+      "no_input_lock": true,
+      "no_failure": true,
+      "no_collect_requirement": true,
+      "behavior": "注视牛，先慢慢看向玩家，再用长脖子深鞠躬。结束回Idle，不发任务。",
+      "animation_refs": [
+        {
+          "kind": "skeletal_clip",
+          "asset_id": "CHR_CLERK_COW",
+          "file": "../../../02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__Look.fbx",
+          "clip": "Look"
+        },
+        {
+          "kind": "skeletal_clip",
+          "asset_id": "CHR_CLERK_COW",
+          "file": "../../../02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__DeepBow.fbx",
+          "clip": "DeepBow"
+        }
+      ],
+      "audio_cue": {
+        "id": "TRG_L1_01_CUE",
+        "status": "ready_mapping_available_runtime_not_implemented",
+        "mapping_file": "../../../04_音频/Data/runtime-cue-map.json",
+        "duck_bgm_db": -6,
+        "not_a_prerequisite": true
+      },
+      "implemented_game_logic": false
+    },
+    {
+      "id": "TRG_L1_02",
+      "title": "收银机也要发言",
+      "observation_targets": [
+        "REGISTER"
+      ],
+      "focus_blender_m": [
+        3,
+        2.65,
+        1.15
+      ],
+      "safe_stand_blender_m": [
+        3.1,
+        1.65,
+        1.65
+      ],
+      "range_m": 1.8,
+      "observation_hold_seconds": 0.6,
+      "trigger_modes": [
+        "observe",
+        "optional_E_replay"
+      ],
+      "prerequisites": [],
+      "optional": true,
+      "replay_allowed": true,
+      "replay_cooldown_seconds": 4,
+      "no_input_lock": true,
+      "no_failure": true,
+      "no_collect_requirement": true,
+      "behavior": "轻触收银机，下巴短促开合并吐一张无意义小票；无需扫码或收集。",
+      "animation_refs": [
+        {
+          "kind": "optional_transform_track",
+          "instance": "REGISTER",
+          "part_suffix": "Jaw",
+          "axis": "X",
+          "behavior": "single sober jaw open/close, optional paper strip",
+          "runtime_implementation_required": true
+        }
+      ],
+      "audio_cue": {
+        "id": "TRG_L1_02_CUE",
+        "status": "ready_mapping_available_runtime_not_implemented",
+        "mapping_file": "../../../04_音频/Data/runtime-cue-map.json",
+        "duck_bgm_db": -6,
+        "not_a_prerequisite": true
+      },
+      "implemented_game_logic": false
+    },
+    {
+      "id": "TRG_L1_03",
+      "title": "极其认真地转错身",
+      "observation_targets": [
+        "BOX_CUSTOMER"
+      ],
+      "focus_blender_m": [
+        4.6,
+        1.65,
+        0.7
+      ],
+      "safe_stand_blender_m": [
+        5.7,
+        1.65,
+        1.65
+      ],
+      "range_m": 1.8,
+      "observation_hold_seconds": 0.6,
+      "trigger_modes": [
+        "observe",
+        "optional_E_replay"
+      ],
+      "prerequisites": [],
+      "optional": true,
+      "replay_allowed": true,
+      "replay_cooldown_seconds": 4,
+      "no_input_lock": true,
+      "no_failure": true,
+      "no_collect_requirement": true,
+      "behavior": "纸箱顾客小步转180°，仍一本正经；无需纠正或排队任务。",
+      "animation_refs": [
+        {
+          "kind": "skeletal_clip",
+          "asset_id": "CHR_BOX_CUSTOMER",
+          "file": "../../../02_角色与动画/CHR_BOX_CUSTOMER/Clips/CHR_BOX_CUSTOMER__ThreeStepTurn.fbx",
+          "clip": "ThreeStepTurn"
+        }
+      ],
+      "audio_cue": {
+        "id": "TRG_L1_03_CUE",
+        "status": "ready_mapping_available_runtime_not_implemented",
+        "mapping_file": "../../../04_音频/Data/runtime-cue-map.json",
+        "duck_bgm_db": -6,
+        "not_a_prerequisite": true
+      },
+      "implemented_game_logic": false
+    },
+    {
+      "id": "TRG_L1_04",
+      "title": "奶盒在偷看",
+      "observation_targets": [
+        "L1_MILK_DISPLAY"
+      ],
+      "focus_blender_m": [
+        8,
+        4,
+        0.62
+      ],
+      "safe_stand_blender_m": [
+        7,
+        4,
+        1.65
+      ],
+      "range_m": 1.8,
+      "observation_hold_seconds": 0.6,
+      "trigger_modes": [
+        "observe",
+        "optional_E_replay"
+      ],
+      "prerequisites": [],
+      "optional": true,
+      "replay_allowed": true,
+      "replay_cooldown_seconds": 4,
+      "no_input_lock": true,
+      "no_failure": true,
+      "no_collect_requirement": true,
+      "behavior": "看向矮台商品，奶盒转脸；转开视线后小幅偷回头，不用抓取。",
+      "animation_refs": [
+        {
+          "kind": "skeletal_clip",
+          "asset_id": "PRP_ODD_PRODUCT",
+          "file": "../../../02_角色与动画/PRP_ODD_PRODUCT/Clips/PRP_ODD_PRODUCT__Turn180.fbx",
+          "clip": "Turn180"
+        },
+        {
+          "kind": "skeletal_clip",
+          "asset_id": "PRP_ODD_PRODUCT",
+          "file": "../../../02_角色与动画/PRP_ODD_PRODUCT/Clips/PRP_ODD_PRODUCT__PeekBack.fbx",
+          "clip": "PeekBack"
+        }
+      ],
+      "audio_cue": {
+        "id": "TRG_L1_04_CUE",
+        "status": "ready_mapping_available_runtime_not_implemented",
+        "mapping_file": "../../../04_音频/Data/runtime-cue-map.json",
+        "duck_bgm_db": -6,
+        "not_a_prerequisite": true
+      },
+      "implemented_game_logic": false
+    }
+  ],
+  "instances": [
+    {
+      "instance_id": "L1_MILK_DISPLAY",
+      "asset_id": "PRP_ODD_PRODUCT",
+      "position_blender_m": [
+        8.0,
+        4.0,
+        0.4399999976158142
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "L1_MILK_DISPLAY__Rig",
+        "L1_MILK_DISPLAY__Mesh"
+      ]
+    },
+    {
+      "instance_id": "REGISTER",
+      "asset_id": "PRP_REGISTER_FACE",
+      "position_blender_m": [
+        3.0,
+        2.640000104904175,
+        0.9319999814033508
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "REGISTER__ROOT",
+        "REGISTER__Body.001",
+        "REGISTER__Jaw"
+      ]
+    },
+    {
+      "instance_id": "REGISTER__ROOT",
+      "asset_id": "PRP_REGISTER_FACE",
+      "position_blender_m": [
+        3.0,
+        2.640000104904175,
+        0.9319999814033508
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "REGISTER__Body.001",
+        "REGISTER__Jaw"
+      ]
+    },
+    {
+      "instance_id": "CLIPBOARD",
+      "asset_id": "PRP_SHIFT_CLIPBOARD",
+      "position_blender_m": [
+        1.899999976158142,
+        2.490000009536743,
+        0.9449999928474426
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CLIPBOARD__ROOT",
+        "CLIPBOARD__Body"
+      ]
+    },
+    {
+      "instance_id": "CLIPBOARD__ROOT",
+      "asset_id": "PRP_SHIFT_CLIPBOARD",
+      "position_blender_m": [
+        1.899999976158142,
+        2.490000009536743,
+        0.9449999928474426
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CLIPBOARD__Body"
+      ]
+    },
+    {
+      "instance_id": "CARD_circle",
+      "asset_id": "PRP_SYMBOL_CARD_SET",
+      "position_blender_m": [
+        1.2200000286102295,
+        2.4800000190734863,
+        0.953000009059906
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CARD_circle__ROOT",
+        "CARD_circle__Body"
+      ]
+    },
+    {
+      "instance_id": "CARD_circle__ROOT",
+      "asset_id": "PRP_SYMBOL_CARD_SET",
+      "position_blender_m": [
+        1.2200000286102295,
+        2.4800000190734863,
+        0.953000009059906
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CARD_circle__Body"
+      ]
+    },
+    {
+      "instance_id": "CARD_bar",
+      "asset_id": "PRP_SYMBOL_CARD_SET",
+      "position_blender_m": [
+        1.409999966621399,
+        2.4800000190734863,
+        0.953000009059906
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CARD_bar__ROOT",
+        "CARD_bar__Body"
+      ]
+    },
+    {
+      "instance_id": "CARD_bar__ROOT",
+      "asset_id": "PRP_SYMBOL_CARD_SET",
+      "position_blender_m": [
+        1.409999966621399,
+        2.4800000190734863,
+        0.953000009059906
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CARD_bar__Body"
+      ]
+    },
+    {
+      "instance_id": "CARD_square",
+      "asset_id": "PRP_SYMBOL_CARD_SET",
+      "position_blender_m": [
+        1.600000023841858,
+        2.4800000190734863,
+        0.953000009059906
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CARD_square__ROOT",
+        "CARD_square__Body"
+      ]
+    },
+    {
+      "instance_id": "CARD_square__ROOT",
+      "asset_id": "PRP_SYMBOL_CARD_SET",
+      "position_blender_m": [
+        1.600000023841858,
+        2.4800000190734863,
+        0.953000009059906
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "CARD_square__Body"
+      ]
+    },
+    {
+      "instance_id": "QUEUE_DIRECTION",
+      "asset_id": "PRP_ROUTE_SIGN_SET",
+      "position_blender_m": [
+        4.800000190734863,
+        2.950000047683716,
+        0.75
+      ],
+      "yaw_degrees": -90.00000250447816,
+      "objects": [
+        "QUEUE_DIRECTION__ROOT",
+        "QUEUE_DIRECTION__Body"
+      ]
+    },
+    {
+      "instance_id": "QUEUE_DIRECTION__ROOT",
+      "asset_id": "PRP_ROUTE_SIGN_SET",
+      "position_blender_m": [
+        4.800000190734863,
+        2.950000047683716,
+        0.75
+      ],
+      "yaw_degrees": -90.00000250447816,
+      "objects": [
+        "QUEUE_DIRECTION__Body"
+      ]
+    },
+    {
+      "instance_id": "COW_CLERK",
+      "asset_id": "CHR_CLERK_COW",
+      "position_blender_m": [
+        2.25,
+        3.700000047683716,
+        0.0
+      ],
+      "yaw_degrees": 0.0,
+      "objects": [
+        "COW_CLERK__Rig",
+        "COW_CLERK__Mesh"
+      ]
+    },
+    {
+      "instance_id": "BOX_CUSTOMER",
+      "asset_id": "CHR_BOX_CUSTOMER",
+      "position_blender_m": [
+        4.599999904632568,
+        1.649999976158142,
+        0.0
+      ],
+      "yaw_degrees": 90.00000250447816,
+      "objects": [
+        "BOX_CUSTOMER__Rig",
+        "BOX_CUSTOMER__Mesh"
+      ]
+    }
+  ],
+  "character_placeholders": [
+    {
+      "instance_id": "L1_MILK_DISPLAY",
+      "asset_id": "PRP_ODD_PRODUCT",
+      "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+      "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+      "default_animation": "Idle",
+      "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+      "preserve_root_transform": true,
+      "replace_only_mesh_not_scene_root": true
+    },
+    {
+      "instance_id": "COW_CLERK",
+      "asset_id": "CHR_CLERK_COW",
+      "rigged_prefab_path": "../../../02_角色与动画/CHR_CLERK_COW/CHR_CLERK_COW__Rig_TPose.fbx",
+      "rigged_blend_path": "../../../02_角色与动画/CHR_CLERK_COW/CHR_CLERK_COW_Rigged.blend",
+      "default_animation": "Idle",
+      "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+      "preserve_root_transform": true,
+      "replace_only_mesh_not_scene_root": true
+    },
+    {
+      "instance_id": "BOX_CUSTOMER",
+      "asset_id": "CHR_BOX_CUSTOMER",
+      "rigged_prefab_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER__Rig_TPose.fbx",
+      "rigged_blend_path": "../../../02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER_Rigged.blend",
+      "default_animation": "Idle",
+      "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+      "preserve_root_transform": true,
+      "replace_only_mesh_not_scene_root": true
+    }
+  ],
+  "open_doors": [],
+  "entrances": [
+    {
+      "id": "L1_MAIN_ENTRY",
+      "center_blender_m": [
+        7,
+        0,
+        0
+      ],
+      "clear_width_m": 2.5,
+      "connects_to": "bounded 14x2m entrance apron",
+      "requires_progress_flag": false
+    }
+  ],
+  "suggested_colliders": [
+    {
+      "name": "WALL_V_0_0",
+      "center": [
+        0,
+        4.5,
+        1.5
+      ],
+      "size": [
+        0.16,
+        9,
+        3
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_V_14_0",
+      "center": [
+        14,
+        4.5,
+        1.5
+      ],
+      "size": [
+        0.16,
+        9,
+        3
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_H_9_0",
+      "center": [
+        1.8,
+        8.96,
+        1.5
+      ],
+      "size": [
+        3.6,
+        0.08000000000000007,
+        3
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_H_9_5.2",
+      "center": [
+        7.75,
+        8.96,
+        1.5
+      ],
+      "size": [
+        5.1000000000000005,
+        0.08000000000000007,
+        3
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_H_9_11.9",
+      "center": [
+        12.95,
+        8.96,
+        1.5
+      ],
+      "size": [
+        2.0999999999999996,
+        0.08000000000000007,
+        3
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_V_8_9",
+      "center": [
+        8,
+        9.0,
+        1.5
+      ],
+      "size": [
+        0.16,
+        0.0,
+        3
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_H_0_0",
+      "center": [
+        2.85,
+        0.04,
+        0.275
+      ],
+      "size": [
+        5.7,
+        0.08,
+        0.55
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "WALL_H_0_8.3",
+      "center": [
+        11.15,
+        0.04,
+        0.275
+      ],
+      "size": [
+        5.699999999999999,
+        0.08,
+        0.55
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "CHECKOUT_COUNTER",
+      "center": [
+        2.25,
+        2.65,
+        0.43
+      ],
+      "size": [
+        2.4,
+        0.75,
+        0.86
+      ],
+      "kind": "Box",
+      "source": "layout_geometry"
+    },
+    {
+      "name": "SHELF_A1",
+      "center": [
+        5.0,
+        5.8,
+        0.85
+      ],
+      "size": [
+        0.62,
+        3.0,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "SHELF_A2",
+      "center": [
+        9.7,
+        5.7,
+        0.85
+      ],
+      "size": [
+        2.6,
+        0.62,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "SHELF_A3",
+      "center": [
+        12.55,
+        6.4,
+        0.85
+      ],
+      "size": [
+        0.62,
+        2.5,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "SHELF_A4",
+      "center": [
+        9.5,
+        2.25,
+        0.85
+      ],
+      "size": [
+        2.3,
+        0.62,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "SHELF_A5",
+      "center": [
+        2.1,
+        6.2,
+        0.85
+      ],
+      "size": [
+        2.4,
+        0.62,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "SHELF_A6",
+      "center": [
+        12.9,
+        1.45,
+        0.85
+      ],
+      "size": [
+        0.62,
+        1.8,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "SHELF_A7",
+      "center": [
+        7.9,
+        7.8,
+        0.85
+      ],
+      "size": [
+        1.8,
+        0.62,
+        1.7
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "COUNTER_SIDE_STOCK",
+      "center": [
+        0.5,
+        3.45,
+        0.65
+      ],
+      "size": [
+        0.62,
+        1.6,
+        1.3
+      ],
+      "kind": "Box",
+      "source": "support_fixture"
+    },
+    {
+      "name": "L1_NORTH_LOWER",
+      "center": [
+        7.0,
+        9.0,
+        0.44999998807907104
+      ],
+      "size": [
+        14.0,
+        0.15999984741210938,
+        0.8999999761581421
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_NORTH_UPPER",
+      "center": [
+        7.0,
+        9.0,
+        2.700000047683716
+      ],
+      "size": [
+        14.0,
+        0.15999984741210938,
+        0.5999999046325684
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_NORTH_LEFT",
+      "center": [
+        2.5999999046325684,
+        9.0,
+        1.6500000357627869
+      ],
+      "size": [
+        5.199999809265137,
+        0.15999984741210938,
+        1.5000001192092896
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_NORTH_RIGHT",
+      "center": [
+        11.399999618530273,
+        9.0,
+        1.6500000357627869
+      ],
+      "size": [
+        5.200000762939453,
+        0.15999984741210938,
+        1.5000001192092896
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_WINDOW_NIGHT_BACKING",
+      "center": [
+        7.0,
+        9.09000015258789,
+        1.6500000357627869
+      ],
+      "size": [
+        3.6000003814697266,
+        0.049999237060546875,
+        1.5000001192092896
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_WINDOW_MULLION",
+      "center": [
+        5.199999809265137,
+        8.895000457763672,
+        1.6499999165534973
+      ],
+      "size": [
+        0.06000041961669922,
+        0.05999946594238281,
+        1.5599998235702515
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_WINDOW_MULLION.001",
+      "center": [
+        7.0,
+        8.895000457763672,
+        1.6499999165534973
+      ],
+      "size": [
+        0.06000041961669922,
+        0.05999946594238281,
+        1.5599998235702515
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_WINDOW_MULLION.002",
+      "center": [
+        8.800000190734863,
+        8.895000457763672,
+        1.6499999165534973
+      ],
+      "size": [
+        0.05999946594238281,
+        0.05999946594238281,
+        1.5599998235702515
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_WINDOW_TRANSOM",
+      "center": [
+        7.0,
+        8.895000457763672,
+        0.8999999761581421
+      ],
+      "size": [
+        3.6499996185302734,
+        0.05999946594238281,
+        0.059999942779541016
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_WINDOW_TRANSOM.001",
+      "center": [
+        7.0,
+        8.895000457763672,
+        2.4000000953674316
+      ],
+      "size": [
+        3.6499996185302734,
+        0.05999946594238281,
+        0.059999942779541016
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_MILK_LOW_TABLE",
+      "center": [
+        8.0,
+        4.0,
+        0.4050000011920929
+      ],
+      "size": [
+        0.75,
+        0.5500001907348633,
+        0.06999999284744263
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_MILK_TABLE_LEG",
+      "center": [
+        7.710000038146973,
+        3.799999952316284,
+        0.1899999976158142
+      ],
+      "size": [
+        0.06000041961669922,
+        0.059999942779541016,
+        0.3799999952316284
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_MILK_TABLE_LEG.001",
+      "center": [
+        7.710000038146973,
+        4.199999809265137,
+        0.1899999976158142
+      ],
+      "size": [
+        0.06000041961669922,
+        0.06000041961669922,
+        0.3799999952316284
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_MILK_TABLE_LEG.002",
+      "center": [
+        8.289999961853027,
+        3.799999952316284,
+        0.1899999976158142
+      ],
+      "size": [
+        0.05999946594238281,
+        0.059999942779541016,
+        0.3799999952316284
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_MILK_TABLE_LEG.003",
+      "center": [
+        8.289999961853027,
+        4.199999809265137,
+        0.1899999976158142
+      ],
+      "size": [
+        0.05999946594238281,
+        0.06000041961669922,
+        0.3799999952316284
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_APRON_FRONT_GUARD",
+      "center": [
+        7.000000238418579,
+        -2.049999952316284,
+        0.47999998927116394
+      ],
+      "size": [
+        14.200000286102295,
+        0.09999990463256836,
+        0.9599999785423279
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_APRON_SIDE_GUARD",
+      "center": [
+        -0.05000000074505806,
+        -0.9999999403953552,
+        0.47999998927116394
+      ],
+      "size": [
+        0.10000000149011612,
+        2.1999999284744263,
+        0.9599999785423279
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    },
+    {
+      "name": "L1_APRON_SIDE_GUARD.001",
+      "center": [
+        14.050000190734863,
+        -0.9999999403953552,
+        0.47999998927116394
+      ],
+      "size": [
+        0.10000038146972656,
+        2.1999999284744263,
+        0.9599999785423279
+      ],
+      "kind": "Box",
+      "source": "derived_structure"
+    }
+  ],
+  "lights": [
+    {
+      "name": "LIGHT_FLUOR_0",
+      "type": "AREA",
+      "position_blender_m": [
+        3.0,
+        3.9000000953674316,
+        2.6500000953674316
+      ],
+      "rotation_euler_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "energy": 155.0,
+      "color_linear": [
+        0.5972017645835876,
+        0.7304607629776001,
+        0.6307571530342102
+      ],
+      "area_size": 3.5,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_FLUOR_1",
+      "type": "AREA",
+      "position_blender_m": [
+        10.5,
+        4.5,
+        2.6500000953674316
+      ],
+      "rotation_euler_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "energy": 155.0,
+      "color_linear": [
+        0.5972017645835876,
+        0.7304607629776001,
+        0.6307571530342102
+      ],
+      "area_size": 3.5,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_COUNTER_WARM",
+      "type": "AREA",
+      "position_blender_m": [
+        2.0,
+        1.75,
+        2.549999952316284
+      ],
+      "rotation_euler_radians": [
+        0.8838329315185547,
+        -9.164002889860967e-09,
+        -0.1418970674276352
+      ],
+      "energy": 105.0,
+      "color_linear": [
+        0.7454041838645935,
+        0.35153260827064514,
+        0.10461648553609848
+      ],
+      "area_size": 2.0,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_1.0",
+      "type": "AREA",
+      "position_blender_m": [
+        1.0,
+        0.25,
+        1.899999976158142
+      ],
+      "rotation_euler_radians": [
+        1.080838918685913,
+        -0.0,
+        0.0
+      ],
+      "energy": 90.0,
+      "color_linear": [
+        1.0,
+        0.38642942905426025,
+        0.0802198201417923
+      ],
+      "area_size": 1.5,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_4.7",
+      "type": "AREA",
+      "position_blender_m": [
+        4.699999809265137,
+        0.25,
+        1.899999976158142
+      ],
+      "rotation_euler_radians": [
+        1.080838918685913,
+        -0.0,
+        0.0
+      ],
+      "energy": 90.0,
+      "color_linear": [
+        1.0,
+        0.38642942905426025,
+        0.0802198201417923
+      ],
+      "area_size": 1.5,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_9.2",
+      "type": "AREA",
+      "position_blender_m": [
+        9.199999809265137,
+        0.25,
+        1.899999976158142
+      ],
+      "rotation_euler_radians": [
+        1.080838918685913,
+        -0.0,
+        0.0
+      ],
+      "energy": 90.0,
+      "color_linear": [
+        1.0,
+        0.38642942905426025,
+        0.0802198201417923
+      ],
+      "area_size": 1.5,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_SHOPFRONT_13.0",
+      "type": "AREA",
+      "position_blender_m": [
+        13.0,
+        0.25,
+        1.899999976158142
+      ],
+      "rotation_euler_radians": [
+        1.080838918685913,
+        -0.0,
+        0.0
+      ],
+      "energy": 90.0,
+      "color_linear": [
+        1.0,
+        0.38642942905426025,
+        0.0802198201417923
+      ],
+      "area_size": 1.5,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    },
+    {
+      "name": "LIGHT_FRONT_SOFT",
+      "type": "AREA",
+      "position_blender_m": [
+        7.0,
+        5.0,
+        2.8499999046325684
+      ],
+      "rotation_euler_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "energy": 55.0,
+      "color_linear": [
+        0.715693473815918,
+        0.7835378050804138,
+        0.68668532371521
+      ],
+      "area_size": 7.0,
+      "unity_note": "Area lights require baking or approximation; not runtime FBX lights"
+    }
+  ],
+  "emissive_materials": [
+    {
+      "material": "I3_lamp",
+      "strength": 3.0,
+      "color_linear": [
+        0.4793201684951782,
+        0.7379103899002075,
+        0.6514056324958801,
+        1.0
+      ]
+    },
+    {
+      "material": "I3_warm_lamp",
+      "strength": 3.0,
+      "color_linear": [
+        0.7454041838645935,
+        0.35153260827064514,
+        0.10461648553609848,
+        1.0
+      ]
+    },
+    {
+      "material": "PRP_FRIDGE_Emission",
+      "strength": 2.0,
+      "color_linear": [
+        0.3400000035762787,
+        0.75,
+        0.6899999976158142,
+        1.0
+      ]
+    }
+  ],
+  "player_start_blender_m": [
+    7.0,
+    1.600000023841858,
+    1.649999976158142
+  ],
+  "files": {
+    "editable": "L1_便民店初访.blend",
+    "static_fbx": "L1_便民店初访.fbx",
+    "static_glb": "L1_便民店初访.glb"
+  },
+  "runtime_not_implemented": [
+    "walking controller",
+    "observation triggers and replay",
+    "prop event callbacks",
+    "physics/collision and navmesh",
+    "audio playback/ducking",
+    "Unity import validation"
+  ],
+  "no_playtime_guarantee": true
+}

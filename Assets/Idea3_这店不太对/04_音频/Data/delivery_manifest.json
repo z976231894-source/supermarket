@@ -1,0 +1,405 @@
+{
+  "version": 2,
+  "scope": "active_free_exploration_only",
+  "excluded_archives": true,
+  "archive_location": "Project root / 98_过程留档 / 04_音频",
+  "files": 79,
+  "total_bytes": 110450416,
+  "entries": [
+    {
+      "path": "Data/audio_manifest.json",
+      "bytes": 39276,
+      "sha256": "7e7d658b49e90d277a1ca99d7e2dce1e4b64f44822e775b6ac18651af45e94c9"
+    },
+    {
+      "path": "Data/audio_qa.json",
+      "bytes": 17566,
+      "sha256": "4dffecc3c17eed4c0796140ecd0e7149662aeb3024b44909aa9c395931c43990"
+    },
+    {
+      "path": "Data/browser_playback_qa.json",
+      "bytes": 405,
+      "sha256": "90f58b21e3107c3be2f5f42cfa769b7df6f31b3681728e2a7b1398bd970ae3e6"
+    },
+    {
+      "path": "Data/cue_map.json",
+      "bytes": 10977,
+      "sha256": "ef2d5bf7fb941f6c0827506083cc583cf02ec2786b664d41972ec1b5078a5e55"
+    },
+    {
+      "path": "Data/free_exploration_cues.json",
+      "bytes": 10977,
+      "sha256": "ef2d5bf7fb941f6c0827506083cc583cf02ec2786b664d41972ec1b5078a5e55"
+    },
+    {
+      "path": "Data/loop_points.json",
+      "bytes": 8228,
+      "sha256": "d956ce453ecbdfb0a8e39c272e1af50092b242c48a44422734370743acb49b1f"
+    },
+    {
+      "path": "Data/runtime-cue-map-qa.json",
+      "bytes": 1020,
+      "sha256": "3e46a073d2c3d493c8a0fc5fa20fa5d139f2a10d993c8a4cf1dd05bf50bb37c4"
+    },
+    {
+      "path": "Data/runtime-cue-map.json",
+      "bytes": 30201,
+      "sha256": "bad12f6d65f063362143a2525c42641c315eb87dc317dcea388309da301c3d74"
+    },
+    {
+      "path": "Data/音频页预览.png",
+      "bytes": 64028,
+      "sha256": "1a965bd9592951bb3f442be7fe2d47aab6d1f1236f0fcbfce1c864487fa5486f"
+    },
+    {
+      "path": "license_sources.md",
+      "bytes": 1098,
+      "sha256": "cbd4d661c7d7f8625b179f1f331f2dbc1f37bf769fe04c5fdd1be8988ab571fc"
+    },
+    {
+      "path": "OGG/Ambience/I3_AMB_Fluorescent.ogg",
+      "bytes": 64426,
+      "sha256": "5c926e0bd030d6ee75b6e6924a2091b64e034b9bc085ce23ccf42a427407b5c4"
+    },
+    {
+      "path": "OGG/Ambience/I3_AMB_Refrigerator.ogg",
+      "bytes": 61122,
+      "sha256": "264b52e3b5c774fba729145afbfcc22634e0f0767f358007f8dc1cd74490ede5"
+    },
+    {
+      "path": "OGG/BGM/I3_BGM_ColdAir.ogg",
+      "bytes": 488735,
+      "sha256": "9e7f221ca65987a0e75330ac9f4737af5a7859c9e2ada82096173228f66cd9e1"
+    },
+    {
+      "path": "OGG/BGM/I3_BGM_NightShift_Main.ogg",
+      "bytes": 458036,
+      "sha256": "d6ea9e4c0f860b8a9343490e36328046a933d6e533c54b9efcfdd08a90a3c4a3"
+    },
+    {
+      "path": "OGG/BGM/I3_BGM_NightShift_Quiet.ogg",
+      "bytes": 385723,
+      "sha256": "b910d41c3d542d024a7bdf2947081b8b4c3ab6dbc765fc939263c695c6b5a307"
+    },
+    {
+      "path": "OGG/BGM/I3_BGM_ShiftClosed.ogg",
+      "bytes": 40488,
+      "sha256": "45f08c08427deaec445cd58bc8147bb170d52b3ca2124a481a13c6fae2b305a6"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_box_fanfare.ogg",
+      "bytes": 7652,
+      "sha256": "83684a7dbec07f35e13de2e254778aaf3bc3a0ac93bc48452a214adb978d3c1f"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_box_step.ogg",
+      "bytes": 5924,
+      "sha256": "09722e9f5121f4a219701ea3f858636f57104453c38291482a41677e26944e29"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_card_drop.ogg",
+      "bytes": 5897,
+      "sha256": "99c964201b86c875d1baca4f7d03dddcc3bc1910f1c8720841fbfc576d443f90"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_card_pick.ogg",
+      "bytes": 5315,
+      "sha256": "67c9aa694dc9b250e532a32df2c6bc0befb75bd51bf57d82f286ec65de3072e0"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_cart_brake.ogg",
+      "bytes": 7411,
+      "sha256": "8c644cd88fb41eca669610f050933fa6942561e18c1ab3a13f0181ba27765239"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_cart_roll.ogg",
+      "bytes": 13152,
+      "sha256": "d73144113f331b1ac0a11801971473f274539063aeee9deac0d226bdcf3827e2"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_cow_hmm.ogg",
+      "bytes": 5279,
+      "sha256": "06eb9ce7090998696c1467a5578b50a58e280322ef771eceae0c4bfba889156c"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_cow_welcome.ogg",
+      "bytes": 7311,
+      "sha256": "8678c062542f817593c7d81f2e5b62f587ece65fe854ff5111787418e6396f1e"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_crate_pick.ogg",
+      "bytes": 7081,
+      "sha256": "8fd4ae2b05c80d8aa5bc9982fe313953698185aebbd61921e61ba6aa26894268"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_crate_place.ogg",
+      "bytes": 7773,
+      "sha256": "5f8e3a4eda1b5663c1403c1d7405456f1873612db966eb582defc58186c224cc"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_final_small_fanfare.ogg",
+      "bytes": 9871,
+      "sha256": "38a3e1e6235e3010f12a829f02b07033d03e832c751bba259755003a696b626c"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_footstep_left.ogg",
+      "bytes": 5628,
+      "sha256": "613aab04d5509cd801288de2afc65e57c03ee62d9548a8198774a79e7140f639"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_footstep_right.ogg",
+      "bytes": 5768,
+      "sha256": "ee681c936e8c50c5a99542278be9da75b5e1286cf922a58c85c6cb8c38c893ec"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_fridge_choir.ogg",
+      "bytes": 6949,
+      "sha256": "1762bc037eef43a931d1d77af3f81dad7c714734c36b3530efd30bfd7dd24a39"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_fridge_close.ogg",
+      "bytes": 7250,
+      "sha256": "7f41a7a4ba669d3467c09b185104ccde485b1c71d5ec45e00a3f46c1251f09f7"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_fridge_open.ogg",
+      "bytes": 9636,
+      "sha256": "54ccd2acfea4a1b04d3f2ffd783fcee57cfe533ed351f1d520b1dd79e8d88c38"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_gate_click.ogg",
+      "bytes": 6067,
+      "sha256": "625a55a70af7af1da798daa8d0232c4785fd06c1540040c900357db3358f7f9a"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_loading_bell.ogg",
+      "bytes": 6814,
+      "sha256": "0de8be8de0bbc55038bb772f05f2390b723358da50f9a88c27603f99d6ba82de"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_print_end.ogg",
+      "bytes": 5794,
+      "sha256": "f67983c8a537b718ce6468588c77e1fecdf5b226f961f874e948e4b02f35b0cf"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_print_loop.ogg",
+      "bytes": 14085,
+      "sha256": "852da3f00f8c3e22f6969f54a6974c0f62968ea0cd0e913f55036e507a56fe08"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_product_turn.ogg",
+      "bytes": 6085,
+      "sha256": "002c991345b74c6d46dace71c4f0baff816db8ff25cab9582624163ec7476630"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_product_whistle.ogg",
+      "bytes": 6196,
+      "sha256": "227ee47522ccd020e48cab737ed4c1e1af058f6ff1a3aa78a122a55c9082e4d3"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_scale_zero.ogg",
+      "bytes": 6159,
+      "sha256": "6d46666682e84f76154d7fde8c978b325ca80d31313f61e3dcbf9f97ac86a6d2"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_stamp_hit.ogg",
+      "bytes": 7683,
+      "sha256": "1f7ec7ba83deebd3436b0c449cf4de30169f576cc9567b72fd853c7ec4f0c008"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_ui_confirm.ogg",
+      "bytes": 4545,
+      "sha256": "5c9e196353a30948e5447118e701df1c0822abdfb91db263427c6050a953846c"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_ui_photo.ogg",
+      "bytes": 6458,
+      "sha256": "5c674ccff51bf95e5c816b3839f28bb6364bea8d510431a9653c80992df28f99"
+    },
+    {
+      "path": "OGG/SFX/I3_SFX_ui_saved.ogg",
+      "bytes": 6247,
+      "sha256": "dcce82de18d2ff5364e9e6f3d37945d84d31edda3366cdf4c221862473ddcfc8"
+    },
+    {
+      "path": "Source/README.md",
+      "bytes": 649,
+      "sha256": "ced5e7f634c19de96c90da43ab45a8c8dd18102005b9104182f872b13085e943"
+    },
+    {
+      "path": "WAV/Ambience/I3_AMB_Fluorescent.wav",
+      "bytes": 5760044,
+      "sha256": "1d5798920b753b0881484e16dab8a073a1ad411c6a47c6fbb88ac4a452133091"
+    },
+    {
+      "path": "WAV/Ambience/I3_AMB_Refrigerator.wav",
+      "bytes": 5760044,
+      "sha256": "8ae549c125b4ba418a263ef0e3a9b06624abbb3f97f89ef9fcff95baab328484"
+    },
+    {
+      "path": "WAV/BGM/I3_BGM_ColdAir.wav",
+      "bytes": 30720044,
+      "sha256": "57fc1c2850826ee975c2a3d5d4727dc7507d96f56d61554a928c9a9fab3a4c25"
+    },
+    {
+      "path": "WAV/BGM/I3_BGM_NightShift_Main.wav",
+      "bytes": 30720044,
+      "sha256": "04d65a1817a1587aad6b70fbb609959b7bf3310dca1b2ddb4705dcb084baab76"
+    },
+    {
+      "path": "WAV/BGM/I3_BGM_NightShift_Quiet.wav",
+      "bytes": 30720044,
+      "sha256": "49d723a2a0345e1790331e2a5fd548872241699689cd8e1790d88ae0d7683026"
+    },
+    {
+      "path": "WAV/BGM/I3_BGM_ShiftClosed.wav",
+      "bytes": 2304044,
+      "sha256": "56490c9ffbf1b957e5abee40def1d01fbd29dc00fae5e4118b4fc2b3a1dff1f8"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_box_fanfare.wav",
+      "bytes": 201644,
+      "sha256": "4f919aae7488493e9145c26be1a5c47b4745fe1bb6ab82d9cfae12547283600f"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_box_step.wav",
+      "bytes": 34604,
+      "sha256": "3e2bfe94e88de0ed07cf0d2ca0f7ec9a7ad922b7b798fca2f7a96e62a41f9e5f"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_card_drop.wav",
+      "bytes": 34604,
+      "sha256": "96ab6f4fcbed7b6cc2798c0cd14e7bf6cbc192a5648b524893f594924a4e1261"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_card_pick.wav",
+      "bytes": 24524,
+      "sha256": "7380cd8a97bc6dcb94701c5d684c59fd62c62ef84119a4eec64d37e992df7286"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_cart_brake.wav",
+      "bytes": 57644,
+      "sha256": "8fbc1207b2461240d6014f1d8086c49555a3d50da1fa20b4137bf16ab0d649c1"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_cart_roll.wav",
+      "bytes": 144044,
+      "sha256": "4c273ef9e1b35bfa1525741f460eee9681361a3ad9eab4ac841deb2bdcf4f7c2"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_cow_hmm.wav",
+      "bytes": 112364,
+      "sha256": "9fa0b9d7050d6dc6135e224f5d9132808931e3cf13fbbefb1e749a186d303d3c"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_cow_welcome.wav",
+      "bytes": 216044,
+      "sha256": "0d2a555dd6efa22e70163c7f943ed079db085cbea51fd02bde1e62582bd00aa7"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_crate_pick.wav",
+      "bytes": 50444,
+      "sha256": "f98f59a65fba6fbf708bf2dfd623adf56fcb0812eec25789c9ddfb8d46f57064"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_crate_place.wav",
+      "bytes": 64844,
+      "sha256": "d4acf6f9fc12fc612267a7f125f071d09c8c43a470057360470020a19471ea05"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_final_small_fanfare.wav",
+      "bytes": 374444,
+      "sha256": "ca5a2fc87ee7de71063f2751356cd27a513404f53cea041c11e1300d9f444b4a"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_footstep_left.wav",
+      "bytes": 31724,
+      "sha256": "194ead92a0ed6daf7effb74d097e23e587dfde0482b4daac326ff43460455a5b"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_footstep_right.wav",
+      "bytes": 33164,
+      "sha256": "7f99ddc31d659932c999a3ced4e3761a4739f8c2947b1e0be6b45cf2bea963c8"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_fridge_choir.wav",
+      "bytes": 136844,
+      "sha256": "59e533679d8993adf1f43abd60fb37defa9555714e6d4faa01693a496a4d8947"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_fridge_close.wav",
+      "bytes": 57644,
+      "sha256": "76973446c64995cb5ac0b4e44b31a78c539c43c2eb56cf9e29273a0b5210249d"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_fridge_open.wav",
+      "bytes": 93644,
+      "sha256": "16a147a0ab6695d156955aace57baf60b9dd38b03ba1e19fd9b4e72e35a348a9"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_gate_click.wav",
+      "bytes": 37484,
+      "sha256": "b3da393a1067e532cf51cbf48fbbe7283eb0d52ec00381e25d2ec788290802fd"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_loading_bell.wav",
+      "bytes": 201644,
+      "sha256": "10d5c505e8cdc36b406887893b8e88e63f72e956b5e7294e9fa19c4a6c9563b3"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_print_end.wav",
+      "bytes": 79244,
+      "sha256": "94a8d12786f8a8b9cfa37156889173207b5ac083779d2901b80a1dd77b6ca0df"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_print_loop.wav",
+      "bytes": 144044,
+      "sha256": "7fafbc7e507be9919a193b5e325109b2c0a6e0a02325313c10ba5976b7c0e019"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_product_turn.wav",
+      "bytes": 36044,
+      "sha256": "5cb7e1ebd5e9d9743f1a310aea68c2fff4836083ccd6b29cb1e729ee0c2cc1fb"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_product_whistle.wav",
+      "bytes": 86444,
+      "sha256": "75f9ea9487829edd0ee675ad8b5dc694a971698a61cece18d1196799d78a5a2f"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_scale_zero.wav",
+      "bytes": 100844,
+      "sha256": "a20c1fc1143ce0d46e4efac895c89d9039605422b76a173866a7dffb0a73ffcc"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_stamp_hit.wav",
+      "bytes": 61964,
+      "sha256": "fbfc92f29e76b46fe19a2e20fd83d3162e6a6aa4c2fbfa824aea74e719c4bd94"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_ui_confirm.wav",
+      "bytes": 31724,
+      "sha256": "304ebcca5fcebab97806e90fea406c82f07ff599ab35a89f51306623cf072f6f"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_ui_photo.wav",
+      "bytes": 33164,
+      "sha256": "a962a2deb09a8e035b001ffaef63a55ef5c590e6f923e4328669c50024ba69f0"
+    },
+    {
+      "path": "WAV/SFX/I3_SFX_ui_saved.wav",
+      "bytes": 93644,
+      "sha256": "e327391ace6b54f05351c11de3f5ec3fd4d08843ee084ade6ae2520600ff70a6"
+    },
+    {
+      "path": "音频_技术接入.md",
+      "bytes": 2437,
+      "sha256": "6e97de5e3c017f15e401c09504766f5ac35f0294a13d702a1f71a08e4c80fda1"
+    },
+    {
+      "path": "音频试听.html",
+      "bytes": 12262,
+      "sha256": "cab5ff8adb4c5d14847c20856d69b71e52317272604b111dcdbb473851029914"
+    }
+  ]
+}

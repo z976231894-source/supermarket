@@ -1,0 +1,675 @@
+{
+  "all_pass": true,
+  "files": [
+    {
+      "file": "CHR_BOX_CUSTOMER\\CHR_BOX_CUSTOMER__Rig_TPose.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        114858
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        10
+      ],
+      "triangles": 1200,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [],
+      "rest_bounds_m": {
+        "min": [
+          -0.7120145559310913,
+          -0.21327701210975647,
+          -5.267348751658574e-05
+        ],
+        "max": [
+          0.7420145869255066,
+          0.3390692174434662,
+          1.0014290809631348
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\CHR_CLERK_COW__Rig_TPose.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "PRP_ODD_PRODUCT\\PRP_ODD_PRODUCT__Rig_TPose.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        98098
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        6
+      ],
+      "triangles": 600,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [],
+      "rest_bounds_m": {
+        "min": [
+          -0.052508991211652756,
+          -0.040039077401161194,
+          0.0002448139130137861
+        ],
+        "max": [
+          0.05258428305387497,
+          0.05692232772707939,
+          0.24000968039035797
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_BOX_CUSTOMER\\Clips\\CHR_BOX_CUSTOMER__Idle.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        114858
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        10
+      ],
+      "triangles": 1200,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_BOX_CUSTOMER_Rig|Scene",
+          "range": [
+            2.0,
+            122.0
+          ],
+          "curves": 109
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.7120145559310913,
+          -0.21327701210975647,
+          -5.267348751658574e-05
+        ],
+        "max": [
+          0.7420145869255066,
+          0.3390692174434662,
+          1.0014290809631348
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_BOX_CUSTOMER\\Clips\\CHR_BOX_CUSTOMER__ShortStep.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        114858
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        10
+      ],
+      "triangles": 1200,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_BOX_CUSTOMER_Rig|Scene",
+          "range": [
+            2.0,
+            38.0
+          ],
+          "curves": 109
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.7120145559310913,
+          -0.21327701210975647,
+          -5.267348751658574e-05
+        ],
+        "max": [
+          0.7420145869255066,
+          0.3390692174434662,
+          1.0014290809631348
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_BOX_CUSTOMER\\Clips\\CHR_BOX_CUSTOMER__ThreeStepTurn.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        114858
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        10
+      ],
+      "triangles": 1200,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_BOX_CUSTOMER_Rig|Scene",
+          "range": [
+            2.0,
+            110.0
+          ],
+          "curves": 109
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.7120145559310913,
+          -0.21327701210975647,
+          -5.267348751658574e-05
+        ],
+        "max": [
+          0.7420145869255066,
+          0.3390692174434662,
+          1.0014290809631348
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_BOX_CUSTOMER\\Clips\\CHR_BOX_CUSTOMER__TurnTicket.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        114858
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        10
+      ],
+      "triangles": 1200,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_BOX_CUSTOMER_Rig|Scene",
+          "range": [
+            2.0,
+            122.0
+          ],
+          "curves": 109
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.7120145559310913,
+          -0.21327701210975647,
+          -5.267348751658574e-05
+        ],
+        "max": [
+          0.7420145869255066,
+          0.3390692174434662,
+          1.0014290809631348
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\Clips\\CHR_CLERK_COW__DeepBow.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_CLERK_COW_Rig|Scene",
+          "range": [
+            2.0,
+            122.0
+          ],
+          "curves": 209
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\Clips\\CHR_CLERK_COW__Idle.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_CLERK_COW_Rig|Scene",
+          "range": [
+            2.0,
+            122.0
+          ],
+          "curves": 209
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\Clips\\CHR_CLERK_COW__Look.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_CLERK_COW_Rig|Scene",
+          "range": [
+            2.0,
+            92.0
+          ],
+          "curves": 209
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\Clips\\CHR_CLERK_COW__Point.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_CLERK_COW_Rig|Scene",
+          "range": [
+            2.0,
+            110.0
+          ],
+          "curves": 209
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\Clips\\CHR_CLERK_COW__SmallBow.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_CLERK_COW_Rig|Scene",
+          "range": [
+            2.0,
+            92.0
+          ],
+          "curves": 209
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "CHR_CLERK_COW\\Clips\\CHR_CLERK_COW__Welcome.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        122364
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        20
+      ],
+      "triangles": 1500,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "CHR_CLERK_COW_Rig|Scene",
+          "range": [
+            2.0,
+            110.0
+          ],
+          "curves": 209
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.9054713249206543,
+          -0.666340708732605,
+          1.850265185510125e-08
+        ],
+        "max": [
+          0.987152099609375,
+          0.8952614665031433,
+          2.203385591506958
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "PRP_ODD_PRODUCT\\Clips\\PRP_ODD_PRODUCT__Idle.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        98098
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        6
+      ],
+      "triangles": 600,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "PRP_ODD_PRODUCT_Rig|Scene",
+          "range": [
+            2.0,
+            62.0
+          ],
+          "curves": 69
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.052508991211652756,
+          -0.040039077401161194,
+          0.0002448139130137861
+        ],
+        "max": [
+          0.05258428305387497,
+          0.05692232772707939,
+          0.24000968039035797
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "PRP_ODD_PRODUCT\\Clips\\PRP_ODD_PRODUCT__PeekBack.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        98098
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        6
+      ],
+      "triangles": 600,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "PRP_ODD_PRODUCT_Rig|Scene",
+          "range": [
+            2.0,
+            50.0
+          ],
+          "curves": 69
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.052508991211652756,
+          -0.040039077401161194,
+          0.0002448139130137861
+        ],
+        "max": [
+          0.05258428305387497,
+          0.05692232772707939,
+          0.24000968039035797
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "PRP_ODD_PRODUCT\\Clips\\PRP_ODD_PRODUCT__ShortStep.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        98098
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        6
+      ],
+      "triangles": 600,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "PRP_ODD_PRODUCT_Rig|Scene",
+          "range": [
+            2.0,
+            32.0
+          ],
+          "curves": 69
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.052508991211652756,
+          -0.040039077401161194,
+          0.0002448139130137861
+        ],
+        "max": [
+          0.05258428305387497,
+          0.05692232772707939,
+          0.24000968039035797
+        ]
+      },
+      "pass": true
+    },
+    {
+      "file": "PRP_ODD_PRODUCT\\Clips\\PRP_ODD_PRODUCT__Turn180.fbx",
+      "fbx_version": 7400,
+      "embedded_texture_bytes": [
+        98098
+      ],
+      "meshes": 1,
+      "rigs": 1,
+      "bones": [
+        6
+      ],
+      "triangles": 600,
+      "uv_layers": [
+        1
+      ],
+      "unweighted": 0,
+      "image_decode_ok": true,
+      "actions": [
+        {
+          "name": "PRP_ODD_PRODUCT_Rig|Scene",
+          "range": [
+            2.0,
+            62.0
+          ],
+          "curves": 69
+        }
+      ],
+      "rest_bounds_m": {
+        "min": [
+          -0.052508991211652756,
+          -0.040039077401161194,
+          0.0002448139130137861
+        ],
+        "max": [
+          0.05258428305387497,
+          0.05692232772707939,
+          0.24000968039035797
+        ]
+      },
+      "pass": true
+    }
+  ]
+}

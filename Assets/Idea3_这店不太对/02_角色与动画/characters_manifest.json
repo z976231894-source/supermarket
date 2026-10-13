@@ -1,0 +1,1266 @@
+[
+  {
+    "asset_id": "CHR_CLERK_COW",
+    "collection": "CHR_CLERK_COW",
+    "mesh": "CHR_CLERK_COW_Mesh",
+    "rig": "CHR_CLERK_COW_Rig",
+    "height_m": 2.2,
+    "geometry_original_triangles": 11050,
+    "geometry_runtime_triangles": 1500,
+    "vertex_count": 2988,
+    "bones": 20,
+    "unweighted_vertices": 0,
+    "weight_sum_min": 0.9999991059303284,
+    "weight_sum_max": 1.0000000298023224,
+    "maximum_weights_per_vertex": 2,
+    "uv_layers": 1,
+    "basecolor_size": [
+      256,
+      256
+    ],
+    "texture_embedded": true,
+    "original_basecolor_preserved": true,
+    "coordinates": "meters, Z up, front -Y, soles at Z0 in rest",
+    "fbx_export": "-Z forward, Y up; Unity Generic; Apply Root Motion off for in-place clips",
+    "default_pose": "Idle arms down",
+    "source_revision": "User Tripo ZIP, original geometry-derived automatic LOD; no regenerated character",
+    "clips": [
+      {
+        "name": "Idle",
+        "file": "Clips/CHR_CLERK_COW__Idle.fbx",
+        "frames": [
+          1,
+          121
+        ],
+        "fps": 30,
+        "duration_seconds": 4,
+        "loop": true,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": true,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          },
+          {
+            "frame": 30,
+            "min": [
+              -0.5058382749557495,
+              -0.6739522218704224,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.8973820805549622,
+              2.203094482421875
+            ]
+          },
+          {
+            "frame": 60,
+            "min": [
+              -0.5058382749557495,
+              -0.666748583316803,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895511269569397,
+              2.2033729553222656
+            ]
+          },
+          {
+            "frame": 90,
+            "min": [
+              -0.5058382749557495,
+              -0.6583878397941589,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.8875601887702942,
+              2.2035701274871826
+            ]
+          },
+          {
+            "frame": 121,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "Look",
+        "file": "Clips/CHR_CLERK_COW__Look.fbx",
+        "frames": [
+          1,
+          91
+        ],
+        "fps": 30,
+        "duration_seconds": 3,
+        "loop": false,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          },
+          {
+            "frame": 22,
+            "min": [
+              -0.5058382749557495,
+              -0.6330116391181946,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.897384762763977,
+              2.203270435333252
+            ]
+          },
+          {
+            "frame": 45,
+            "min": [
+              -0.5058382749557495,
+              -0.5899876952171326,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895591139793396,
+              2.2033371925354004
+            ]
+          },
+          {
+            "frame": 68,
+            "min": [
+              -0.5058382749557495,
+              -0.6654825210571289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.8875521421432495,
+              2.2037880420684814
+            ]
+          },
+          {
+            "frame": 91,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "DeepBow",
+        "file": "Clips/CHR_CLERK_COW__DeepBow.fbx",
+        "frames": [
+          1,
+          121
+        ],
+        "fps": 30,
+        "duration_seconds": 4,
+        "loop": false,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          },
+          {
+            "frame": 30,
+            "min": [
+              -0.5058382749557495,
+              -0.9734851121902466,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.8973820805549622,
+              1.93281888961792
+            ]
+          },
+          {
+            "frame": 60,
+            "min": [
+              -0.5058382749557495,
+              -1.0153849124908447,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895511269569397,
+              1.6078248023986816
+            ]
+          },
+          {
+            "frame": 90,
+            "min": [
+              -0.5058382749557495,
+              -0.9391087293624878,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.8875601887702942,
+              2.0545871257781982
+            ]
+          },
+          {
+            "frame": 121,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "Welcome",
+        "file": "Clips/CHR_CLERK_COW__Welcome.fbx",
+        "frames": [
+          1,
+          109
+        ],
+        "fps": 30,
+        "duration_seconds": 3.6,
+        "loop": false,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          },
+          {
+            "frame": 27,
+            "min": [
+              -0.5058382749557495,
+              -0.6660669445991516,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.7762609720230103,
+              0.8973822593688965,
+              2.203151226043701
+            ]
+          },
+          {
+            "frame": 54,
+            "min": [
+              -0.5058382749557495,
+              -0.6536385416984558,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.9701583981513977,
+              0.8955381512641907,
+              2.203378438949585
+            ]
+          },
+          {
+            "frame": 81,
+            "min": [
+              -0.5058382749557495,
+              -0.6497195363044739,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.89566570520401,
+              0.8875634670257568,
+              2.2035186290740967
+            ]
+          },
+          {
+            "frame": 109,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "Point",
+        "file": "Clips/CHR_CLERK_COW__Point.fbx",
+        "frames": [
+          1,
+          109
+        ],
+        "fps": 30,
+        "duration_seconds": 3.6,
+        "loop": false,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          },
+          {
+            "frame": 27,
+            "min": [
+              -0.5058382749557495,
+              -0.6660669445991516,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.7735180854797363,
+              0.8973822593688965,
+              2.203151226043701
+            ]
+          },
+          {
+            "frame": 54,
+            "min": [
+              -0.5058382749557495,
+              -0.6536385416984558,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.9338614344596863,
+              0.8955381512641907,
+              2.203378438949585
+            ]
+          },
+          {
+            "frame": 81,
+            "min": [
+              -0.5058382749557495,
+              -0.6497195363044739,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.8871229887008667,
+              0.8875634670257568,
+              2.2035186290740967
+            ]
+          },
+          {
+            "frame": 109,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "SmallBow",
+        "file": "Clips/CHR_CLERK_COW__SmallBow.fbx",
+        "frames": [
+          1,
+          91
+        ],
+        "fps": 30,
+        "duration_seconds": 3,
+        "loop": false,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          },
+          {
+            "frame": 22,
+            "min": [
+              -0.5058382749557495,
+              -0.739213228225708,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.897384762763977,
+              2.1963891983032227
+            ]
+          },
+          {
+            "frame": 45,
+            "min": [
+              -0.5058382749557495,
+              -0.8758470416069031,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895591139793396,
+              2.1357955932617188
+            ]
+          },
+          {
+            "frame": 68,
+            "min": [
+              -0.5058382749557495,
+              -0.837486982345581,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.8875521421432495,
+              2.1622579097747803
+            ]
+          },
+          {
+            "frame": 91,
+            "min": [
+              -0.5058382749557495,
+              -0.6663410067558289,
+              -2.3283064365386963e-10
+            ],
+            "max": [
+              0.5307467579841614,
+              0.895261287689209,
+              2.203385591506958
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      }
+    ],
+    "remaining_engine_validation": [
+      "Unity import in actual project not executed",
+      "Cloth/joint silhouette must be checked at target in-game camera",
+      "Faces are original fixed texture; no fabricated expression blendshapes"
+    ],
+    "blend": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\02_角色与动画\\CHR_CLERK_COW\\CHR_CLERK_COW_Rigged.blend"
+  },
+  {
+    "asset_id": "CHR_BOX_CUSTOMER",
+    "collection": "CHR_BOX_CUSTOMER",
+    "mesh": "CHR_BOX_CUSTOMER_Mesh",
+    "rig": "CHR_BOX_CUSTOMER_Rig",
+    "height_m": 1.0,
+    "geometry_original_triangles": 9536,
+    "geometry_runtime_triangles": 1200,
+    "vertex_count": 3525,
+    "bones": 10,
+    "unweighted_vertices": 0,
+    "weight_sum_min": 0.9999999701976776,
+    "weight_sum_max": 1.0000000298023224,
+    "maximum_weights_per_vertex": 2,
+    "uv_layers": 1,
+    "basecolor_size": [
+      256,
+      256
+    ],
+    "texture_embedded": true,
+    "original_basecolor_preserved": true,
+    "coordinates": "meters, Z up, front -Y, soles at Z0 in rest",
+    "fbx_export": "-Z forward, Y up; Unity Generic; Apply Root Motion off for in-place clips",
+    "default_pose": "Idle arms down",
+    "source_revision": "User Tripo ZIP, original geometry-derived automatic LOD; no regenerated character",
+    "clips": [
+      {
+        "name": "Idle",
+        "file": "Clips/CHR_BOX_CUSTOMER__Idle.fbx",
+        "frames": [
+          1,
+          121
+        ],
+        "fps": 30,
+        "duration_seconds": 4,
+        "loop": true,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": true,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.4849697947502136,
+              -0.2132771611213684,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45680147409439087,
+              0.3390691876411438,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 30,
+            "min": [
+              -0.4852064847946167,
+              -0.21616627275943756,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.4564209580421448,
+              0.34226417541503906,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 60,
+            "min": [
+              -0.4849846065044403,
+              -0.21342961490154266,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.4567837417125702,
+              0.3392382860183716,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 90,
+            "min": [
+              -0.48463869094848633,
+              -0.21320848166942596,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45709311962127686,
+              0.33580827713012695,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 121,
+            "min": [
+              -0.4849697947502136,
+              -0.2132771611213684,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45680147409439087,
+              0.3390691876411438,
+              1.0014290809631348
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "ShortStep",
+        "file": "Clips/CHR_BOX_CUSTOMER__ShortStep.fbx",
+        "frames": [
+          1,
+          37
+        ],
+        "fps": 30,
+        "duration_seconds": 1.2,
+        "loop": true,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": true,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.4849697947502136,
+              -0.2132771611213684,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45680147409439087,
+              0.3390691876411438,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 9,
+            "min": [
+              -0.48520392179489136,
+              -0.22776474058628082,
+              -0.0018209554255008698
+            ],
+            "max": [
+              0.45642685890197754,
+              0.33058226108551025,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 18,
+            "min": [
+              -0.4850177466869354,
+              -0.21414436399936676,
+              -0.0009858463890850544
+            ],
+            "max": [
+              0.45674166083335876,
+              0.33926767110824585,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 27,
+            "min": [
+              -0.48464399576187134,
+              -0.22484123706817627,
+              0.006080298218876123
+            ],
+            "max": [
+              0.45708972215652466,
+              0.3242156505584717,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 37,
+            "min": [
+              -0.4849697947502136,
+              -0.2132771611213684,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45680147409439087,
+              0.3390691876411438,
+              1.0014290809631348
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "ThreeStepTurn",
+        "file": "Clips/CHR_BOX_CUSTOMER__ThreeStepTurn.fbx",
+        "frames": [
+          1,
+          109
+        ],
+        "fps": 30,
+        "duration_seconds": 3.6,
+        "loop": false,
+        "endpoint_matrix_max_delta": 2.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 180,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.4849697947502136,
+              -0.2132771611213684,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45680147409439087,
+              0.3390691876411438,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 27,
+            "min": [
+              -0.4852064847946167,
+              -0.2263665348291397,
+              0.006015971302986145
+            ],
+            "max": [
+              0.4564211368560791,
+              0.3320619761943817,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 54,
+            "min": [
+              -0.45797160267829895,
+              -0.2761416435241699,
+              -0.0009857389377430081
+            ],
+            "max": [
+              0.42422839999198914,
+              0.4003180265426636,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 81,
+            "min": [
+              -0.39709994196891785,
+              -0.43963316082954407,
+              -0.002036185935139656
+            ],
+            "max": [
+              0.29324668645858765,
+              0.415622740983963,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 109,
+            "min": [
+              -0.45680153369903564,
+              -0.3390691876411438,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.4849698543548584,
+              0.2132771611213684,
+              1.0014290809631348
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "TurnTicket",
+        "file": "Clips/CHR_BOX_CUSTOMER__TurnTicket.fbx",
+        "frames": [
+          1,
+          121
+        ],
+        "fps": 30,
+        "duration_seconds": 4,
+        "loop": false,
+        "endpoint_matrix_max_delta": 2.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 180,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.4849697947502136,
+              -0.2132771611213684,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.45680147409439087,
+              0.3390691876411438,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 30,
+            "min": [
+              -0.3846881687641144,
+              -0.6635934114456177,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.2641790509223938,
+              0.4475746750831604,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 60,
+            "min": [
+              -0.4568556547164917,
+              -0.3385377526283264,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.6983679533004761,
+              0.21286797523498535,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 90,
+            "min": [
+              -0.45709311962127686,
+              -0.3358082175254822,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.6783674955368042,
+              0.21320849657058716,
+              1.0014290809631348
+            ]
+          },
+          {
+            "frame": 121,
+            "min": [
+              -0.45680153369903564,
+              -0.3390691876411438,
+              -5.268495442578569e-05
+            ],
+            "max": [
+              0.4849698543548584,
+              0.2132771611213684,
+              1.0014290809631348
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      }
+    ],
+    "remaining_engine_validation": [
+      "Unity import in actual project not executed",
+      "Cloth/joint silhouette must be checked at target in-game camera",
+      "Faces are original fixed texture; no fabricated expression blendshapes"
+    ],
+    "blend": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\02_角色与动画\\CHR_BOX_CUSTOMER\\CHR_BOX_CUSTOMER_Rigged.blend"
+  },
+  {
+    "asset_id": "PRP_ODD_PRODUCT",
+    "collection": "PRP_ODD_PRODUCT",
+    "mesh": "PRP_ODD_PRODUCT_Mesh",
+    "rig": "PRP_ODD_PRODUCT_Rig",
+    "height_m": 0.24,
+    "geometry_original_triangles": 2344,
+    "geometry_runtime_triangles": 600,
+    "vertex_count": 859,
+    "bones": 6,
+    "unweighted_vertices": 0,
+    "weight_sum_min": 0.9999999701976776,
+    "weight_sum_max": 1.0000000298023224,
+    "maximum_weights_per_vertex": 2,
+    "uv_layers": 1,
+    "basecolor_size": [
+      256,
+      256
+    ],
+    "texture_embedded": true,
+    "original_basecolor_preserved": true,
+    "coordinates": "meters, Z up, front -Y, soles at Z0 in rest",
+    "fbx_export": "-Z forward, Y up; Unity Generic; Apply Root Motion off for in-place clips",
+    "default_pose": "standing",
+    "source_revision": "User Tripo ZIP, original geometry-derived automatic LOD; no regenerated character",
+    "clips": [
+      {
+        "name": "Idle",
+        "file": "Clips/PRP_ODD_PRODUCT__Idle.fbx",
+        "frames": [
+          1,
+          61
+        ],
+        "fps": 30,
+        "duration_seconds": 2,
+        "loop": true,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": true,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 15,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 30,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 45,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 61,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "ShortStep",
+        "file": "Clips/PRP_ODD_PRODUCT__ShortStep.fbx",
+        "frames": [
+          1,
+          31
+        ],
+        "fps": 30,
+        "duration_seconds": 1,
+        "loop": true,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": true,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 7,
+            "min": [
+              -0.052508991211652756,
+              -0.05812925472855568,
+              -0.0004427319800015539
+            ],
+            "max": [
+              0.05258428305387497,
+              0.038832150399684906,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 15,
+            "min": [
+              -0.052508991211652756,
+              -0.04090363159775734,
+              -0.0001286100596189499
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056057773530483246,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 23,
+            "min": [
+              -0.052508991211652756,
+              -0.05982056260108948,
+              -0.0002403592225164175
+            ],
+            "max": [
+              0.05258428305387497,
+              0.037140846252441406,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 31,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "Turn180",
+        "file": "Clips/PRP_ODD_PRODUCT__Turn180.fbx",
+        "frames": [
+          1,
+          61
+        ],
+        "fps": 30,
+        "duration_seconds": 2,
+        "loop": false,
+        "endpoint_matrix_max_delta": 2.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 180,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 15,
+            "min": [
+              -0.06531263887882233,
+              -0.052120719105005264,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.061042916029691696,
+              0.06840717047452927,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 30,
+            "min": [
+              -0.05955299362540245,
+              -0.05537702888250351,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.042562440037727356,
+              0.05457057058811188,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 45,
+            "min": [
+              -0.06290119886398315,
+              -0.06620265543460846,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.059481751173734665,
+              0.04971281439065933,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 61,
+            "min": [
+              -0.05258428305387497,
+              -0.056922316551208496,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05250898376107216,
+              0.04003908485174179,
+              0.24000968039035797
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      },
+      {
+        "name": "PeekBack",
+        "file": "Clips/PRP_ODD_PRODUCT__PeekBack.fbx",
+        "frames": [
+          1,
+          49
+        ],
+        "fps": 30,
+        "duration_seconds": 1.6,
+        "loop": false,
+        "endpoint_matrix_max_delta": 0.0,
+        "loop_pass": null,
+        "root_translation": "none; drive path in game",
+        "root_heading_degrees": 0,
+        "sampled_deformation_bounds": [
+          {
+            "frame": 1,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 12,
+            "min": [
+              -0.06392896175384521,
+              -0.05077051371335983,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.060194648802280426,
+              0.06721609830856323,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 24,
+            "min": [
+              -0.07543236017227173,
+              -0.06275788694620132,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.06586822867393494,
+              0.07649271190166473,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 36,
+            "min": [
+              -0.06581646203994751,
+              -0.05261560529470444,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.06134592741727829,
+              0.06883746385574341,
+              0.24000968039035797
+            ]
+          },
+          {
+            "frame": 49,
+            "min": [
+              -0.052508991211652756,
+              -0.04003908485174179,
+              0.00024481111904606223
+            ],
+            "max": [
+              0.05258428305387497,
+              0.056922320276498795,
+              0.24000968039035797
+            ]
+          }
+        ],
+        "nonfinite_vertices": 0
+      }
+    ],
+    "remaining_engine_validation": [
+      "Unity import in actual project not executed",
+      "Cloth/joint silhouette must be checked at target in-game camera",
+      "Faces are original fixed texture; no fabricated expression blendshapes"
+    ],
+    "blend": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\07_技术交付\\02_角色与动画\\PRP_ODD_PRODUCT\\PRP_ODD_PRODUCT_Rigged.blend"
+  }
+]

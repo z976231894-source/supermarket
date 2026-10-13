@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-09-29T17:10:28.495Z",
+  "all_pass": true,
+  "levels": [
+    {
+      "id": "L1",
+      "blend_exists": true,
+      "scene_manifest_exists": true,
+      "expected_count": 4,
+      "actual_trigger_count": 4,
+      "unresolved_trigger_ids": [],
+      "unresolved_cue_ids": [],
+      "unexpected_audio_owners": [],
+      "pass": true
+    },
+    {
+      "id": "L2",
+      "blend_exists": true,
+      "scene_manifest_exists": true,
+      "expected_count": 5,
+      "actual_trigger_count": 5,
+      "unresolved_trigger_ids": [],
+      "unresolved_cue_ids": [],
+      "unexpected_audio_owners": [],
+      "pass": true
+    },
+    {
+      "id": "L3",
+      "blend_exists": true,
+      "scene_manifest_exists": true,
+      "expected_count": 5,
+      "actual_trigger_count": 5,
+      "unresolved_trigger_ids": [],
+      "unresolved_cue_ids": [],
+      "unexpected_audio_owners": [],
+      "pass": true
+    }
+  ],
+  "scope": "Read-only cross-reference against final level manifests; no level file changed."
+}

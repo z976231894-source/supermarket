@@ -1,0 +1,1703 @@
+{
+  "version": "2026-09-30-three-level-free-exploration",
+  "entrypoint": "README_先看这里.md",
+  "scope": "Art assets; runtime game logic and Unity validation not included",
+  "files_count_excluding_manifest": 324,
+  "total_bytes_excluding_manifest": null,
+  "levels": 3,
+  "optional_gags": [
+    4,
+    5,
+    5
+  ],
+  "source_zip_checks": [
+    {
+      "file": "方块箭头指示牌3d模型.zip",
+      "sha256": "6032bc583b911ad3ed0ae28c720a8bab7d9d6e58075c2cab758ba96fff85dae0",
+      "original_unchanged": true
+    },
+    {
+      "file": "木托盘3d模型.zip",
+      "sha256": "ca2660a5ae316918cfeae9ee2f379b8654a9b1a188b2a570c62d5b46cd179d7c",
+      "original_unchanged": true
+    },
+    {
+      "file": "奶盒3d模型.zip",
+      "sha256": "24a7a8a6124b046b14c6667e775b40f96e4c99cddd4014e03e99b5aa0c5104c8",
+      "original_unchanged": true
+    },
+    {
+      "file": "三维长颈鹿模型.zip",
+      "sha256": "99d0e5d0d5bbcc5d51a2890866fad91ff1907f5aea4fbf602ac500523fc7bcdd",
+      "original_unchanged": true
+    },
+    {
+      "file": "体素秤3d模型.zip",
+      "sha256": "1b61b3886b67b0868a4be2e8f032bf8e2acee87c1c90ca8f767cd7dcb336aa60",
+      "original_unchanged": true
+    },
+    {
+      "file": "体素盒子角色3d模型.zip",
+      "sha256": "233323a68e301af3fa93c1baf4a82d8b68b7b80b48a390f144482e7c6dc4f44f",
+      "original_unchanged": true
+    },
+    {
+      "file": "像素方块面板3d模型.zip",
+      "sha256": "d37eec5a59dad4e6d27f759b1dc6848f9403a162f583ae17a422b1d063ba9a49",
+      "original_unchanged": true
+    },
+    {
+      "file": "像素风电脑3d模型.zip",
+      "sha256": "55f3920ffc3628cdccdb30db65868c946e9661a29939d84bddd520fa641796a3",
+      "original_unchanged": true
+    },
+    {
+      "file": "像素风箱子3d模型.zip",
+      "sha256": "a4ac826c7cd5205185b6ea67e50810bceecc3977e34d25dd733e49e1be8ffa4c",
+      "original_unchanged": true
+    },
+    {
+      "file": "压力机3d模型.zip",
+      "sha256": "e7f7f36abff2dbf633dee82f6469f703200e53ded5ee4bac803298782813492c",
+      "original_unchanged": true
+    },
+    {
+      "file": "tripo_convert_80b7000e-a665-4544-b0ec-fc2999ea92de.zip",
+      "sha256": "88cc5e8cb6210b66f64c94ba3e9cba8749ab87081808cd061762135bfc02a9e7",
+      "original_unchanged": true
+    },
+    {
+      "file": "tripo_convert_98650215-92ac-43c4-ba3c-b2c00c9dcfd3.zip",
+      "sha256": "cb47c27da784d0b6593f3031b47b4223e8fb11be83f0582fc6f9cc83f1c8632f",
+      "original_unchanged": true
+    },
+    {
+      "file": "tripo_convert_ef739bcb-c0c6-43a3-bd92-040da070e303.zip",
+      "sha256": "4b034e3116b639a7b6a44dcd4f1b4c2fc078bfe72ce90d73c0776300265eae9b",
+      "original_unchanged": true
+    }
+  ],
+  "blender_roundtrip_pass": true,
+  "files": [
+    {
+      "path": "00_需求与参考/当前执行版本.md",
+      "bytes": 1461,
+      "sha256": "5aba04167d514bd871d6cb86c125cbd266985b0cb7d8230f67a0f5a12d0b92a7"
+    },
+    {
+      "path": "00_需求与参考/整店美术目标_概念图非实景.png",
+      "bytes": 2066747,
+      "sha256": "aad8140b1dc67a8c0deb86926641f78c6e60305d7fec9fc8228e3ea43a4934c4"
+    },
+    {
+      "path": "01_场景与模型/Idea3_这店不太对_完整场景.blend",
+      "bytes": 3206198,
+      "sha256": "fe75bb3547c1112fbd99608e39165e489caa6cd27cfa5f67323b6940e28a4ccf"
+    },
+    {
+      "path": "01_场景与模型/Idea3_Prop_Library.blend",
+      "bytes": 1630905,
+      "sha256": "7bbe35dd090f0da79b20288888677d58f8715c37fbf27904c7e15c014e1eaa9a"
+    },
+    {
+      "path": "01_场景与模型/Levels/L1_便民店初访/关卡美术接入说明.md",
+      "bytes": 1833,
+      "sha256": "7f6b94d1cea0cc8e9ae178cdb453ab35b55b6c41f199402084cf8d6c614d9361"
+    },
+    {
+      "path": "01_场景与模型/Levels/L1_便民店初访/character-replacement-map.json",
+      "bytes": 1471,
+      "sha256": "78f15f7b31b658034e6ad1598668c36378c68ea6dd370cda7dac6179b0516d32"
+    },
+    {
+      "path": "01_场景与模型/Levels/L1_便民店初访/L1_便民店初访.blend",
+      "bytes": 2749511,
+      "sha256": "6e687b437aa5d6892e084fb34fe198f8cbf194fbd07e18b464f318fdbafca35f"
+    },
+    {
+      "path": "01_场景与模型/Levels/L1_便民店初访/L1_便民店初访.fbx",
+      "bytes": 5925372,
+      "sha256": "7ee39bd74dfe59f27f55583b0972131c52a3523fbdb9cd8cd77b638d70f44b73"
+    },
+    {
+      "path": "01_场景与模型/Levels/L1_便民店初访/L1_便民店初访.glb",
+      "bytes": 5214104,
+      "sha256": "69a0c6ec4fc19db2c51fab2ccdd08b08882ed9449151ba3924fffeb523a4a70a"
+    },
+    {
+      "path": "01_场景与模型/Levels/L1_便民店初访/scene-manifest.json",
+      "bytes": 28857,
+      "sha256": "cf2d74c2f6fd9afb96348e6268e879a24ec9493c7eaf98fb6c6a06ca1195db93"
+    },
+    {
+      "path": "01_场景与模型/Levels/L2_后仓夜游/关卡美术接入说明.md",
+      "bytes": 1828,
+      "sha256": "8fd5919d556c7348d95d247840e93baa7793f056569cfaf406b2550cbd5a9332"
+    },
+    {
+      "path": "01_场景与模型/Levels/L2_后仓夜游/character-replacement-map.json",
+      "bytes": 2428,
+      "sha256": "ac3385fe73f347fb5805e99084e3fe66a41bcd95769a424ae70d429826fb4e95"
+    },
+    {
+      "path": "01_场景与模型/Levels/L2_后仓夜游/L2_后仓夜游.blend",
+      "bytes": 2631063,
+      "sha256": "f32821b50f92646912986e5fdc504db9fb99f5b7d791a12b80c694e5fc3fa6a6"
+    },
+    {
+      "path": "01_场景与模型/Levels/L2_后仓夜游/L2_后仓夜游.fbx",
+      "bytes": 5253612,
+      "sha256": "415f19102cbac87deccf0e6664c789839a9be6f92b2936005348af82ef65da99"
+    },
+    {
+      "path": "01_场景与模型/Levels/L2_后仓夜游/L2_后仓夜游.glb",
+      "bytes": 6371140,
+      "sha256": "980e5fb1de5ee77c0b2be1c0e1e49f2df82e4029be5542760d7a43bd3544dc5d"
+    },
+    {
+      "path": "01_场景与模型/Levels/L2_后仓夜游/scene-manifest.json",
+      "bytes": 50151,
+      "sha256": "630febbb8d0ae4ec46dbf17b43660cb7be375c736bbc9f2ab6a4d4bcde5ed6a6"
+    },
+    {
+      "path": "01_场景与模型/Levels/L3_整店不对劲/关卡美术接入说明.md",
+      "bytes": 1834,
+      "sha256": "58acfc004998cf792d2e840d963e3becf0578fbfb80568c377bda164e294c3d7"
+    },
+    {
+      "path": "01_场景与模型/Levels/L3_整店不对劲/character-replacement-map.json",
+      "bytes": 4412,
+      "sha256": "c9298596e436fe75584ef7e4a297fdf373b3a6466f221bea3b077232c82a138a"
+    },
+    {
+      "path": "01_场景与模型/Levels/L3_整店不对劲/L3_整店不对劲.blend",
+      "bytes": 3788408,
+      "sha256": "46866c05ea04877392ca66a8351185e9cd9a463f996dd7e900a2423d449caece"
+    },
+    {
+      "path": "01_场景与模型/Levels/L3_整店不对劲/L3_整店不对劲.fbx",
+      "bytes": 11024956,
+      "sha256": "4c878fd9f48f021b0672689f391dbb83050ffb69d53f3b2ce8dcb7d7095fb82c"
+    },
+    {
+      "path": "01_场景与模型/Levels/L3_整店不对劲/L3_整店不对劲.glb",
+      "bytes": 11901576,
+      "sha256": "2dbb118c881cec21b43ea1c3103ab638b3d6f4cc589d09efb1bb93280789d55f"
+    },
+    {
+      "path": "01_场景与模型/Levels/L3_整店不对劲/scene-manifest.json",
+      "bytes": 64934,
+      "sha256": "96c26200c764548c7a814efbf0129334f4768a52ace3feebdefc4353dca076c4"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_CARGO_CRATE/PRP_CARGO_CRATE.blend",
+      "bytes": 230865,
+      "sha256": "f13d51f821aaea0cbb6e70da2cec17ddf3e845911b899c549f28a959f8a40562"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_CARGO_CRATE/PRP_CARGO_CRATE.fbx",
+      "bytes": 211436,
+      "sha256": "5df6f72d16c8815f6db9e11ac4de28a91a314d36880ac750474d4c5011f3c9a0"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_FRIDGE/PRP_FRIDGE.blend",
+      "bytes": 234083,
+      "sha256": "f77101c1a0daf0538bf136105a870c9d1097e03dffe375a60b8f64d7308ebb63"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_FRIDGE/PRP_FRIDGE.fbx",
+      "bytes": 259852,
+      "sha256": "cbe7e7a7c82b87d08a8159674884b9fe3ea95a0212838304a1e68bec3700317b"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_HAND_CART/PRP_HAND_CART.blend",
+      "bytes": 226864,
+      "sha256": "1c648a250c8b8c5491076b0e629070be9c77bf0efe1de00a29ba2497e2190e6e"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_HAND_CART/PRP_HAND_CART.fbx",
+      "bytes": 216764,
+      "sha256": "0d4f61777ad387d826bc7f9b390c2279d6e5358c3c9040ab504ac5288e95d756"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_LOADING_PALLET/PRP_LOADING_PALLET.blend",
+      "bytes": 205066,
+      "sha256": "1c162653b4e92a68568fa697eaa2b731326dc22baec3d6da35c3981829412270"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_LOADING_PALLET/PRP_LOADING_PALLET.fbx",
+      "bytes": 171292,
+      "sha256": "1aa3ed89b27165ff7710ac36c63327c43650a4f495b252767c53c355d7aa762c"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_REGISTER_FACE/PRP_REGISTER_FACE.blend",
+      "bytes": 231810,
+      "sha256": "b65ce90359bea7adf9fe0430b1d2621d8a1d50e7e522d3cd660bc822d71363e5"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_REGISTER_FACE/PRP_REGISTER_FACE.fbx",
+      "bytes": 216636,
+      "sha256": "46f5e605d05484c517d9dc9948ac2f481af5cd7e268454310aa9d2c988228a83"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_ROUTE_SIGN_SET/PRP_ROUTE_SIGN_SET.blend",
+      "bytes": 216440,
+      "sha256": "11317be6c4b75cb905470bd14f41f80dcac97218a531bbaa1494ced63569ef9a"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_ROUTE_SIGN_SET/PRP_ROUTE_SIGN_SET.fbx",
+      "bytes": 180828,
+      "sha256": "f0420a99f2c5fa5c9c52bccc72baed982b3995f73fdec49d7cdde1bd3de981f0"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_SHIFT_CLIPBOARD/PRP_SHIFT_CLIPBOARD.blend",
+      "bytes": 185096,
+      "sha256": "c64a49cc9ed62be6b488d6b75f9cdb373b5e31890abc1a6e35e786a5bf46e2cb"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_SHIFT_CLIPBOARD/PRP_SHIFT_CLIPBOARD.fbx",
+      "bytes": 154028,
+      "sha256": "7d075186b4c508c6e291ad85bbdce3b84ba0ed263acb3a656bd90be6bbfc12b1"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_STAMP_STATION/PRP_STAMP_STATION.blend",
+      "bytes": 235980,
+      "sha256": "89a9e80e10397c9a5d6746a4be46612b99113f4639045c4580a49d43ee060782"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_STAMP_STATION/PRP_STAMP_STATION.fbx",
+      "bytes": 217116,
+      "sha256": "24c19e9b30e153199595447dc5b22d73a25c35386d17434210af12fe68281d55"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_SYMBOL_CARD_SET/PRP_SYMBOL_CARD_SET.blend",
+      "bytes": 222915,
+      "sha256": "210973c022531a6ddd374b4b1c8868d44ad0ffbe37204f1b8e85276a5fed54b5"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_SYMBOL_CARD_SET/PRP_SYMBOL_CARD_SET.fbx",
+      "bytes": 178412,
+      "sha256": "e8bbf268c16074ec466a7631f5b8a206abdb41ab479cfc42244253e3dfe43bdc"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_WEIGH_SCALE/PRP_WEIGH_SCALE.blend",
+      "bytes": 212468,
+      "sha256": "bc22733a9d08e53400aa98b0b8154003c76fd7120a92e28a26a61a96c45986bf"
+    },
+    {
+      "path": "01_场景与模型/Models/PRP_WEIGH_SCALE/PRP_WEIGH_SCALE.fbx",
+      "bytes": 186700,
+      "sha256": "629f251dc01c58ff1154ff394b5808369c6058f19dbe2696507307056d4d803f"
+    },
+    {
+      "path": "01_场景与模型/processed-models.json",
+      "bytes": 8861,
+      "sha256": "8def32543ea140959c5a1f5f5c18a071132cac9a3e94e4409a45b8e3db7bcf60"
+    },
+    {
+      "path": "01_场景与模型/scene-manifest.json",
+      "bytes": 29809,
+      "sha256": "fd102709b3441aa79c629bc2d22ab24a80dbeab5c93e0fa8eaad1467fadb18df"
+    },
+    {
+      "path": "01_场景与模型/Textures/AI商品包装来源.md",
+      "bytes": 1993,
+      "sha256": "c6fd6b1f89e895583d4365b4b1ff5a83fe18e70aca9b81a0cb8b1435f5196b75"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_CARGO_CRATE_BaseColor.png",
+      "bytes": 94283,
+      "sha256": "18277fc5585317b987afb820119d21f126e6b91fad2a47d1d5075eddaeaf8671"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_FRIDGE_BaseColor.png",
+      "bytes": 106892,
+      "sha256": "a0b0eb74c840099d9fc2197f36f722a77da6776d57e6e3a4d2ad771eeb638184"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_HAND_CART_BaseColor.png",
+      "bytes": 102457,
+      "sha256": "d947c6a67c62acf6d2b1fa1d9fa948d6cc4d8d531c6634a99c98e7de5a73ffaa"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_LOADING_PALLET_BaseColor.png",
+      "bytes": 90563,
+      "sha256": "ff3131a9c750036ea18aa9ab3bc3e858334336cf1105bc02eff4474976950a62"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_REGISTER_FACE_BaseColor.png",
+      "bytes": 94974,
+      "sha256": "7710a4d05b6a4e4f6b6f4c3c3161d88baf32825f89dc682d3551ab3a9f742eb1"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_ROUTE_SIGN_SET_BaseColor.png",
+      "bytes": 96469,
+      "sha256": "c93e688f4898219faf4c9ddcc327d4f818c1bf9a4c1a2bfb80258ec4fe3a5c85"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_SHIFT_CLIPBOARD_BaseColor.png",
+      "bytes": 95524,
+      "sha256": "b8736cf81029ca8a25b91ef870b366fbd286c7c75918804f72beaa4c72f314ff"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_STAMP_STATION_BaseColor.png",
+      "bytes": 93083,
+      "sha256": "16b8ee59b0f4a3be528c3b736a928af27bd790987c8966c5150b799f41953212"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_SYMBOL_CARD_SET_BaseColor.png",
+      "bytes": 96962,
+      "sha256": "2740cdfb0648ce6111ff33092e8e35ba3420e0ee120b132e25d061777c374896"
+    },
+    {
+      "path": "01_场景与模型/Textures/PRP_WEIGH_SCALE_BaseColor.png",
+      "bytes": 84007,
+      "sha256": "aea4e4333a56645075daba534c64135ec27b6b79ecfa2f4c4b1d8f8b99275cca"
+    },
+    {
+      "path": "01_场景与模型/Textures/Shelf_Packaging_AI_Source.png",
+      "bytes": 2171044,
+      "sha256": "b0c5004af24034b01c60561e37748d0804c2311503d7d779bd76756bb8977aea"
+    },
+    {
+      "path": "01_场景与模型/Textures/Shelf_Packaging_Atlas_256.png",
+      "bytes": 140694,
+      "sha256": "45072be39e3529df571a942a0283031cf721ae5ed18269abd96ebfc1a0027001"
+    },
+    {
+      "path": "02_角色与动画/角色绑定与动画接入说明.md",
+      "bytes": 7257,
+      "sha256": "8df3d2c0de1d95ef40a72d0361abc29361b5922ab12ff3755670e6a7fd3cf8ac"
+    },
+    {
+      "path": "02_角色与动画/角色动作速览.html",
+      "bytes": 2462,
+      "sha256": "1b871edb81fc01e91db205e5d70e630aba76c50a62095591a748670fe0e7c908"
+    },
+    {
+      "path": "02_角色与动画/制作源码/character_build.py",
+      "bytes": 18420,
+      "sha256": "3a5a66d1e24bac430c25e98e29387d4556267df08f54b41b8ee64d3293ee3fa4"
+    },
+    {
+      "path": "02_角色与动画/制作源码/character_finish.py",
+      "bytes": 2005,
+      "sha256": "f843d39eb7e4c125eb5adb616a83ce6874dd40e7fed6cc5af1471cee6f411e74"
+    },
+    {
+      "path": "02_角色与动画/制作源码/character_make_previews.py",
+      "bytes": 501,
+      "sha256": "c9946d3f23112d8663c14e3067760dd933cec566fd17658ee73a3bc91b0b7664"
+    },
+    {
+      "path": "02_角色与动画/制作源码/character_preview.py",
+      "bytes": 934,
+      "sha256": "117cdf12d67820396292100e0782329f266c8f51e716bc53752941f19d635663"
+    },
+    {
+      "path": "02_角色与动画/制作源码/character_verify.py",
+      "bytes": 2192,
+      "sha256": "82ec8a1976485e5b847a89a2b4556cf3de44c8e723545cdfd690c7be90a1d2b3"
+    },
+    {
+      "path": "02_角色与动画/characters_manifest.json",
+      "bytes": 34955,
+      "sha256": "f78a1e2f2b685d65d318a44bbbe29f251954fc7ed8c10fac88f4d69b44e79a51"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/bone_map.json",
+      "bytes": 2362,
+      "sha256": "e0369a9d62b61251f204ebfd41646ef30451da82e598101493876d19f24ee763"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER__Rig_TPose.fbx",
+      "bytes": 298460,
+      "sha256": "1e036b2de06d5a5a8a6db7be047b0d8015c07956aca1b1223d784edd2d9fa76d"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/CHR_BOX_CUSTOMER_Rigged.blend",
+      "bytes": 2929929,
+      "sha256": "7221c87f15778cd04f7d79088943c9a1a62dc148e4d5bc549a63a6719a45a996"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/clip_map.json",
+      "bytes": 7521,
+      "sha256": "b815f97707ca30d7cf34c9c6c4f2efe0998e44d1c36373e12fd6659798a3cc9e"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Clips/CHR_BOX_CUSTOMER__Idle.fbx",
+      "bytes": 426316,
+      "sha256": "a4eb871e8b4c74ef0ea6bb68f306b1f2a216d8c0009b83f70f6342cfa329e400"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Clips/CHR_BOX_CUSTOMER__ShortStep.fbx",
+      "bytes": 380476,
+      "sha256": "2bdec8722d56c08bb60e05db131438b8bfb7b896f3d4f37b77c29d180fc59e5c"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Clips/CHR_BOX_CUSTOMER__ThreeStepTurn.fbx",
+      "bytes": 429964,
+      "sha256": "9136c65b3d8240549f873ab1d420e6aba483fee1207f319b698ed0ab19f21655"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Clips/CHR_BOX_CUSTOMER__TurnTicket.fbx",
+      "bytes": 430668,
+      "sha256": "0f3a4d48542beda68e53b774885e7976667beb8a8e5704bb7f66b81e7d23af19"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Preview/01_Rest_TPose.png",
+      "bytes": 661508,
+      "sha256": "096eedccbc8d315ade2f63fe1031a18eb4b4e4f899fa11c1b64401364c693ef0"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Preview/02_Idle_ArmsDown.png",
+      "bytes": 696026,
+      "sha256": "4e23fa219fdb0e204a543cf17dab88e98288525cce83e942de194c327d036255"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Preview/03_EventPose.png",
+      "bytes": 677303,
+      "sha256": "df48065e2b2044dcbbf5a7847972b418fb04587e47933debfb595825a1054566"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Preview/04_MotionPreview.gif",
+      "bytes": 2762865,
+      "sha256": "45e54c4110cce317bf738335afe37174f446957e457674af4e7a94b32fd4917f"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/qa.json",
+      "bytes": 9317,
+      "sha256": "6cd669ed1e59c162eb5ce96a962928f6bfdd781d04eeae7111e9e83d31e4a964"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Textures/CHR_BOX_CUSTOMER_BaseColor_256.png",
+      "bytes": 114858,
+      "sha256": "59ad4c001186a1ed33ffeb6e6b178fb832a2b1fcbebeac6bdccca1a60cb8a143"
+    },
+    {
+      "path": "02_角色与动画/CHR_BOX_CUSTOMER/Textures/CHR_BOX_CUSTOMER_OriginalBaseColor.jpg",
+      "bytes": 2449712,
+      "sha256": "8cfff56e63f9d62db05701e681ceae1d25a52712085dadb6dc1d193e6f0b54df"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/bone_map.json",
+      "bytes": 4520,
+      "sha256": "e0a0d8e1513c16d3a38b6182d9ee791d0e097becd6afea1a62adbc282210233e"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/CHR_CLERK_COW__Rig_TPose.fbx",
+      "bytes": 334956,
+      "sha256": "cda80d740040275261335cc1177b92c3beabb4a5dc31e102f3fd2a4c2694121e"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/CHR_CLERK_COW_Rigged.blend",
+      "bytes": 7604501,
+      "sha256": "818ede34563a6c1695a15cc73a110767a8877af853d5ac0c71411234043c0a35"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/clip_map.json",
+      "bytes": 11165,
+      "sha256": "4cb7063074f9ef870fefa622f6e93e2329972aba277b0070cb9448d81bf4b322"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__DeepBow.fbx",
+      "bytes": 579932,
+      "sha256": "2fea52942e3f1028a5586bb55bc7162ddf3a8f03db7ce12c06be776761b5995a"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__Idle.fbx",
+      "bytes": 570716,
+      "sha256": "4e406423e0d00da884b537f657660e9c702e10421c122ada46f74654425b86f4"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__Look.fbx",
+      "bytes": 543148,
+      "sha256": "470940e467b4c0b41f813f63e596b56f2c557e1fb1416bc876bc3300e42dcb61"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__Point.fbx",
+      "bytes": 562636,
+      "sha256": "a7154c48b25efca910476e07dcd26fb3de02c1597e13a111e4e80ebfa01d106a"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__SmallBow.fbx",
+      "bytes": 548364,
+      "sha256": "f2836bc4207e0bd86cfb2ac569569a1acd49cd3f3b38b4f737034c2cd0aabc39"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Clips/CHR_CLERK_COW__Welcome.fbx",
+      "bytes": 563292,
+      "sha256": "e17bb95e1012be0ab13b8b647bb1bd4250d086de35fb2205547551fa1f40c74c"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Preview/01_Rest_TPose.png",
+      "bytes": 678499,
+      "sha256": "f6fd71837179efe831046e8122f89a934b088d36113af99dc4e89eb6dadca503"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Preview/02_Idle_ArmsDown.png",
+      "bytes": 679677,
+      "sha256": "4a430b32100b4ab0d86acb5ba797202f7eae919246bbc356687bdcdf24d31f33"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Preview/03_EventPose.png",
+      "bytes": 672765,
+      "sha256": "bbf3d4792b635f7b1df32a190bd759f51ef18dcc20ad8f68c51b6dae8685e923"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Preview/04_MotionPreview.gif",
+      "bytes": 1382800,
+      "sha256": "5b9c20631a8cd4df8be15f1f7ee5cc3c1db551939b1711bfeadfea272b1edd46"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/qa.json",
+      "bytes": 13282,
+      "sha256": "37ed02932a58a9433c2edefef27904463617f8687c6e35e4377dae820e575ac1"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Textures/CHR_CLERK_COW_BaseColor_256.png",
+      "bytes": 122364,
+      "sha256": "f79dc0819ea10d692e55056027b9ae2caa189dbc9b4adc1366d6db1071ea3d1d"
+    },
+    {
+      "path": "02_角色与动画/CHR_CLERK_COW/Textures/CHR_CLERK_COW_OriginalBaseColor.jpg",
+      "bytes": 2217755,
+      "sha256": "9491d91a502503acda76d68318b0af83abbc9b9cc1ede39cdf038850496c79f3"
+    },
+    {
+      "path": "02_角色与动画/fbx_roundtrip_qa.json",
+      "bytes": 14433,
+      "sha256": "d05776aad18cf4a3e950c67b4a2276de4c66e3cad068dc11c03a27ecfae51bdb"
+    },
+    {
+      "path": "02_角色与动画/placement_bounds.json",
+      "bytes": 948,
+      "sha256": "50682bb09139b93f56798169c926e48517883f10da46b53419aef79d14d14bc0"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/bone_map.json",
+      "bytes": 1397,
+      "sha256": "2c01a6c640c451e86b3ff1dcc0eedd68c3346619dd08dfcb50f12cd67030413b"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/clip_map.json",
+      "bytes": 7596,
+      "sha256": "19a1c7663fa4f6db9f0d8cea5ea74cd07e009ca2bf5397a25b3655343670697f"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Clips/PRP_ODD_PRODUCT__Idle.fbx",
+      "bytes": 245532,
+      "sha256": "e8154b1f8eedd2e534d3a24d3f0136bce4740a2014310c28323771c6c0512eb0"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Clips/PRP_ODD_PRODUCT__PeekBack.fbx",
+      "bytes": 243276,
+      "sha256": "5cd24b94b4688e299045576cd7395c4adfc4a79abc0bf288667b6a710ff6659f"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Clips/PRP_ODD_PRODUCT__ShortStep.fbx",
+      "bytes": 241836,
+      "sha256": "4ca82586afc9acea38be28283eba7fbdeb1437d7cc2336f6a6e04f67894e4b16"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Clips/PRP_ODD_PRODUCT__Turn180.fbx",
+      "bytes": 247868,
+      "sha256": "d55e619f9e661850650a290852db04287418774acc85ea4ad4f343686c7a7299"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Preview/01_Rest_TPose.png",
+      "bytes": 651838,
+      "sha256": "c1d695931e8bc719d96f417b0a52c2c3cd165e1ce29f49573efc25952a3d5a96"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Preview/02_Idle_ArmsDown.png",
+      "bytes": 648126,
+      "sha256": "6fcab5a8a6ea9a3db81fb667adb6d48be3553377e4b50f02b2763539e78c4df0"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Preview/03_EventPose.png",
+      "bytes": 648671,
+      "sha256": "63db6ebfc2f0cb4ea3203fd8c416ef86615a9f88dceec71973558132632cd74d"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Preview/04_MotionPreview.gif",
+      "bytes": 359028,
+      "sha256": "2f2a9240ee975096bbef015a520d2f71797ef405199ba17414e343e11d3fe845"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+      "bytes": 186156,
+      "sha256": "8ea1ce06c42bf934888195c06bd473a38476731197b80b64b52d11781468bfbe"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+      "bytes": 1304820,
+      "sha256": "5758cbddc04e385c1a0b140f8642725e5b68a8f2024de8571004566520ff0bb0"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/qa.json",
+      "bytes": 9380,
+      "sha256": "08f3164567c02a6d62f9e75d5a23025fc1faa63ad4f9de98417a29f9719d31a9"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Textures/PRP_ODD_PRODUCT_BaseColor_256.png",
+      "bytes": 98098,
+      "sha256": "18e4c0ec5c99b5d32278d9301ef9e6f16740428fc2b6b2fbb4857d2295e65be9"
+    },
+    {
+      "path": "02_角色与动画/PRP_ODD_PRODUCT/Textures/PRP_ODD_PRODUCT_OriginalBaseColor.jpg",
+      "bytes": 2044993,
+      "sha256": "50cb10c3c34aa0c4a551ec47947212042d3cf5ee3e4f679e39af1aa1d4bc69c9"
+    },
+    {
+      "path": "02_角色与动画/visual_review.json",
+      "bytes": 488,
+      "sha256": "e82f6aa4ed7f19dc90cace748f9b63db70d424b9f09f697fa4f78ac1e123de6e"
+    },
+    {
+      "path": "03_UI/飞书idea3核对与最新范围.md",
+      "bytes": 1230,
+      "sha256": "99345f02bfc9743f802d2d8ca06e7d34517906baae052b992bbc74a479471fb0"
+    },
+    {
+      "path": "03_UI/Data/delivery_manifest.json",
+      "bytes": 12707,
+      "sha256": "df482e2e422b7d80f93c7faf3ea6bac106fdfb266ff8afa8630c06816e52db5c"
+    },
+    {
+      "path": "03_UI/Data/layouts.json",
+      "bytes": 3684,
+      "sha256": "bf3dfa4bf0f6900e378ef992062379e7a1df82c766ff5e687a265ea1906bad32"
+    },
+    {
+      "path": "03_UI/Data/sprite_map.json",
+      "bytes": 11128,
+      "sha256": "145ed8e45b235fb1a5b728c7f59b8bd67a2f4260fed761080b4f680bb3a17f43"
+    },
+    {
+      "path": "03_UI/Data/strings_zh-CN.json",
+      "bytes": 1414,
+      "sha256": "5889059a95dadf64052d058d0cd984546c1500ee68f91a082abf21f962f814ad"
+    },
+    {
+      "path": "03_UI/Data/ui_elements.json",
+      "bytes": 58963,
+      "sha256": "ff9dd986afe12568693bb4638a9926ff16b27c73ca040ff4a944b4367f51eae4"
+    },
+    {
+      "path": "03_UI/Data/ui_qa.json",
+      "bytes": 5731,
+      "sha256": "82e185f1ceeb1ddc48972a470c53a21e8e222657ecbe449feec6cd3bce7c1fd8"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_help_1280.png",
+      "bytes": 256089,
+      "sha256": "3888f824018c718b9a039594a32ce0efcf062674e8985cdcc00168258d17dee3"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_hud_1280.png",
+      "bytes": 862489,
+      "sha256": "f21dc48b75ef99d4f5fa7dfa584338ebe3816fa74e682c12e998727dada31060"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_leave_1280.png",
+      "bytes": 254516,
+      "sha256": "3874ef4f5ec8145f6b5a5a447d2cd2aceb468a77bd16bcaf43272d9594c9141e"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_pause_1280.png",
+      "bytes": 251689,
+      "sha256": "f49c4705ccab648b50af69ef2ac49ce352438979d62a6f9270d0abb1ba8c967e"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_photo_1280.png",
+      "bytes": 862442,
+      "sha256": "44cdda3e010f244f9933fc35adc970a224e830e2870e9c1831a3ee244714a3fc"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_saved_1280.png",
+      "bytes": 856992,
+      "sha256": "fde40131e00f395dc32f476e882033e58c4ae4b983b69829ac0e3b0a3aab285f"
+    },
+    {
+      "path": "03_UI/Preview_1280/UI_title_1280.png",
+      "bytes": 642926,
+      "sha256": "99e7da1211b321383c1118e3f3e29223be54219cd56c61225935e3c39b3dbf84"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_help_1920.png",
+      "bytes": 475508,
+      "sha256": "44e14a566e5438f8f7c90567ce3ac4e4614d54184a3f7781d47a5965bab47ca8"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_hud_1920.png",
+      "bytes": 1224422,
+      "sha256": "f3e5680b2549a6b4de1e22ba6d5de1aa89a8454eb9031ce4fdfd2c4b918dd046"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_leave_1920.png",
+      "bytes": 461881,
+      "sha256": "abd56384f481055af38e427e1ceeb0cfde3dee321c2c08a0ef51d3f57cc2ad5f"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_pause_1920.png",
+      "bytes": 455565,
+      "sha256": "2225f0ef2a3f11f8624ed72a51689bc43f24d974ab7875b2a04123bc59bfe0f7"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_photo_1920.png",
+      "bytes": 1232431,
+      "sha256": "5edb32b7eb309778bf51534e787e1fdc5bea67a38998089f4db1b4f1820ab458"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_saved_1920.png",
+      "bytes": 1226031,
+      "sha256": "69e8520e1b46eafc31d7ef974aae1d6cbbe1b6e09d21f37c3438a057616ce88b"
+    },
+    {
+      "path": "03_UI/Preview_1920/UI_title_1920.png",
+      "bytes": 1194315,
+      "sha256": "d885af4f7b310b987f5fac9c08966d6d95098539ce2a3bbfd445763ca087abc6"
+    },
+    {
+      "path": "03_UI/Scene_Background.png",
+      "bytes": 1289879,
+      "sha256": "acdcd91d8b66cbae57f9e621b4f5e27dc6e2691db852f7e4c10be347c9eb8167"
+    },
+    {
+      "path": "03_UI/Source/README.md",
+      "bytes": 648,
+      "sha256": "e26f678d221cfd70e25015a762ef463ac42f01a9a975b362bdc676db041ad003"
+    },
+    {
+      "path": "03_UI/Source/ui_audio_explore.mjs",
+      "bytes": 41069,
+      "sha256": "a246c0bde237d19f8c2b3b3547e7656657d64ce8cb07b0db8cf7aa4026155c17"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Button_Disabled.png",
+      "bytes": 310,
+      "sha256": "0312f76deb16ba1a381fe319d174ba4385dcb33bfbe2f8d6b783276fb491a18c"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Button_Hover.png",
+      "bytes": 315,
+      "sha256": "03d10de48c53a4117ea71a14ae74e7abf1e211e95940e3b98d88035c7a91d7ac"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Button_Pressed.png",
+      "bytes": 314,
+      "sha256": "6155fc8841879031bf494eb0e156e610bf20e0e9ca55ffd75073c1baa328b2df"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Button.png",
+      "bytes": 314,
+      "sha256": "a321240e680a2fb19d5c92df475e0a761528112f48bf5b27b1d04050f37135fe"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Crosshair_Interact.png",
+      "bytes": 174,
+      "sha256": "bf648a6b7fa4a0fbb0615f9b012f6e007348460bbb0501bec19afad2bad1c132"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Crosshair.png",
+      "bytes": 126,
+      "sha256": "d203a231847ec07678692054a525cc6fad0a58001f709385cc89967465ca028b"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Arrow.png",
+      "bytes": 268,
+      "sha256": "437fbb7e50d7401dd75b3ed25859d1e37da7e187947e1f3145201be7b9661a10"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Back.png",
+      "bytes": 286,
+      "sha256": "b6ee3082ff28eb1949e3fb0e5fb79920419e50e8113a8eeda86041f94ee56594"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Camera.png",
+      "bytes": 254,
+      "sha256": "c55fecac7444a853a38e0e7adb1ee2957a56b975bd0fd309e2f427a83b7d39c9"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Check.png",
+      "bytes": 270,
+      "sha256": "195806afa70889a04baa37f8c254736692eeafe507e08bf0afe8c9b8d40c908f"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Close.png",
+      "bytes": 359,
+      "sha256": "cd1f1d13fc4164efb2c5fe7f0dd590216b58580579e5360104577f4d205c5a06"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Copy.png",
+      "bytes": 280,
+      "sha256": "3980e6c68312bc5b6c527142d9608837635a6bfd506610edcf202692effddf05"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Eye.png",
+      "bytes": 325,
+      "sha256": "db3fb29d53e03e202b6ed2c9fd2bf5ab56096e0f1fb673757dfa8680508a329a"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Interact.png",
+      "bytes": 298,
+      "sha256": "9c409bdc80ee2ce54f4684ee235bf84af28e307d26b8107e695d581f2d2bf317"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Pause.png",
+      "bytes": 221,
+      "sha256": "9a3aa6ff57de1f34e6cb6e1389e596c91720a6b663f9b0457068046ea22d423c"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Save.png",
+      "bytes": 293,
+      "sha256": "220d35a3c4f01c720fdaa3c165ccaf58f499a98af84b150a7691c0cc69c380ff"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Icon_Volume.png",
+      "bytes": 363,
+      "sha256": "d5906fa03a2f1e6baf59d8b5485828ac8e902faf973e3b14da4dae2200b919d0"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Keycap.png",
+      "bytes": 314,
+      "sha256": "ece65f10dc00705a5b9546d8d10cbb2fb4b79497a8aafb4923aafeade32a72f8"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Panel.png",
+      "bytes": 314,
+      "sha256": "a321240e680a2fb19d5c92df475e0a761528112f48bf5b27b1d04050f37135fe"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Photo_Corner.png",
+      "bytes": 232,
+      "sha256": "3608da409d1384d39c83dd9a37206e1ffb067b98914a6d0eff05143ad134b5b6"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Pixel_Spark.png",
+      "bytes": 155,
+      "sha256": "3458441b07afe91b9068b964e027f27cd09311ee3cf766a19823ffd337b2d467"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Slider_Fill.png",
+      "bytes": 137,
+      "sha256": "7f4eb942dddd77e53497c2f3c05559522ef587085f1752155e619e43565eee49"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Slider_Handle.png",
+      "bytes": 155,
+      "sha256": "a6a98513aae4b9577158d7ad378b66c40e457593f307fb193cd3100a94dfb027"
+    },
+    {
+      "path": "03_UI/Sprites/I3_Slider_Track.png",
+      "bytes": 141,
+      "sha256": "99496269f25cd19b47d385c5287a0f06a2f51af2c3bbf4558c875cf8a17c621d"
+    },
+    {
+      "path": "03_UI/UI_技术接入.md",
+      "bytes": 2086,
+      "sha256": "768c833d00b9a1812eb8f33c93fef557dc409cbe6c4e20c078f3807269d5a683"
+    },
+    {
+      "path": "03_UI/UI_离线预览.html",
+      "bytes": 17411,
+      "sha256": "df2d82d3ed55393ed7e10d9c37f9687fd63e3386262153903d264a3a7e07efdc"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Button_Disabled.svg",
+      "bytes": 345,
+      "sha256": "a4ec910bbef1c723ea829d05a1fd7e008770eb6bf2681408ae13b6a3fb1932a8"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Button_Hover.svg",
+      "bytes": 345,
+      "sha256": "16e165a3ba68da955bab5bb8c4cde55bbef28d11a3237b22b54696fc5adbde2b"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Button_Pressed.svg",
+      "bytes": 345,
+      "sha256": "37ad42d1289445202b2d6b70d2d74a7b08448c1a9d49298c1055529238d48ceb"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Button.svg",
+      "bytes": 345,
+      "sha256": "32de8200c56d1135cea86a97f35b018fa4b0d10aa7f5f398cfe04f954624ed2a"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Crosshair_Interact.svg",
+      "bytes": 368,
+      "sha256": "7722757b7131c75c7bd471169ed9c4948d84e3d4f8f2323270179d5c207536fd"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Crosshair.svg",
+      "bytes": 175,
+      "sha256": "415c543143cccc0e483ba9ebcb1ef485a48fa9301d96ca49ce58d861b175b23f"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Arrow.svg",
+      "bytes": 192,
+      "sha256": "3eea246440ee685d87457c34046ebf5c712e3985a543a48bc104c1daa8fac1ff"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Back.svg",
+      "bytes": 205,
+      "sha256": "24d842458b9b2d67d6c44dc245ea445bfbb45f950fd7f227b64cd0c07246418f"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Camera.svg",
+      "bytes": 410,
+      "sha256": "6b3fe19340a9c7a2bae3f1bb452a401d166f8d94f3ffb2af9337e43916da47bc"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Check.svg",
+      "bytes": 187,
+      "sha256": "570646c3f8a62214b0d34ab690ee95b144b62b58182733dd8c912532582f664c"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Close.svg",
+      "bytes": 220,
+      "sha256": "31a7d28d4c58fe9e71b28ac721f7c9490843fd66fd6b782dc3a602bdec85bd86"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Copy.svg",
+      "bytes": 353,
+      "sha256": "b7c9382923baca69ad108b84a12aa77cad7af69b2a41f44ea6f393a794d5a70a"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Eye.svg",
+      "bytes": 316,
+      "sha256": "e49abda87ca46fd83d9bf254888ef23809d63f901b50bba6cbd4d0a7bd571495"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Interact.svg",
+      "bytes": 425,
+      "sha256": "0bb82f0a35f798f3b788c0b897d887d0bc7d962fd2c4a63d2e1ecd2584dd79e1"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Pause.svg",
+      "bytes": 236,
+      "sha256": "a76908c0d22e4f766e2176c989ab47266905ba8d4eefcbcc5be2ea7e603e2444"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Save.svg",
+      "bytes": 359,
+      "sha256": "8fbf23a7b89e4ed56e383ec2c24ed700cc164546fdae2024c364fc737ba91ea4"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Icon_Volume.svg",
+      "bytes": 460,
+      "sha256": "66b827114f84ae7d1eb310dd80a018f4bef87b7544d83dad768e76d14035361b"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Keycap.svg",
+      "bytes": 345,
+      "sha256": "2eb1a6fa65df926afe010346cc35c05e3c092736d8c07a140cb0a37c57694099"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Panel.svg",
+      "bytes": 345,
+      "sha256": "32de8200c56d1135cea86a97f35b018fa4b0d10aa7f5f398cfe04f954624ed2a"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Photo_Corner.svg",
+      "bytes": 243,
+      "sha256": "ddddba363a060cc16d111c9eed534531e3f78b1de2a924c0b809e50274d020b4"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Pixel_Spark.svg",
+      "bytes": 232,
+      "sha256": "64b7f663307bc85a62abe4ccbf450f5e8962ef3f673c95bfcc3b4c17fcbfe953"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Slider_Fill.svg",
+      "bytes": 174,
+      "sha256": "5864d0fa68f1b38106487dcc2322b0708b88012133898d05188a9b1c759d523d"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Slider_Handle.svg",
+      "bytes": 288,
+      "sha256": "e80ceb883bcbeca233e90c73b9e8001e6b325767c4d7b75445c76392c14b9286"
+    },
+    {
+      "path": "03_UI/Vector_Source/I3_Slider_Track.svg",
+      "bytes": 230,
+      "sha256": "b0d543d6167725827728b549fd0186929dcc8c2d80224ef12ab2b53be2486fa5"
+    },
+    {
+      "path": "03_UI/VFX/VFX_FRIDGE_MIST.png",
+      "bytes": 248,
+      "sha256": "b0fe26fb582c98065fa107de9f994395a715873f01aa4a19cbe3ee1e6e259ac6"
+    },
+    {
+      "path": "03_UI/VFX/VFX_FRIDGE_MIST.svg",
+      "bytes": 378,
+      "sha256": "e7395f4e459aa2bab51997a2ad20d8a0ba939f338a54c31d954d223bff85119f"
+    },
+    {
+      "path": "03_UI/VFX/vfx_parameters.json",
+      "bytes": 1240,
+      "sha256": "053cb834224fef9e2faf2411acfb9f69c957e7fd8b7977e48c92b86e08bfe0a2"
+    },
+    {
+      "path": "03_UI/VFX/VFX_PIXEL_SPARK.png",
+      "bytes": 155,
+      "sha256": "3458441b07afe91b9068b964e027f27cd09311ee3cf766a19823ffd337b2d467"
+    },
+    {
+      "path": "04_音频/音频_技术接入.md",
+      "bytes": 2437,
+      "sha256": "6e97de5e3c017f15e401c09504766f5ac35f0294a13d702a1f71a08e4c80fda1"
+    },
+    {
+      "path": "04_音频/音频试听.html",
+      "bytes": 12262,
+      "sha256": "cab5ff8adb4c5d14847c20856d69b71e52317272604b111dcdbb473851029914"
+    },
+    {
+      "path": "04_音频/Data/音频页预览.png",
+      "bytes": 64028,
+      "sha256": "1a965bd9592951bb3f442be7fe2d47aab6d1f1236f0fcbfce1c864487fa5486f"
+    },
+    {
+      "path": "04_音频/Data/audio_manifest.json",
+      "bytes": 39276,
+      "sha256": "7e7d658b49e90d277a1ca99d7e2dce1e4b64f44822e775b6ac18651af45e94c9"
+    },
+    {
+      "path": "04_音频/Data/audio_qa.json",
+      "bytes": 17566,
+      "sha256": "4dffecc3c17eed4c0796140ecd0e7149662aeb3024b44909aa9c395931c43990"
+    },
+    {
+      "path": "04_音频/Data/browser_playback_qa.json",
+      "bytes": 405,
+      "sha256": "90f58b21e3107c3be2f5f42cfa769b7df6f31b3681728e2a7b1398bd970ae3e6"
+    },
+    {
+      "path": "04_音频/Data/cue_map.json",
+      "bytes": 10977,
+      "sha256": "ef2d5bf7fb941f6c0827506083cc583cf02ec2786b664d41972ec1b5078a5e55"
+    },
+    {
+      "path": "04_音频/Data/delivery_manifest.json",
+      "bytes": 13244,
+      "sha256": "08b9bf0ca7d594a1a38ac71d0135b9485f8720cf7dc420beacf1249bd32d8e89"
+    },
+    {
+      "path": "04_音频/Data/free_exploration_cues.json",
+      "bytes": 10977,
+      "sha256": "ef2d5bf7fb941f6c0827506083cc583cf02ec2786b664d41972ec1b5078a5e55"
+    },
+    {
+      "path": "04_音频/Data/loop_points.json",
+      "bytes": 8228,
+      "sha256": "d956ce453ecbdfb0a8e39c272e1af50092b242c48a44422734370743acb49b1f"
+    },
+    {
+      "path": "04_音频/Data/runtime-cue-map-qa.json",
+      "bytes": 1020,
+      "sha256": "3e46a073d2c3d493c8a0fc5fa20fa5d139f2a10d993c8a4cf1dd05bf50bb37c4"
+    },
+    {
+      "path": "04_音频/Data/runtime-cue-map.json",
+      "bytes": 30201,
+      "sha256": "bad12f6d65f063362143a2525c42641c315eb87dc317dcea388309da301c3d74"
+    },
+    {
+      "path": "04_音频/license_sources.md",
+      "bytes": 1098,
+      "sha256": "cbd4d661c7d7f8625b179f1f331f2dbc1f37bf769fe04c5fdd1be8988ab571fc"
+    },
+    {
+      "path": "04_音频/OGG/Ambience/I3_AMB_Fluorescent.ogg",
+      "bytes": 64426,
+      "sha256": "5c926e0bd030d6ee75b6e6924a2091b64e034b9bc085ce23ccf42a427407b5c4"
+    },
+    {
+      "path": "04_音频/OGG/Ambience/I3_AMB_Refrigerator.ogg",
+      "bytes": 61122,
+      "sha256": "264b52e3b5c774fba729145afbfcc22634e0f0767f358007f8dc1cd74490ede5"
+    },
+    {
+      "path": "04_音频/OGG/BGM/I3_BGM_ColdAir.ogg",
+      "bytes": 488735,
+      "sha256": "9e7f221ca65987a0e75330ac9f4737af5a7859c9e2ada82096173228f66cd9e1"
+    },
+    {
+      "path": "04_音频/OGG/BGM/I3_BGM_NightShift_Main.ogg",
+      "bytes": 458036,
+      "sha256": "d6ea9e4c0f860b8a9343490e36328046a933d6e533c54b9efcfdd08a90a3c4a3"
+    },
+    {
+      "path": "04_音频/OGG/BGM/I3_BGM_NightShift_Quiet.ogg",
+      "bytes": 385723,
+      "sha256": "b910d41c3d542d024a7bdf2947081b8b4c3ab6dbc765fc939263c695c6b5a307"
+    },
+    {
+      "path": "04_音频/OGG/BGM/I3_BGM_ShiftClosed.ogg",
+      "bytes": 40488,
+      "sha256": "45f08c08427deaec445cd58bc8147bb170d52b3ca2124a481a13c6fae2b305a6"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_box_fanfare.ogg",
+      "bytes": 7652,
+      "sha256": "83684a7dbec07f35e13de2e254778aaf3bc3a0ac93bc48452a214adb978d3c1f"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_box_step.ogg",
+      "bytes": 5924,
+      "sha256": "09722e9f5121f4a219701ea3f858636f57104453c38291482a41677e26944e29"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_card_drop.ogg",
+      "bytes": 5897,
+      "sha256": "99c964201b86c875d1baca4f7d03dddcc3bc1910f1c8720841fbfc576d443f90"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_card_pick.ogg",
+      "bytes": 5315,
+      "sha256": "67c9aa694dc9b250e532a32df2c6bc0befb75bd51bf57d82f286ec65de3072e0"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_cart_brake.ogg",
+      "bytes": 7411,
+      "sha256": "8c644cd88fb41eca669610f050933fa6942561e18c1ab3a13f0181ba27765239"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_cart_roll.ogg",
+      "bytes": 13152,
+      "sha256": "d73144113f331b1ac0a11801971473f274539063aeee9deac0d226bdcf3827e2"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_cow_hmm.ogg",
+      "bytes": 5279,
+      "sha256": "06eb9ce7090998696c1467a5578b50a58e280322ef771eceae0c4bfba889156c"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_cow_welcome.ogg",
+      "bytes": 7311,
+      "sha256": "8678c062542f817593c7d81f2e5b62f587ece65fe854ff5111787418e6396f1e"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_crate_pick.ogg",
+      "bytes": 7081,
+      "sha256": "8fd4ae2b05c80d8aa5bc9982fe313953698185aebbd61921e61ba6aa26894268"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_crate_place.ogg",
+      "bytes": 7773,
+      "sha256": "5f8e3a4eda1b5663c1403c1d7405456f1873612db966eb582defc58186c224cc"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_final_small_fanfare.ogg",
+      "bytes": 9871,
+      "sha256": "38a3e1e6235e3010f12a829f02b07033d03e832c751bba259755003a696b626c"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_footstep_left.ogg",
+      "bytes": 5628,
+      "sha256": "613aab04d5509cd801288de2afc65e57c03ee62d9548a8198774a79e7140f639"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_footstep_right.ogg",
+      "bytes": 5768,
+      "sha256": "ee681c936e8c50c5a99542278be9da75b5e1286cf922a58c85c6cb8c38c893ec"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_fridge_choir.ogg",
+      "bytes": 6949,
+      "sha256": "1762bc037eef43a931d1d77af3f81dad7c714734c36b3530efd30bfd7dd24a39"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_fridge_close.ogg",
+      "bytes": 7250,
+      "sha256": "7f41a7a4ba669d3467c09b185104ccde485b1c71d5ec45e00a3f46c1251f09f7"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_fridge_open.ogg",
+      "bytes": 9636,
+      "sha256": "54ccd2acfea4a1b04d3f2ffd783fcee57cfe533ed351f1d520b1dd79e8d88c38"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_gate_click.ogg",
+      "bytes": 6067,
+      "sha256": "625a55a70af7af1da798daa8d0232c4785fd06c1540040c900357db3358f7f9a"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_loading_bell.ogg",
+      "bytes": 6814,
+      "sha256": "0de8be8de0bbc55038bb772f05f2390b723358da50f9a88c27603f99d6ba82de"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_print_end.ogg",
+      "bytes": 5794,
+      "sha256": "f67983c8a537b718ce6468588c77e1fecdf5b226f961f874e948e4b02f35b0cf"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_print_loop.ogg",
+      "bytes": 14085,
+      "sha256": "852da3f00f8c3e22f6969f54a6974c0f62968ea0cd0e913f55036e507a56fe08"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_product_turn.ogg",
+      "bytes": 6085,
+      "sha256": "002c991345b74c6d46dace71c4f0baff816db8ff25cab9582624163ec7476630"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_product_whistle.ogg",
+      "bytes": 6196,
+      "sha256": "227ee47522ccd020e48cab737ed4c1e1af058f6ff1a3aa78a122a55c9082e4d3"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_scale_zero.ogg",
+      "bytes": 6159,
+      "sha256": "6d46666682e84f76154d7fde8c978b325ca80d31313f61e3dcbf9f97ac86a6d2"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_stamp_hit.ogg",
+      "bytes": 7683,
+      "sha256": "1f7ec7ba83deebd3436b0c449cf4de30169f576cc9567b72fd853c7ec4f0c008"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_ui_confirm.ogg",
+      "bytes": 4545,
+      "sha256": "5c9e196353a30948e5447118e701df1c0822abdfb91db263427c6050a953846c"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_ui_photo.ogg",
+      "bytes": 6458,
+      "sha256": "5c674ccff51bf95e5c816b3839f28bb6364bea8d510431a9653c80992df28f99"
+    },
+    {
+      "path": "04_音频/OGG/SFX/I3_SFX_ui_saved.ogg",
+      "bytes": 6247,
+      "sha256": "dcce82de18d2ff5364e9e6f3d37945d84d31edda3366cdf4c221862473ddcfc8"
+    },
+    {
+      "path": "04_音频/Source/README.md",
+      "bytes": 649,
+      "sha256": "ced5e7f634c19de96c90da43ab45a8c8dd18102005b9104182f872b13085e943"
+    },
+    {
+      "path": "04_音频/WAV/Ambience/I3_AMB_Fluorescent.wav",
+      "bytes": 5760044,
+      "sha256": "1d5798920b753b0881484e16dab8a073a1ad411c6a47c6fbb88ac4a452133091"
+    },
+    {
+      "path": "04_音频/WAV/Ambience/I3_AMB_Refrigerator.wav",
+      "bytes": 5760044,
+      "sha256": "8ae549c125b4ba418a263ef0e3a9b06624abbb3f97f89ef9fcff95baab328484"
+    },
+    {
+      "path": "04_音频/WAV/BGM/I3_BGM_ColdAir.wav",
+      "bytes": 30720044,
+      "sha256": "57fc1c2850826ee975c2a3d5d4727dc7507d96f56d61554a928c9a9fab3a4c25"
+    },
+    {
+      "path": "04_音频/WAV/BGM/I3_BGM_NightShift_Main.wav",
+      "bytes": 30720044,
+      "sha256": "04d65a1817a1587aad6b70fbb609959b7bf3310dca1b2ddb4705dcb084baab76"
+    },
+    {
+      "path": "04_音频/WAV/BGM/I3_BGM_NightShift_Quiet.wav",
+      "bytes": 30720044,
+      "sha256": "49d723a2a0345e1790331e2a5fd548872241699689cd8e1790d88ae0d7683026"
+    },
+    {
+      "path": "04_音频/WAV/BGM/I3_BGM_ShiftClosed.wav",
+      "bytes": 2304044,
+      "sha256": "56490c9ffbf1b957e5abee40def1d01fbd29dc00fae5e4118b4fc2b3a1dff1f8"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_box_fanfare.wav",
+      "bytes": 201644,
+      "sha256": "4f919aae7488493e9145c26be1a5c47b4745fe1bb6ab82d9cfae12547283600f"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_box_step.wav",
+      "bytes": 34604,
+      "sha256": "3e2bfe94e88de0ed07cf0d2ca0f7ec9a7ad922b7b798fca2f7a96e62a41f9e5f"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_card_drop.wav",
+      "bytes": 34604,
+      "sha256": "96ab6f4fcbed7b6cc2798c0cd14e7bf6cbc192a5648b524893f594924a4e1261"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_card_pick.wav",
+      "bytes": 24524,
+      "sha256": "7380cd8a97bc6dcb94701c5d684c59fd62c62ef84119a4eec64d37e992df7286"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_cart_brake.wav",
+      "bytes": 57644,
+      "sha256": "8fbc1207b2461240d6014f1d8086c49555a3d50da1fa20b4137bf16ab0d649c1"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_cart_roll.wav",
+      "bytes": 144044,
+      "sha256": "4c273ef9e1b35bfa1525741f460eee9681361a3ad9eab4ac841deb2bdcf4f7c2"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_cow_hmm.wav",
+      "bytes": 112364,
+      "sha256": "9fa0b9d7050d6dc6135e224f5d9132808931e3cf13fbbefb1e749a186d303d3c"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_cow_welcome.wav",
+      "bytes": 216044,
+      "sha256": "0d2a555dd6efa22e70163c7f943ed079db085cbea51fd02bde1e62582bd00aa7"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_crate_pick.wav",
+      "bytes": 50444,
+      "sha256": "f98f59a65fba6fbf708bf2dfd623adf56fcb0812eec25789c9ddfb8d46f57064"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_crate_place.wav",
+      "bytes": 64844,
+      "sha256": "d4acf6f9fc12fc612267a7f125f071d09c8c43a470057360470020a19471ea05"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_final_small_fanfare.wav",
+      "bytes": 374444,
+      "sha256": "ca5a2fc87ee7de71063f2751356cd27a513404f53cea041c11e1300d9f444b4a"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_footstep_left.wav",
+      "bytes": 31724,
+      "sha256": "194ead92a0ed6daf7effb74d097e23e587dfde0482b4daac326ff43460455a5b"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_footstep_right.wav",
+      "bytes": 33164,
+      "sha256": "7f99ddc31d659932c999a3ced4e3761a4739f8c2947b1e0be6b45cf2bea963c8"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_fridge_choir.wav",
+      "bytes": 136844,
+      "sha256": "59e533679d8993adf1f43abd60fb37defa9555714e6d4faa01693a496a4d8947"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_fridge_close.wav",
+      "bytes": 57644,
+      "sha256": "76973446c64995cb5ac0b4e44b31a78c539c43c2eb56cf9e29273a0b5210249d"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_fridge_open.wav",
+      "bytes": 93644,
+      "sha256": "16a147a0ab6695d156955aace57baf60b9dd38b03ba1e19fd9b4e72e35a348a9"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_gate_click.wav",
+      "bytes": 37484,
+      "sha256": "b3da393a1067e532cf51cbf48fbbe7283eb0d52ec00381e25d2ec788290802fd"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_loading_bell.wav",
+      "bytes": 201644,
+      "sha256": "10d5c505e8cdc36b406887893b8e88e63f72e956b5e7294e9fa19c4a6c9563b3"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_print_end.wav",
+      "bytes": 79244,
+      "sha256": "94a8d12786f8a8b9cfa37156889173207b5ac083779d2901b80a1dd77b6ca0df"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_print_loop.wav",
+      "bytes": 144044,
+      "sha256": "7fafbc7e507be9919a193b5e325109b2c0a6e0a02325313c10ba5976b7c0e019"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_product_turn.wav",
+      "bytes": 36044,
+      "sha256": "5cb7e1ebd5e9d9743f1a310aea68c2fff4836083ccd6b29cb1e729ee0c2cc1fb"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_product_whistle.wav",
+      "bytes": 86444,
+      "sha256": "75f9ea9487829edd0ee675ad8b5dc694a971698a61cece18d1196799d78a5a2f"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_scale_zero.wav",
+      "bytes": 100844,
+      "sha256": "a20c1fc1143ce0d46e4efac895c89d9039605422b76a173866a7dffb0a73ffcc"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_stamp_hit.wav",
+      "bytes": 61964,
+      "sha256": "fbfc92f29e76b46fe19a2e20fd83d3162e6a6aa4c2fbfa824aea74e719c4bd94"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_ui_confirm.wav",
+      "bytes": 31724,
+      "sha256": "304ebcca5fcebab97806e90fea406c82f07ff599ab35a89f51306623cf072f6f"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_ui_photo.wav",
+      "bytes": 33164,
+      "sha256": "a962a2deb09a8e035b001ffaef63a55ef5c590e6f923e4328669c50024ba69f0"
+    },
+    {
+      "path": "04_音频/WAV/SFX/I3_SFX_ui_saved.wav",
+      "bytes": 93644,
+      "sha256": "e327391ace6b54f05351c11de3f5ec3fd4d08843ee084ade6ae2520600ff70a6"
+    },
+    {
+      "path": "05_技术接入/飞书原案核查_2026-09-30.md",
+      "bytes": 3200,
+      "sha256": "ca54a972a4d483f58c13ddb43e366431bc228b5f86738e0d2358e6ddb82f68f5"
+    },
+    {
+      "path": "05_技术接入/event-contract.json",
+      "bytes": 156,
+      "sha256": "80199aac1c9f994af19b84f5c64631d264a65c88112a484d021162433d5ad330"
+    },
+    {
+      "path": "05_技术接入/lighting-profile.json",
+      "bytes": 6183,
+      "sha256": "beba1abebef27eabda2a053632a24b2d2e21c912104bd9615d33ba43706d7f7f"
+    },
+    {
+      "path": "05_技术接入/Unity美术接入说明.md",
+      "bytes": 4667,
+      "sha256": "cdc9ccb1167f9efaccb862ddac40dbdbb2aa8bf597f2f62840e14031c6088daa"
+    },
+    {
+      "path": "06_验收与预览/道具FBX回读验收.json",
+      "bytes": 6051,
+      "sha256": "d13603aff1df0c2caee9be5b4f705cb0d8a8fd47de7b73c74d89ac8693698fa7"
+    },
+    {
+      "path": "06_验收与预览/三关卡动线验收.json",
+      "bytes": 42467,
+      "sha256": "9eeafa08303c9c896b1c52ff576af33a108278cfae46c3966d4df6cd200e4b72"
+    },
+    {
+      "path": "06_验收与预览/三关卡回读验收.json",
+      "bytes": 35805,
+      "sha256": "3379576ae735dfcc4150c2e7311787b5eb2100dbf4240b44f62ee523912b14f9"
+    },
+    {
+      "path": "06_验收与预览/CAM_00_Cutaway.png",
+      "bytes": 1900597,
+      "sha256": "8d1f01297a30b9aa4da3ea448f9bb37f9d08780b5753b117dd3f83563be21814"
+    },
+    {
+      "path": "06_验收与预览/CAM_01_Checkout.png",
+      "bytes": 1289879,
+      "sha256": "acdcd91d8b66cbae57f9e621b4f5e27dc6e2691db852f7e4c10be347c9eb8167"
+    },
+    {
+      "path": "06_验收与预览/CAM_02_Customer.png",
+      "bytes": 1371993,
+      "sha256": "0b5e85456d779f8a9af4553b6d65fcc35eefb5cb4b963a0d4766dedd35b588db"
+    },
+    {
+      "path": "06_验收与预览/CAM_03_Warehouse.png",
+      "bytes": 1168857,
+      "sha256": "cccd0d7b4da7ab47af1ee16f459b5e04e6c7c6485e03aba36d8f047a74f6cdcc"
+    },
+    {
+      "path": "06_验收与预览/CAM_04_Coldroom.png",
+      "bytes": 1090717,
+      "sha256": "cb9f4ab0cf43437e2fe5629c1487f3c36905069119ee381d3455c131dc0dc18b"
+    },
+    {
+      "path": "06_验收与预览/CAM_05_Milk.png",
+      "bytes": 1017530,
+      "sha256": "9ee5eb2a2c07ece9173b3009d88c4eba7c584b7f79841841339f44d1a21371f0"
+    },
+    {
+      "path": "06_验收与预览/CAM_06_Loading.png",
+      "bytes": 1159396,
+      "sha256": "44cc3fe275e5d8c6745f4eafe967ae4cab85c61eec5030f7764cb7ecf5ecd38b"
+    },
+    {
+      "path": "06_验收与预览/CAM_07_Plan.png",
+      "bytes": 1663348,
+      "sha256": "60e33e194468e29697c9609afb14f70a91c69aed33a4dfb21596a2aa74df10f0"
+    },
+    {
+      "path": "06_验收与预览/L1_便民店初访/01_总览.png",
+      "bytes": 1798335,
+      "sha256": "9553670070740b9b98a52bca6a9ea68afcdc5bea37723da29b50b2c6d11de7f1"
+    },
+    {
+      "path": "06_验收与预览/L1_便民店初访/02_近景.png",
+      "bytes": 2105046,
+      "sha256": "1c5b285ffa5bf0b6d222056dc6d8cce15889829328d7921298a05eb4912f2a4d"
+    },
+    {
+      "path": "06_验收与预览/L1_便民店初访/03_近景.png",
+      "bytes": 2215440,
+      "sha256": "2a5403057de753b7c6e06f5ec3e4ecb09a6973084352a29061a0e26e5810f080"
+    },
+    {
+      "path": "06_验收与预览/L1_便民店初访/04_完整平面.png",
+      "bytes": 1602224,
+      "sha256": "afd0502d09ce6087ffe694fce585517f2c8ed4b21cbbe593223703f0a673ef51"
+    },
+    {
+      "path": "06_验收与预览/L2_后仓夜游/01_总览.png",
+      "bytes": 1711377,
+      "sha256": "9cd2a9592beb2b1f257607f0451a6f0561003ad9b022ae1b6492db4b0d31272c"
+    },
+    {
+      "path": "06_验收与预览/L2_后仓夜游/02_近景.png",
+      "bytes": 1830980,
+      "sha256": "9d8c6d93467f6e2f66c462472543eca8194b2afd2efceef509a34a39f91c8dac"
+    },
+    {
+      "path": "06_验收与预览/L2_后仓夜游/03_近景.png",
+      "bytes": 1973510,
+      "sha256": "048b78205bfa6c233c3af615688981ffee36b078041f54bca3eb73b76d0b0948"
+    },
+    {
+      "path": "06_验收与预览/L2_后仓夜游/04_完整平面.png",
+      "bytes": 1878926,
+      "sha256": "8e51451e7a9820571fdf6960a72a2ee62fd11defa53646540a26056f6a325c05"
+    },
+    {
+      "path": "06_验收与预览/L3_整店不对劲/01_总览.png",
+      "bytes": 1900130,
+      "sha256": "c1125182e0970de4c3e791d2ad52576b1c0a8c5619f2ea0914320a5d76a7ebe7"
+    },
+    {
+      "path": "06_验收与预览/L3_整店不对劲/02_近景.png",
+      "bytes": 2123068,
+      "sha256": "6e385f0ed125feb4c1729a2c35220148012c80795428bb8d412f4655b63145d1"
+    },
+    {
+      "path": "06_验收与预览/L3_整店不对劲/03_近景.png",
+      "bytes": 1831687,
+      "sha256": "7597d7ef2236379b38f0c4382ad09b69b6af440dd71e1658e2654e5832d1e43a"
+    },
+    {
+      "path": "06_验收与预览/L3_整店不对劲/04_完整平面.png",
+      "bytes": 2889941,
+      "sha256": "453a340a90821f5f3ad304874cebcacac57998e3ea4534fac38266d617d7e28a"
+    },
+    {
+      "path": "08_原始AI输入/方块箭头指示牌3d模型.zip",
+      "bytes": 2055810,
+      "sha256": "6032bc583b911ad3ed0ae28c720a8bab7d9d6e58075c2cab758ba96fff85dae0"
+    },
+    {
+      "path": "08_原始AI输入/木托盘3d模型.zip",
+      "bytes": 1937409,
+      "sha256": "ca2660a5ae316918cfeae9ee2f379b8654a9b1a188b2a570c62d5b46cd179d7c"
+    },
+    {
+      "path": "08_原始AI输入/奶盒3d模型.zip",
+      "bytes": 2114281,
+      "sha256": "24a7a8a6124b046b14c6667e775b40f96e4c99cddd4014e03e99b5aa0c5104c8"
+    },
+    {
+      "path": "08_原始AI输入/三维长颈鹿模型.zip",
+      "bytes": 2572785,
+      "sha256": "99d0e5d0d5bbcc5d51a2890866fad91ff1907f5aea4fbf602ac500523fc7bcdd"
+    },
+    {
+      "path": "08_原始AI输入/体素秤3d模型.zip",
+      "bytes": 1824461,
+      "sha256": "1b61b3886b67b0868a4be2e8f032bf8e2acee87c1c90ca8f767cd7dcb336aa60"
+    },
+    {
+      "path": "08_原始AI输入/体素盒子角色3d模型.zip",
+      "bytes": 2774288,
+      "sha256": "233323a68e301af3fa93c1baf4a82d8b68b7b80b48a390f144482e7c6dc4f44f"
+    },
+    {
+      "path": "08_原始AI输入/像素方块面板3d模型.zip",
+      "bytes": 2162930,
+      "sha256": "d37eec5a59dad4e6d27f759b1dc6848f9403a162f583ae17a422b1d063ba9a49"
+    },
+    {
+      "path": "08_原始AI输入/像素风电脑3d模型.zip",
+      "bytes": 2063597,
+      "sha256": "55f3920ffc3628cdccdb30db65868c946e9661a29939d84bddd520fa641796a3"
+    },
+    {
+      "path": "08_原始AI输入/像素风箱子3d模型.zip",
+      "bytes": 1992256,
+      "sha256": "a4ac826c7cd5205185b6ea67e50810bceecc3977e34d25dd733e49e1be8ffa4c"
+    },
+    {
+      "path": "08_原始AI输入/压力机3d模型.zip",
+      "bytes": 2138887,
+      "sha256": "e7f7f36abff2dbf633dee82f6469f703200e53ded5ee4bac803298782813492c"
+    },
+    {
+      "path": "08_原始AI输入/tripo_convert_80b7000e-a665-4544-b0ec-fc2999ea92de.zip",
+      "bytes": 5959977,
+      "sha256": "88cc5e8cb6210b66f64c94ba3e9cba8749ab87081808cd061762135bfc02a9e7"
+    },
+    {
+      "path": "08_原始AI输入/tripo_convert_98650215-92ac-43c4-ba3c-b2c00c9dcfd3.zip",
+      "bytes": 5666283,
+      "sha256": "cb47c27da784d0b6593f3031b47b4223e8fb11be83f0582fc6f9cc83f1c8632f"
+    },
+    {
+      "path": "08_原始AI输入/tripo_convert_ef739bcb-c0c6-43a3-bd92-040da070e303.zip",
+      "bytes": 6556719,
+      "sha256": "4b034e3116b639a7b6a44dcd4f1b4c2fc078bfe72ce90d73c0776300265eae9b"
+    },
+    {
+      "path": "09_制作脚本/脚本说明.md",
+      "bytes": 1166,
+      "sha256": "25e4fafc2c0842b82c4fe198580302bf57fb85ec865650bb9e9ff9abc321f29f"
+    },
+    {
+      "path": "09_制作脚本/build_store_scene.py",
+      "bytes": 35490,
+      "sha256": "c316b00f2c587f61c26e166824c44b49d367f1cc89fc4b63277980e267c16c84"
+    },
+    {
+      "path": "09_制作脚本/derive_three_levels.py",
+      "bytes": 26395,
+      "sha256": "69b5eefa0c2b7f18732c2dfd696097c7f774db6005230ad55a46476c957f0363"
+    },
+    {
+      "path": "09_制作脚本/finish_store_base.py",
+      "bytes": 4820,
+      "sha256": "a928ca62bb467293ffd724bc99d6275db3d5f954db0c66cc70522a21efcd319d"
+    },
+    {
+      "path": "09_制作脚本/level_geometry_audit.py",
+      "bytes": 6306,
+      "sha256": "f12f1ef3d673a7a8fd53c9d57f7434f090e10361ba58237594a7385316b7e035"
+    },
+    {
+      "path": "09_制作脚本/package_delivery.ps1",
+      "bytes": 4874,
+      "sha256": "242644bb0d93d79cde191fed3ed0f7b7175f1a28ddea4ea9e789c22909c7e3fe"
+    },
+    {
+      "path": "09_制作脚本/scene_inspect.py",
+      "bytes": 3939,
+      "sha256": "252a38a214e37086736afcd5f6b84a3afe4ba8b4ba2008b0871ad8b27850fb1a"
+    },
+    {
+      "path": "09_制作脚本/scene_prop_library.py",
+      "bytes": 13102,
+      "sha256": "03840dd4499a9b2c424bc6a860cd78b9ae190b658a2e4014b7c74bd33d9cd029"
+    },
+    {
+      "path": "09_制作脚本/verify_props.py",
+      "bytes": 2013,
+      "sha256": "f9b6075c03db51b00de232a7abdbee5f3257a63bec95b35ddcff577a4b52cbf9"
+    },
+    {
+      "path": "09_制作脚本/verify_three_levels.py",
+      "bytes": 5819,
+      "sha256": "adbc7fca7f9b8d113c82d42af3e5d0cf4af7f28c866bc1fbe6ea3ae8fe77e9e7"
+    },
+    {
+      "path": "README_先看这里.md",
+      "bytes": 4470,
+      "sha256": "2978b6fc98a51b2987fbfc229ab5f3fdadc5e0ef2e93ec071f03011a0b606040"
+    }
+  ]
+}

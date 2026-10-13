@@ -1,0 +1,5 @@
+{
+  "superseded": true,
+  "use": "Levels/*/scene-manifest.json",
+  "reason": "Latest user requires original Idea3 free exploration without task chain"
+}

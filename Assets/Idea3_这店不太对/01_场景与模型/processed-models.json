@@ -1,0 +1,281 @@
+[
+  {
+    "asset_id": "PRP_HAND_CART",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\tripo_convert_80b7000e-a665-4544-b0ec-fc2999ea92de.zip",
+    "source_sha256": "88cc5e8cb6210b66f64c94ba3e9cba8749ab87081808cd061762135bfc02a9e7",
+    "dimensions_m": [
+      0.75,
+      1.100000023841858,
+      1.0
+    ],
+    "dimension_strategy": "specified fit for modular logistics pieces",
+    "triangles_source": 10409,
+    "triangles_runtime": 1199,
+    "texture": "Textures\\PRP_HAND_CART_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_HAND_CART_Body",
+      "PRP_HAND_CART_ROOT"
+    ],
+    "dynamic_parts": [],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_SHIFT_CLIPBOARD",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\tripo_convert_98650215-92ac-43c4-ba3c-b2c00c9dcfd3.zip",
+    "source_sha256": "cb47c27da784d0b6593f3031b47b4223e8fb11be83f0582fc6f9cc83f1c8632f",
+    "dimensions_m": [
+      0.23999999463558197,
+      0.03500000014901161,
+      0.3400000035762787
+    ],
+    "dimension_strategy": "specified fit for modular logistics pieces",
+    "triangles_source": 7977,
+    "triangles_runtime": 500,
+    "texture": "Textures\\PRP_SHIFT_CLIPBOARD_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_SHIFT_CLIPBOARD_Body",
+      "PRP_SHIFT_CLIPBOARD_ROOT"
+    ],
+    "dynamic_parts": [],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_FRIDGE",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\tripo_convert_ef739bcb-c0c6-43a3-bd92-040da070e303.zip",
+    "source_sha256": "4b034e3116b639a7b6a44dcd4f1b4c2fc078bfe72ce90d73c0776300265eae9b",
+    "dimensions_m": [
+      0.8668784499168396,
+      1.2054225206375122,
+      2.0999999046325684
+    ],
+    "dimension_strategy": "uniform height fit preserving source silhouette",
+    "triangles_source": 2087,
+    "triangles_runtime": 1186,
+    "texture": "Textures\\PRP_FRIDGE_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_FRIDGE_ROOT",
+      "PRP_FRIDGE_Door",
+      "PRP_FRIDGE_Body.001",
+      "PRP_FRIDGE_InnerBack",
+      "PRP_FRIDGE_Shelf_0.38",
+      "PRP_FRIDGE_Shelf_0.92",
+      "PRP_FRIDGE_Shelf_1.46",
+      "PRP_FRIDGE_InnerLight",
+      "PRP_FRIDGE_DoorGlass",
+      "PRP_FRIDGE_FrameLeft",
+      "PRP_FRIDGE_FrameRight",
+      "PRP_FRIDGE_FrameTop",
+      "PRP_FRIDGE_FrameBottom",
+      "PRP_FRIDGE_PixelEye",
+      "PRP_FRIDGE_PixelEye.001",
+      "PRP_FRIDGE_PixelMouth"
+    ],
+    "dynamic_parts": [
+      "PRP_FRIDGE_Door"
+    ],
+    "notes": [
+      "Original exterior retained; source baked opaque centre removed to form a real cavity. Independent shelves, emissive strip and translucent window added. Door hinge Z 0..-70 degrees."
+    ]
+  },
+  {
+    "asset_id": "PRP_WEIGH_SCALE",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\体素秤3d模型.zip",
+    "source_sha256": "1b61b3886b67b0868a4be2e8f032bf8e2acee87c1c90ca8f767cd7dcb336aa60",
+    "dimensions_m": [
+      1.155686378479004,
+      1.3989887237548828,
+      1.25
+    ],
+    "dimension_strategy": "uniform height fit preserving source silhouette",
+    "triangles_source": 9500,
+    "triangles_runtime": 800,
+    "texture": "Textures\\PRP_WEIGH_SCALE_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_WEIGH_SCALE_Body",
+      "PRP_WEIGH_SCALE_ROOT"
+    ],
+    "dynamic_parts": [],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_SYMBOL_CARD_SET",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\像素方块面板3d模型.zip",
+    "source_sha256": "d37eec5a59dad4e6d27f759b1dc6848f9403a162f583ae17a422b1d063ba9a49",
+    "dimensions_m": [
+      0.12000000476837158,
+      0.00800000037997961,
+      0.12000000476837158
+    ],
+    "dimension_strategy": "specified fit for modular logistics pieces",
+    "triangles_source": 9057,
+    "triangles_runtime": 240,
+    "texture": "Textures\\PRP_SYMBOL_CARD_SET_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_SYMBOL_CARD_SET_Body",
+      "PRP_SYMBOL_CARD_SET_ROOT"
+    ],
+    "dynamic_parts": [],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_REGISTER_FACE",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\像素风电脑3d模型.zip",
+    "source_sha256": "55f3920ffc3628cdccdb30db65868c946e9661a29939d84bddd520fa641796a3",
+    "dimensions_m": [
+      0.3999999761581421,
+      0.3362060487270355,
+      0.4000000059604645
+    ],
+    "dimension_strategy": "uniform height fit preserving source silhouette",
+    "triangles_source": 10365,
+    "triangles_runtime": 998,
+    "texture": "Textures\\PRP_REGISTER_FACE_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_REGISTER_FACE_ROOT",
+      "PRP_REGISTER_FACE_Jaw",
+      "PRP_REGISTER_FACE_Body.001"
+    ],
+    "dynamic_parts": [
+      "PRP_REGISTER_FACE_Jaw"
+    ],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_CARGO_CRATE",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\像素风箱子3d模型.zip",
+    "source_sha256": "a4ac826c7cd5205185b6ea67e50810bceecc3977e34d25dd733e49e1be8ffa4c",
+    "dimensions_m": [
+      0.550000011920929,
+      0.44999998807907104,
+      0.5799999833106995
+    ],
+    "dimension_strategy": "specified fit for modular logistics pieces",
+    "triangles_source": 10721,
+    "triangles_runtime": 799,
+    "texture": "Textures\\PRP_CARGO_CRATE_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_CARGO_CRATE_ROOT",
+      "PRP_CARGO_CRATE_Lid",
+      "PRP_CARGO_CRATE_Body.001"
+    ],
+    "dynamic_parts": [
+      "PRP_CARGO_CRATE_Lid"
+    ],
+    "notes": [
+      "Lid split across full rim plane Z=.329; source tilted approx 41.5 degrees. Runtime collision remains a stable box. Decorative source closed envelope is approx .36m, not an assumed .45m solid cube."
+    ]
+  },
+  {
+    "asset_id": "PRP_STAMP_STATION",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\压力机3d模型.zip",
+    "source_sha256": "e7f7f36abff2dbf633dee82f6469f703200e53ded5ee4bac803298782813492c",
+    "dimensions_m": [
+      0.4911089539527893,
+      0.575525164604187,
+      0.9000000357627869
+    ],
+    "dimension_strategy": "uniform height fit preserving source silhouette",
+    "triangles_source": 10002,
+    "triangles_runtime": 899,
+    "texture": "Textures\\PRP_STAMP_STATION_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_STAMP_STATION_ROOT",
+      "PRP_STAMP_STATION_Plunger",
+      "PRP_STAMP_STATION_Body.001"
+    ],
+    "dynamic_parts": [
+      "PRP_STAMP_STATION_Plunger"
+    ],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_ROUTE_SIGN_SET",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\方块箭头指示牌3d模型.zip",
+    "source_sha256": "6032bc583b911ad3ed0ae28c720a8bab7d9d6e58075c2cab758ba96fff85dae0",
+    "dimensions_m": [
+      0.6404881477355957,
+      0.16489362716674805,
+      0.25
+    ],
+    "dimension_strategy": "uniform height fit preserving source silhouette",
+    "triangles_source": 10451,
+    "triangles_runtime": 499,
+    "texture": "Textures\\PRP_ROUTE_SIGN_SET_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_ROUTE_SIGN_SET_Body",
+      "PRP_ROUTE_SIGN_SET_ROOT"
+    ],
+    "dynamic_parts": [],
+    "notes": []
+  },
+  {
+    "asset_id": "PRP_LOADING_PALLET",
+    "source_zip": "D:\\游戏资产idea2-4\\idea3_丑美术玩梗\\资产\\木托盘3d模型.zip",
+    "source_sha256": "ca2660a5ae316918cfeae9ee2f379b8654a9b1a188b2a570c62d5b46cd179d7c",
+    "dimensions_m": [
+      1.100000023841858,
+      0.9000000357627869,
+      0.14000000059604645
+    ],
+    "dimension_strategy": "specified fit for modular logistics pieces",
+    "triangles_source": 7830,
+    "triangles_runtime": 500,
+    "texture": "Textures\\PRP_LOADING_PALLET_BaseColor.png",
+    "texture_size": [
+      256,
+      256
+    ],
+    "sampling": "Point/Closest",
+    "objects": [
+      "PRP_LOADING_PALLET_Body",
+      "PRP_LOADING_PALLET_ROOT"
+    ],
+    "dynamic_parts": [],
+    "notes": []
+  }
+]

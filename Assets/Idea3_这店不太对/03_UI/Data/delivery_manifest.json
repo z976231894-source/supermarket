@@ -1,0 +1,395 @@
+{
+  "version": 2,
+  "scope": "active_free_exploration_only",
+  "excluded_archives": true,
+  "archive_location": "Project root / 98_过程留档 / 03_UI",
+  "files": 77,
+  "total_bytes": 11705921,
+  "entries": [
+    {
+      "path": "Data/layouts.json",
+      "bytes": 3684,
+      "sha256": "bf3dfa4bf0f6900e378ef992062379e7a1df82c766ff5e687a265ea1906bad32"
+    },
+    {
+      "path": "Data/sprite_map.json",
+      "bytes": 11128,
+      "sha256": "145ed8e45b235fb1a5b728c7f59b8bd67a2f4260fed761080b4f680bb3a17f43"
+    },
+    {
+      "path": "Data/strings_zh-CN.json",
+      "bytes": 1414,
+      "sha256": "5889059a95dadf64052d058d0cd984546c1500ee68f91a082abf21f962f814ad"
+    },
+    {
+      "path": "Data/ui_elements.json",
+      "bytes": 58963,
+      "sha256": "ff9dd986afe12568693bb4638a9926ff16b27c73ca040ff4a944b4367f51eae4"
+    },
+    {
+      "path": "Data/ui_qa.json",
+      "bytes": 5731,
+      "sha256": "82e185f1ceeb1ddc48972a470c53a21e8e222657ecbe449feec6cd3bce7c1fd8"
+    },
+    {
+      "path": "Preview_1280/UI_help_1280.png",
+      "bytes": 256089,
+      "sha256": "3888f824018c718b9a039594a32ce0efcf062674e8985cdcc00168258d17dee3"
+    },
+    {
+      "path": "Preview_1280/UI_hud_1280.png",
+      "bytes": 862489,
+      "sha256": "f21dc48b75ef99d4f5fa7dfa584338ebe3816fa74e682c12e998727dada31060"
+    },
+    {
+      "path": "Preview_1280/UI_leave_1280.png",
+      "bytes": 254516,
+      "sha256": "3874ef4f5ec8145f6b5a5a447d2cd2aceb468a77bd16bcaf43272d9594c9141e"
+    },
+    {
+      "path": "Preview_1280/UI_pause_1280.png",
+      "bytes": 251689,
+      "sha256": "f49c4705ccab648b50af69ef2ac49ce352438979d62a6f9270d0abb1ba8c967e"
+    },
+    {
+      "path": "Preview_1280/UI_photo_1280.png",
+      "bytes": 862442,
+      "sha256": "44cdda3e010f244f9933fc35adc970a224e830e2870e9c1831a3ee244714a3fc"
+    },
+    {
+      "path": "Preview_1280/UI_saved_1280.png",
+      "bytes": 856992,
+      "sha256": "fde40131e00f395dc32f476e882033e58c4ae4b983b69829ac0e3b0a3aab285f"
+    },
+    {
+      "path": "Preview_1280/UI_title_1280.png",
+      "bytes": 642926,
+      "sha256": "99e7da1211b321383c1118e3f3e29223be54219cd56c61225935e3c39b3dbf84"
+    },
+    {
+      "path": "Preview_1920/UI_help_1920.png",
+      "bytes": 475508,
+      "sha256": "44e14a566e5438f8f7c90567ce3ac4e4614d54184a3f7781d47a5965bab47ca8"
+    },
+    {
+      "path": "Preview_1920/UI_hud_1920.png",
+      "bytes": 1224422,
+      "sha256": "f3e5680b2549a6b4de1e22ba6d5de1aa89a8454eb9031ce4fdfd2c4b918dd046"
+    },
+    {
+      "path": "Preview_1920/UI_leave_1920.png",
+      "bytes": 461881,
+      "sha256": "abd56384f481055af38e427e1ceeb0cfde3dee321c2c08a0ef51d3f57cc2ad5f"
+    },
+    {
+      "path": "Preview_1920/UI_pause_1920.png",
+      "bytes": 455565,
+      "sha256": "2225f0ef2a3f11f8624ed72a51689bc43f24d974ab7875b2a04123bc59bfe0f7"
+    },
+    {
+      "path": "Preview_1920/UI_photo_1920.png",
+      "bytes": 1232431,
+      "sha256": "5edb32b7eb309778bf51534e787e1fdc5bea67a38998089f4db1b4f1820ab458"
+    },
+    {
+      "path": "Preview_1920/UI_saved_1920.png",
+      "bytes": 1226031,
+      "sha256": "69e8520e1b46eafc31d7ef974aae1d6cbbe1b6e09d21f37c3438a057616ce88b"
+    },
+    {
+      "path": "Preview_1920/UI_title_1920.png",
+      "bytes": 1194315,
+      "sha256": "d885af4f7b310b987f5fac9c08966d6d95098539ce2a3bbfd445763ca087abc6"
+    },
+    {
+      "path": "Scene_Background.png",
+      "bytes": 1289879,
+      "sha256": "acdcd91d8b66cbae57f9e621b4f5e27dc6e2691db852f7e4c10be347c9eb8167"
+    },
+    {
+      "path": "Source/README.md",
+      "bytes": 648,
+      "sha256": "e26f678d221cfd70e25015a762ef463ac42f01a9a975b362bdc676db041ad003"
+    },
+    {
+      "path": "Source/ui_audio_explore.mjs",
+      "bytes": 41069,
+      "sha256": "a246c0bde237d19f8c2b3b3547e7656657d64ce8cb07b0db8cf7aa4026155c17"
+    },
+    {
+      "path": "Sprites/I3_Button.png",
+      "bytes": 314,
+      "sha256": "a321240e680a2fb19d5c92df475e0a761528112f48bf5b27b1d04050f37135fe"
+    },
+    {
+      "path": "Sprites/I3_Button_Disabled.png",
+      "bytes": 310,
+      "sha256": "0312f76deb16ba1a381fe319d174ba4385dcb33bfbe2f8d6b783276fb491a18c"
+    },
+    {
+      "path": "Sprites/I3_Button_Hover.png",
+      "bytes": 315,
+      "sha256": "03d10de48c53a4117ea71a14ae74e7abf1e211e95940e3b98d88035c7a91d7ac"
+    },
+    {
+      "path": "Sprites/I3_Button_Pressed.png",
+      "bytes": 314,
+      "sha256": "6155fc8841879031bf494eb0e156e610bf20e0e9ca55ffd75073c1baa328b2df"
+    },
+    {
+      "path": "Sprites/I3_Crosshair.png",
+      "bytes": 126,
+      "sha256": "d203a231847ec07678692054a525cc6fad0a58001f709385cc89967465ca028b"
+    },
+    {
+      "path": "Sprites/I3_Crosshair_Interact.png",
+      "bytes": 174,
+      "sha256": "bf648a6b7fa4a0fbb0615f9b012f6e007348460bbb0501bec19afad2bad1c132"
+    },
+    {
+      "path": "Sprites/I3_Icon_Arrow.png",
+      "bytes": 268,
+      "sha256": "437fbb7e50d7401dd75b3ed25859d1e37da7e187947e1f3145201be7b9661a10"
+    },
+    {
+      "path": "Sprites/I3_Icon_Back.png",
+      "bytes": 286,
+      "sha256": "b6ee3082ff28eb1949e3fb0e5fb79920419e50e8113a8eeda86041f94ee56594"
+    },
+    {
+      "path": "Sprites/I3_Icon_Camera.png",
+      "bytes": 254,
+      "sha256": "c55fecac7444a853a38e0e7adb1ee2957a56b975bd0fd309e2f427a83b7d39c9"
+    },
+    {
+      "path": "Sprites/I3_Icon_Check.png",
+      "bytes": 270,
+      "sha256": "195806afa70889a04baa37f8c254736692eeafe507e08bf0afe8c9b8d40c908f"
+    },
+    {
+      "path": "Sprites/I3_Icon_Close.png",
+      "bytes": 359,
+      "sha256": "cd1f1d13fc4164efb2c5fe7f0dd590216b58580579e5360104577f4d205c5a06"
+    },
+    {
+      "path": "Sprites/I3_Icon_Copy.png",
+      "bytes": 280,
+      "sha256": "3980e6c68312bc5b6c527142d9608837635a6bfd506610edcf202692effddf05"
+    },
+    {
+      "path": "Sprites/I3_Icon_Eye.png",
+      "bytes": 325,
+      "sha256": "db3fb29d53e03e202b6ed2c9fd2bf5ab56096e0f1fb673757dfa8680508a329a"
+    },
+    {
+      "path": "Sprites/I3_Icon_Interact.png",
+      "bytes": 298,
+      "sha256": "9c409bdc80ee2ce54f4684ee235bf84af28e307d26b8107e695d581f2d2bf317"
+    },
+    {
+      "path": "Sprites/I3_Icon_Pause.png",
+      "bytes": 221,
+      "sha256": "9a3aa6ff57de1f34e6cb6e1389e596c91720a6b663f9b0457068046ea22d423c"
+    },
+    {
+      "path": "Sprites/I3_Icon_Save.png",
+      "bytes": 293,
+      "sha256": "220d35a3c4f01c720fdaa3c165ccaf58f499a98af84b150a7691c0cc69c380ff"
+    },
+    {
+      "path": "Sprites/I3_Icon_Volume.png",
+      "bytes": 363,
+      "sha256": "d5906fa03a2f1e6baf59d8b5485828ac8e902faf973e3b14da4dae2200b919d0"
+    },
+    {
+      "path": "Sprites/I3_Keycap.png",
+      "bytes": 314,
+      "sha256": "ece65f10dc00705a5b9546d8d10cbb2fb4b79497a8aafb4923aafeade32a72f8"
+    },
+    {
+      "path": "Sprites/I3_Panel.png",
+      "bytes": 314,
+      "sha256": "a321240e680a2fb19d5c92df475e0a761528112f48bf5b27b1d04050f37135fe"
+    },
+    {
+      "path": "Sprites/I3_Photo_Corner.png",
+      "bytes": 232,
+      "sha256": "3608da409d1384d39c83dd9a37206e1ffb067b98914a6d0eff05143ad134b5b6"
+    },
+    {
+      "path": "Sprites/I3_Pixel_Spark.png",
+      "bytes": 155,
+      "sha256": "3458441b07afe91b9068b964e027f27cd09311ee3cf766a19823ffd337b2d467"
+    },
+    {
+      "path": "Sprites/I3_Slider_Fill.png",
+      "bytes": 137,
+      "sha256": "7f4eb942dddd77e53497c2f3c05559522ef587085f1752155e619e43565eee49"
+    },
+    {
+      "path": "Sprites/I3_Slider_Handle.png",
+      "bytes": 155,
+      "sha256": "a6a98513aae4b9577158d7ad378b66c40e457593f307fb193cd3100a94dfb027"
+    },
+    {
+      "path": "Sprites/I3_Slider_Track.png",
+      "bytes": 141,
+      "sha256": "99496269f25cd19b47d385c5287a0f06a2f51af2c3bbf4558c875cf8a17c621d"
+    },
+    {
+      "path": "UI_技术接入.md",
+      "bytes": 2086,
+      "sha256": "768c833d00b9a1812eb8f33c93fef557dc409cbe6c4e20c078f3807269d5a683"
+    },
+    {
+      "path": "UI_离线预览.html",
+      "bytes": 17411,
+      "sha256": "df2d82d3ed55393ed7e10d9c37f9687fd63e3386262153903d264a3a7e07efdc"
+    },
+    {
+      "path": "Vector_Source/I3_Button.svg",
+      "bytes": 345,
+      "sha256": "32de8200c56d1135cea86a97f35b018fa4b0d10aa7f5f398cfe04f954624ed2a"
+    },
+    {
+      "path": "Vector_Source/I3_Button_Disabled.svg",
+      "bytes": 345,
+      "sha256": "a4ec910bbef1c723ea829d05a1fd7e008770eb6bf2681408ae13b6a3fb1932a8"
+    },
+    {
+      "path": "Vector_Source/I3_Button_Hover.svg",
+      "bytes": 345,
+      "sha256": "16e165a3ba68da955bab5bb8c4cde55bbef28d11a3237b22b54696fc5adbde2b"
+    },
+    {
+      "path": "Vector_Source/I3_Button_Pressed.svg",
+      "bytes": 345,
+      "sha256": "37ad42d1289445202b2d6b70d2d74a7b08448c1a9d49298c1055529238d48ceb"
+    },
+    {
+      "path": "Vector_Source/I3_Crosshair.svg",
+      "bytes": 175,
+      "sha256": "415c543143cccc0e483ba9ebcb1ef485a48fa9301d96ca49ce58d861b175b23f"
+    },
+    {
+      "path": "Vector_Source/I3_Crosshair_Interact.svg",
+      "bytes": 368,
+      "sha256": "7722757b7131c75c7bd471169ed9c4948d84e3d4f8f2323270179d5c207536fd"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Arrow.svg",
+      "bytes": 192,
+      "sha256": "3eea246440ee685d87457c34046ebf5c712e3985a543a48bc104c1daa8fac1ff"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Back.svg",
+      "bytes": 205,
+      "sha256": "24d842458b9b2d67d6c44dc245ea445bfbb45f950fd7f227b64cd0c07246418f"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Camera.svg",
+      "bytes": 410,
+      "sha256": "6b3fe19340a9c7a2bae3f1bb452a401d166f8d94f3ffb2af9337e43916da47bc"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Check.svg",
+      "bytes": 187,
+      "sha256": "570646c3f8a62214b0d34ab690ee95b144b62b58182733dd8c912532582f664c"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Close.svg",
+      "bytes": 220,
+      "sha256": "31a7d28d4c58fe9e71b28ac721f7c9490843fd66fd6b782dc3a602bdec85bd86"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Copy.svg",
+      "bytes": 353,
+      "sha256": "b7c9382923baca69ad108b84a12aa77cad7af69b2a41f44ea6f393a794d5a70a"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Eye.svg",
+      "bytes": 316,
+      "sha256": "e49abda87ca46fd83d9bf254888ef23809d63f901b50bba6cbd4d0a7bd571495"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Interact.svg",
+      "bytes": 425,
+      "sha256": "0bb82f0a35f798f3b788c0b897d887d0bc7d962fd2c4a63d2e1ecd2584dd79e1"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Pause.svg",
+      "bytes": 236,
+      "sha256": "a76908c0d22e4f766e2176c989ab47266905ba8d4eefcbcc5be2ea7e603e2444"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Save.svg",
+      "bytes": 359,
+      "sha256": "8fbf23a7b89e4ed56e383ec2c24ed700cc164546fdae2024c364fc737ba91ea4"
+    },
+    {
+      "path": "Vector_Source/I3_Icon_Volume.svg",
+      "bytes": 460,
+      "sha256": "66b827114f84ae7d1eb310dd80a018f4bef87b7544d83dad768e76d14035361b"
+    },
+    {
+      "path": "Vector_Source/I3_Keycap.svg",
+      "bytes": 345,
+      "sha256": "2eb1a6fa65df926afe010346cc35c05e3c092736d8c07a140cb0a37c57694099"
+    },
+    {
+      "path": "Vector_Source/I3_Panel.svg",
+      "bytes": 345,
+      "sha256": "32de8200c56d1135cea86a97f35b018fa4b0d10aa7f5f398cfe04f954624ed2a"
+    },
+    {
+      "path": "Vector_Source/I3_Photo_Corner.svg",
+      "bytes": 243,
+      "sha256": "ddddba363a060cc16d111c9eed534531e3f78b1de2a924c0b809e50274d020b4"
+    },
+    {
+      "path": "Vector_Source/I3_Pixel_Spark.svg",
+      "bytes": 232,
+      "sha256": "64b7f663307bc85a62abe4ccbf450f5e8962ef3f673c95bfcc3b4c17fcbfe953"
+    },
+    {
+      "path": "Vector_Source/I3_Slider_Fill.svg",
+      "bytes": 174,
+      "sha256": "5864d0fa68f1b38106487dcc2322b0708b88012133898d05188a9b1c759d523d"
+    },
+    {
+      "path": "Vector_Source/I3_Slider_Handle.svg",
+      "bytes": 288,
+      "sha256": "e80ceb883bcbeca233e90c73b9e8001e6b325767c4d7b75445c76392c14b9286"
+    },
+    {
+      "path": "Vector_Source/I3_Slider_Track.svg",
+      "bytes": 230,
+      "sha256": "b0d543d6167725827728b549fd0186929dcc8c2d80224ef12ab2b53be2486fa5"
+    },
+    {
+      "path": "VFX/VFX_FRIDGE_MIST.png",
+      "bytes": 248,
+      "sha256": "b0fe26fb582c98065fa107de9f994395a715873f01aa4a19cbe3ee1e6e259ac6"
+    },
+    {
+      "path": "VFX/VFX_FRIDGE_MIST.svg",
+      "bytes": 378,
+      "sha256": "e7395f4e459aa2bab51997a2ad20d8a0ba939f338a54c31d954d223bff85119f"
+    },
+    {
+      "path": "VFX/vfx_parameters.json",
+      "bytes": 1240,
+      "sha256": "053cb834224fef9e2faf2411acfb9f69c957e7fd8b7977e48c92b86e08bfe0a2"
+    },
+    {
+      "path": "VFX/VFX_PIXEL_SPARK.png",
+      "bytes": 155,
+      "sha256": "3458441b07afe91b9068b964e027f27cd09311ee3cf766a19823ffd337b2d467"
+    },
+    {
+      "path": "飞书idea3核对与最新范围.md",
+      "bytes": 1230,
+      "sha256": "99345f02bfc9743f802d2d8ca06e7d34517906baae052b992bbc74a479471fb0"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "method": "Blender clean-session import of all10 final props with image search disabled; geometry/material decoding and units, not Unity physics",
+  "assets": [
+    {
+      "asset": "PRP_CARGO_CRATE",
+      "meshes": 2,
+      "triangles": 799,
+      "dimensions_m": [
+        0.5509389638900757,
+        0.449413999915123,
+        0.586927079828456
+      ],
+      "textures": [
+        {
+          "name": "PRP_CARGO_CRATE_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 1,
+      "has_geometry": true,
+      "pass": true,
+      "closed_demo_bbox_m": [
+        [
+          -0.2750000059604645,
+          -0.22584041953086853,
+          -0.0020682450849562883
+        ],
+        [
+          0.2759389579296112,
+          0.19044648110866547,
+          0.37830403447151184
+        ]
+      ]
+    },
+    {
+      "asset": "PRP_FRIDGE",
+      "meshes": 15,
+      "triangles": 1186,
+      "dimensions_m": [
+        0.8669163286685944,
+        1.2174225449562073,
+        2.0991321163019165
+      ],
+      "textures": [
+        {
+          "name": "PRP_FRIDGE_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 1,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_HAND_CART",
+      "meshes": 1,
+      "triangles": 1199,
+      "dimensions_m": [
+        0.7481913864612579,
+        1.1002231240272522,
+        0.9990924387529958
+      ],
+      "textures": [
+        {
+          "name": "PRP_HAND_CART_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 0,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_LOADING_PALLET",
+      "meshes": 1,
+      "triangles": 500,
+      "dimensions_m": [
+        1.1014185547828674,
+        0.9039897918701172,
+        0.14498461014591157
+      ],
+      "textures": [
+        {
+          "name": "PRP_LOADING_PALLET_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 0,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_REGISTER_FACE",
+      "meshes": 2,
+      "triangles": 998,
+      "dimensions_m": [
+        0.4018270969390869,
+        0.338371679186821,
+        0.39965642406605184
+      ],
+      "textures": [
+        {
+          "name": "PRP_REGISTER_FACE_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 1,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_ROUTE_SIGN_SET",
+      "meshes": 1,
+      "triangles": 499,
+      "dimensions_m": [
+        0.6451687812805176,
+        0.16990521550178528,
+        0.24953067299793474
+      ],
+      "textures": [
+        {
+          "name": "PRP_ROUTE_SIGN_SET_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 0,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_SHIFT_CLIPBOARD",
+      "meshes": 1,
+      "triangles": 498,
+      "dimensions_m": [
+        0.23354238271713257,
+        0.03255339805036783,
+        0.32910272059962153
+      ],
+      "textures": [
+        {
+          "name": "PRP_SHIFT_CLIPBOARD_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 0,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_STAMP_STATION",
+      "meshes": 2,
+      "triangles": 899,
+      "dimensions_m": [
+        0.4915328919887543,
+        0.5745667517185211,
+        0.9040995370596647
+      ],
+      "textures": [
+        {
+          "name": "PRP_STAMP_STATION_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 1,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_SYMBOL_CARD_SET",
+      "meshes": 1,
+      "triangles": 240,
+      "dimensions_m": [
+        0.1198241226375103,
+        0.01031113276258111,
+        0.1198241389283794
+      ],
+      "textures": [
+        {
+          "name": "PRP_SYMBOL_CARD_SET_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 0,
+      "has_geometry": true,
+      "pass": true
+    },
+    {
+      "asset": "PRP_WEIGH_SCALE",
+      "meshes": 1,
+      "triangles": 800,
+      "dimensions_m": [
+        1.1561453342437744,
+        1.399620771408081,
+        1.250382153550163
+      ],
+      "textures": [
+        {
+          "name": "PRP_WEIGH_SCALE_BaseColor",
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "pixels_decodable": true
+        }
+      ],
+      "missing_texture_count": 0,
+      "actions": 0,
+      "has_geometry": true,
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

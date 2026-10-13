@@ -1,0 +1,2727 @@
+{
+  "version": 2,
+  "reference_resolution": [
+    1920,
+    1080
+  ],
+  "origin": "top-left",
+  "screens": {
+    "title": [
+      {
+        "id": "brandline",
+        "rect_px": [
+          100,
+          64,
+          1720,
+          25
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 19,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_1",
+        "rect_px": [
+          100,
+          64,
+          278.46875,
+          25
+        ],
+        "text": "OPEN / NIGHT HOURS",
+        "sprite": null,
+        "font_px": 19,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_2",
+        "rect_px": [
+          1705,
+          64,
+          115,
+          25
+        ],
+        "text": "灯还亮着。",
+        "sprite": null,
+        "font_px": 19,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "title",
+        "rect_px": [
+          120,
+          185,
+          678,
+          259.59375
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "eyebrow",
+        "rect_px": [
+          120,
+          185,
+          678,
+          29
+        ],
+        "text": "一款没有急事的奇怪小店漫游",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H1_5",
+        "rect_px": [
+          120,
+          238,
+          678,
+          129.59375
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 108,
+        "font_weight": "700",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_6",
+        "rect_px": [
+          346,
+          231,
+          339,
+          142
+        ],
+        "text": "不太对",
+        "sprite": null,
+        "font_px": 108,
+        "font_weight": "700",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "I_7",
+        "rect_px": [
+          685,
+          231,
+          113,
+          142
+        ],
+        "text": "。",
+        "sprite": null,
+        "font_px": 108,
+        "font_weight": "700",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "P_8",
+        "rect_px": [
+          120,
+          387.59375,
+          678,
+          37
+        ],
+        "text": "随便走走。奇怪的事情就在旁边。",
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(185, 198, 179)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "levelcards",
+        "rect_px": [
+          120,
+          475,
+          1680,
+          345
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "levelcard l1",
+        "rect_px": [
+          120,
+          475,
+          541.328125,
+          345
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(32, 54, 41, 0.925)",
+        "action": null,
+        "level": "L1"
+      },
+      {
+        "id": "level-index",
+        "rect_px": [
+          152,
+          516.5,
+          477.328125,
+          33
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_12",
+        "rect_px": [
+          503.328125,
+          521,
+          126,
+          24
+        ],
+        "text": "第一眼就能看见",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(172, 187, 166)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H2_13",
+        "rect_px": [
+          152,
+          579.5,
+          477.328125,
+          47
+        ],
+        "text": "便民店初访",
+        "sprite": null,
+        "font_px": 36,
+        "font_weight": "600",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "P_14",
+        "rect_px": [
+          152,
+          644.5,
+          477.328125,
+          73
+        ],
+        "text": "门一开，熟悉的小店先露出一点不对劲。",
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(185, 194, 174)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "FOOTER_15",
+        "rect_px": [
+          152,
+          732.5,
+          477.328125,
+          54
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_16",
+        "rect_px": [
+          605.328125,
+          755.5,
+          24,
+          31
+        ],
+        "text": "↗",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "levelcard l2",
+        "rect_px": [
+          689.328125,
+          475,
+          541.328125,
+          345
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(32, 54, 41, 0.925)",
+        "action": null,
+        "level": "L2"
+      },
+      {
+        "id": "level-index",
+        "rect_px": [
+          721.328125,
+          516.5,
+          477.328125,
+          33
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_19",
+        "rect_px": [
+          1072.65625,
+          521,
+          126,
+          24
+        ],
+        "text": "转个角，再回头",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(172, 187, 166)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H2_20",
+        "rect_px": [
+          721.328125,
+          579.5,
+          477.328125,
+          47
+        ],
+        "text": "后仓夜游",
+        "sprite": null,
+        "font_px": 36,
+        "font_weight": "600",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "P_21",
+        "rect_px": [
+          721.328125,
+          644.5,
+          477.328125,
+          73
+        ],
+        "text": "挪一步，换个方向，普通物件各有想法。",
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(185, 194, 174)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "FOOTER_22",
+        "rect_px": [
+          721.328125,
+          732.5,
+          477.328125,
+          54
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_23",
+        "rect_px": [
+          1174.65625,
+          755.5,
+          24,
+          31
+        ],
+        "text": "↗",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "levelcard l3",
+        "rect_px": [
+          1258.65625,
+          475,
+          541.328125,
+          345
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(32, 54, 41, 0.925)",
+        "action": null,
+        "level": "L3"
+      },
+      {
+        "id": "level-index",
+        "rect_px": [
+          1290.65625,
+          516.5,
+          477.328125,
+          33
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_26",
+        "rect_px": [
+          1659.984375,
+          521,
+          108,
+          24
+        ],
+        "text": "这次不只一个",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(172, 187, 166)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H2_27",
+        "rect_px": [
+          1290.65625,
+          579.5,
+          477.328125,
+          47
+        ],
+        "text": "整店不对劲",
+        "sprite": null,
+        "font_px": 36,
+        "font_weight": "600",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "P_28",
+        "rect_px": [
+          1290.65625,
+          644.5,
+          477.328125,
+          73
+        ],
+        "text": "一个小动静，让整间店互相接了话。",
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(185, 194, 174)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "FOOTER_29",
+        "rect_px": [
+          1290.65625,
+          732.5,
+          477.328125,
+          54
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_30",
+        "rect_px": [
+          1743.984375,
+          755.5,
+          24,
+          31
+        ],
+        "text": "↗",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "titlefoot",
+        "rect_px": [
+          120,
+          924,
+          1680,
+          61
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 20,
+        "font_weight": "400",
+        "color": "rgb(182, 194, 175)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_32",
+        "rect_px": [
+          120,
+          941.5,
+          433.3125,
+          26
+        ],
+        "text": "三个独立场景 · 自由进入与离开 · 不计时、不评分",
+        "sprite": null,
+        "font_px": 20,
+        "font_weight": "400",
+        "color": "rgb(182, 194, 175)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_33",
+        "rect_px": [
+          1624,
+          924,
+          176,
+          61
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": "pause",
+        "level": null
+      },
+      {
+        "id": "IMG_34",
+        "rect_px": [
+          1750,
+          940.5,
+          28,
+          28
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Icon_Volume.png",
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      }
+    ],
+    "hud": [
+      {
+        "id": "location",
+        "rect_px": [
+          52,
+          52,
+          209.515625,
+          53
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(27, 42, 33, 0.79)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "small-square",
+        "rect_px": [
+          69,
+          73.5,
+          10,
+          10
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(224, 160, 91)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_2",
+        "rect_px": [
+          92,
+          64,
+          152.515625,
+          29
+        ],
+        "text": "L1 · 便民店初访",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "cross",
+        "rect_px": [
+          940,
+          520,
+          40,
+          40
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "IMG_4",
+        "rect_px": [
+          940,
+          520,
+          40,
+          40
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Crosshair_Interact.png",
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "interact",
+        "rect_px": [
+          862.5,
+          661,
+          195,
+          72
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(30, 46, 35, 0.933)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_6",
+        "rect_px": [
+          875.5,
+          674,
+          46,
+          46
+        ],
+        "text": "E",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "700",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgb(216, 208, 184)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_7",
+        "rect_px": [
+          946.5,
+          678.5,
+          84,
+          37
+        ],
+        "text": "看一看",
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "bottom",
+        "rect_px": [
+          52,
+          997,
+          1816,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_9",
+        "rect_px": [
+          52,
+          997,
+          132.53125,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_10",
+        "rect_px": [
+          52,
+          997,
+          56.3125,
+          37
+        ],
+        "text": "Tab",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_11",
+        "rect_px": [
+          1645.25,
+          997,
+          222.75,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_12",
+        "rect_px": [
+          1645.25,
+          997,
+          38,
+          37
+        ],
+        "text": "P",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_13",
+        "rect_px": [
+          1759.46875,
+          997,
+          53.3125,
+          37
+        ],
+        "text": "Esc",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      }
+    ],
+    "help": [
+      {
+        "id": "shade",
+        "rect_px": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(16, 30, 21, 0.78)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "panel help",
+        "rect_px": [
+          570,
+          135,
+          780,
+          739.1875
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "eyebrow",
+        "rect_px": [
+          630,
+          187,
+          660,
+          29
+        ],
+        "text": "不用着急，也没有标准答案。",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H2_3",
+        "rect_px": [
+          630,
+          244,
+          660,
+          70
+        ],
+        "text": "随便走走就好",
+        "sprite": null,
+        "font_px": 53,
+        "font_weight": "700",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "keyrows",
+        "rect_px": [
+          630,
+          347,
+          660,
+          267
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "DIV_5",
+        "rect_px": [
+          630,
+          347,
+          660,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_6",
+        "rect_px": [
+          630,
+          347,
+          184.390625,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_7",
+        "rect_px": [
+          630,
+          347,
+          42.390625,
+          37
+        ],
+        "text": "W",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_8",
+        "rect_px": [
+          679.390625,
+          347,
+          38,
+          37
+        ],
+        "text": "A",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_9",
+        "rect_px": [
+          724.390625,
+          347,
+          38,
+          37
+        ],
+        "text": "S",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_10",
+        "rect_px": [
+          769.390625,
+          347,
+          38,
+          37
+        ],
+        "text": "D",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "STRONG_11",
+        "rect_px": [
+          1242,
+          350,
+          48,
+          31
+        ],
+        "text": "走动",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "DIV_12",
+        "rect_px": [
+          630,
+          406,
+          660,
+          31
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_13",
+        "rect_px": [
+          630,
+          406,
+          48,
+          31
+        ],
+        "text": "鼠标",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "STRONG_14",
+        "rect_px": [
+          1194,
+          406,
+          96,
+          31
+        ],
+        "text": "环顾四周",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "DIV_15",
+        "rect_px": [
+          630,
+          459,
+          660,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_16",
+        "rect_px": [
+          630,
+          459,
+          45,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_17",
+        "rect_px": [
+          630,
+          459,
+          38,
+          37
+        ],
+        "text": "E",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "STRONG_18",
+        "rect_px": [
+          1121.53125,
+          462,
+          168.46875,
+          31
+        ],
+        "text": "看一看 / 试一下",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "DIV_19",
+        "rect_px": [
+          630,
+          518,
+          660,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_20",
+        "rect_px": [
+          630,
+          518,
+          45,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_21",
+        "rect_px": [
+          630,
+          518,
+          38,
+          37
+        ],
+        "text": "P",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "STRONG_22",
+        "rect_px": [
+          1050,
+          521,
+          240,
+          31
+        ],
+        "text": "可选拍照，只保存本地",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "DIV_23",
+        "rect_px": [
+          630,
+          577,
+          660,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_24",
+        "rect_px": [
+          630,
+          577,
+          60.3125,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_25",
+        "rect_px": [
+          630,
+          577,
+          53.3125,
+          37
+        ],
+        "text": "Esc",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "STRONG_26",
+        "rect_px": [
+          1097.078125,
+          580,
+          192.921875,
+          31
+        ],
+        "text": "暂停 / 声音 / 离开",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "quiet",
+        "rect_px": [
+          630,
+          644,
+          660,
+          79.1875
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(174, 189, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BR_28",
+        "rect_px": [
+          1070,
+          649,
+          0,
+          29
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(174, 189, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "primary",
+        "rect_px": [
+          630,
+          753.1875,
+          660,
+          69
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgb(216, 208, 184)",
+        "action": "hud",
+        "level": null
+      },
+      {
+        "id": "SPAN_30",
+        "rect_px": [
+          1240,
+          772.1875,
+          24,
+          31
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      }
+    ],
+    "pause": [
+      {
+        "id": "shade",
+        "rect_px": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(16, 30, 21, 0.78)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "panel pause",
+        "rect_px": [
+          590,
+          132,
+          740,
+          803.390625
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "eyebrow",
+        "rect_px": [
+          650,
+          184,
+          620,
+          29
+        ],
+        "text": "店还开着。你可以慢慢来。",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H2_3",
+        "rect_px": [
+          650,
+          241,
+          620,
+          70
+        ],
+        "text": "休息一下",
+        "sprite": null,
+        "font_px": 53,
+        "font_weight": "700",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "sound",
+        "rect_px": [
+          650,
+          344,
+          620,
+          204
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "LABEL_5",
+        "rect_px": [
+          650,
+          344,
+          620,
+          30
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_6",
+        "rect_px": [
+          650,
+          344,
+          170,
+          30
+        ],
+        "text": "总音量",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "INPUT_7",
+        "rect_px": [
+          842,
+          347,
+          290,
+          24
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(16, 16, 16)",
+        "background": "rgb(255, 255, 255)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "OUTPUT_8",
+        "rect_px": [
+          1154,
+          346,
+          60,
+          26
+        ],
+        "text": "85%",
+        "sprite": null,
+        "font_px": 20,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "LABEL_9",
+        "rect_px": [
+          650,
+          402,
+          620,
+          30
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_10",
+        "rect_px": [
+          650,
+          402,
+          170,
+          30
+        ],
+        "text": "背景音乐",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "INPUT_11",
+        "rect_px": [
+          842,
+          405,
+          290,
+          24
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(16, 16, 16)",
+        "background": "rgb(255, 255, 255)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "OUTPUT_12",
+        "rect_px": [
+          1154,
+          404,
+          60,
+          26
+        ],
+        "text": "45%",
+        "sprite": null,
+        "font_px": 20,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "LABEL_13",
+        "rect_px": [
+          650,
+          460,
+          620,
+          30
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_14",
+        "rect_px": [
+          650,
+          460,
+          170,
+          30
+        ],
+        "text": "事件与交互",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "INPUT_15",
+        "rect_px": [
+          842,
+          463,
+          290,
+          24
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(16, 16, 16)",
+        "background": "rgb(255, 255, 255)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "OUTPUT_16",
+        "rect_px": [
+          1154,
+          462,
+          60,
+          26
+        ],
+        "text": "80%",
+        "sprite": null,
+        "font_px": 20,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "LABEL_17",
+        "rect_px": [
+          650,
+          518,
+          620,
+          30
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_18",
+        "rect_px": [
+          650,
+          518,
+          170,
+          30
+        ],
+        "text": "环境声音",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "INPUT_19",
+        "rect_px": [
+          842,
+          521,
+          290,
+          24
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 23,
+        "font_weight": "400",
+        "color": "rgb(16, 16, 16)",
+        "background": "rgb(255, 255, 255)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "OUTPUT_20",
+        "rect_px": [
+          1154,
+          520,
+          60,
+          26
+        ],
+        "text": "60%",
+        "sprite": null,
+        "font_px": 20,
+        "font_weight": "400",
+        "color": "rgb(154, 197, 192)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "buttons",
+        "rect_px": [
+          650,
+          582,
+          620,
+          247
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "primary",
+        "rect_px": [
+          650,
+          582,
+          620,
+          71
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgb(216, 208, 184)",
+        "action": "hud",
+        "level": null
+      },
+      {
+        "id": "SPAN_23",
+        "rect_px": [
+          1219,
+          601,
+          25,
+          33
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_24",
+        "rect_px": [
+          650,
+          670,
+          620,
+          71
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": "help",
+        "level": null
+      },
+      {
+        "id": "SPAN_25",
+        "rect_px": [
+          1219,
+          689,
+          25,
+          33
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_26",
+        "rect_px": [
+          650,
+          758,
+          620,
+          71
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": "leave",
+        "level": null
+      },
+      {
+        "id": "SPAN_27",
+        "rect_px": [
+          1219,
+          777,
+          25,
+          33
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "quiet small",
+        "rect_px": [
+          650,
+          851,
+          620,
+          32.390625
+        ],
+        "text": "声音设置只控制游戏音量。场景没有计时器。",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(174, 189, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      }
+    ],
+    "photo": [
+      {
+        "id": "photo-title",
+        "rect_px": [
+          96,
+          70,
+          389,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "small-square",
+        "rect_px": [
+          96,
+          83.5,
+          10,
+          10
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 28,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(224, 160, 91)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_2",
+        "rect_px": [
+          333,
+          76,
+          152,
+          25
+        ],
+        "text": "照片不会自动上传",
+        "sprite": null,
+        "font_px": 19,
+        "font_weight": "400",
+        "color": "rgb(176, 189, 171)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "frame",
+        "rect_px": [
+          96,
+          150,
+          1728,
+          730
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "I_4",
+        "rect_px": [
+          96,
+          150,
+          60,
+          60
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "I_5",
+        "rect_px": [
+          1764,
+          150,
+          60,
+          60
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "I_6",
+        "rect_px": [
+          96,
+          820,
+          60,
+          60
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "I_7",
+        "rect_px": [
+          1764,
+          820,
+          60,
+          60
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "photo-buttons",
+        "rect_px": [
+          315,
+          905,
+          1290,
+          75
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "toggleUI",
+        "rect_px": [
+          554.453125,
+          905,
+          178.078125,
+          75
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "IMG_10",
+        "rect_px": [
+          580.453125,
+          927.5,
+          30,
+          30
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Icon_Eye.png",
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "primary",
+        "rect_px": [
+          752.53125,
+          905,
+          218,
+          75
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgb(216, 208, 184)",
+        "action": "saved",
+        "level": null
+      },
+      {
+        "id": "IMG_12",
+        "rect_px": [
+          778.53125,
+          927.5,
+          30,
+          30
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Icon_Save.png",
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "copyText",
+        "rect_px": [
+          990.53125,
+          905,
+          194,
+          75
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "IMG_14",
+        "rect_px": [
+          1016.53125,
+          927.5,
+          30,
+          30
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Icon_Copy.png",
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_15",
+        "rect_px": [
+          1204.53125,
+          905,
+          161,
+          75
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 24,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": "hud",
+        "level": null
+      },
+      {
+        "id": "KBD_16",
+        "rect_px": [
+          1294.53125,
+          924,
+          38,
+          37
+        ],
+        "text": "P",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "photo-note",
+        "rect_px": [
+          0,
+          996,
+          1920,
+          24
+        ],
+        "text": "此处仅为界面状态预览；实际截图写盘由技术接入。",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(168, 182, 163)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      }
+    ],
+    "saved": [
+      {
+        "id": "location",
+        "rect_px": [
+          52,
+          52,
+          209.515625,
+          53
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(27, 42, 33, 0.79)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "small-square",
+        "rect_px": [
+          69,
+          73.5,
+          10,
+          10
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(224, 160, 91)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_2",
+        "rect_px": [
+          92,
+          64,
+          152.515625,
+          29
+        ],
+        "text": "L1 · 便民店初访",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "cross",
+        "rect_px": [
+          940,
+          520,
+          40,
+          40
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "IMG_4",
+        "rect_px": [
+          940,
+          520,
+          40,
+          40
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Crosshair.png",
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "toast",
+        "rect_px": [
+          1372.421875,
+          132,
+          495.578125,
+          111
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(38, 60, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "IMG_6",
+        "rect_px": [
+          1396.421875,
+          166.5,
+          42,
+          42
+        ],
+        "text": "",
+        "sprite": "Sprites/I3_Icon_Check.png",
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "DIV_7",
+        "rect_px": [
+          1458.421875,
+          154,
+          328.0625,
+          67
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "STRONG_8",
+        "rect_px": [
+          1458.421875,
+          154,
+          200,
+          33
+        ],
+        "text": "照片已保存到本地",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "500",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SMALL_9",
+        "rect_px": [
+          1458.421875,
+          197,
+          328.0625,
+          24
+        ],
+        "text": "示例：Pictures / ThisStore / photo.png",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(181, 194, 175)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_10",
+        "rect_px": [
+          1806.484375,
+          168,
+          37.515625,
+          39
+        ],
+        "text": "×",
+        "sprite": null,
+        "font_px": 29,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": "hud",
+        "level": null
+      },
+      {
+        "id": "bottom",
+        "rect_px": [
+          52,
+          997,
+          1816,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_12",
+        "rect_px": [
+          52,
+          997,
+          132.53125,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_13",
+        "rect_px": [
+          52,
+          997,
+          56.3125,
+          37
+        ],
+        "text": "Tab",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "SPAN_14",
+        "rect_px": [
+          1645.25,
+          997,
+          222.75,
+          37
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 21,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_15",
+        "rect_px": [
+          1645.25,
+          997,
+          38,
+          37
+        ],
+        "text": "P",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "KBD_16",
+        "rect_px": [
+          1759.46875,
+          997,
+          53.3125,
+          37
+        ],
+        "text": "Esc",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(44, 61, 48)",
+        "action": null,
+        "level": null
+      }
+    ],
+    "leave": [
+      {
+        "id": "shade",
+        "rect_px": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(16, 30, 21, 0.78)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "panel leave",
+        "rect_px": [
+          570,
+          220,
+          780,
+          675.578125
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "eyebrow",
+        "rect_px": [
+          630,
+          272,
+          660,
+          29
+        ],
+        "text": "随时进来，随时离开。",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "H2_3",
+        "rect_px": [
+          630,
+          329,
+          660,
+          67
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 51,
+        "font_weight": "700",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "I_4",
+        "rect_px": [
+          960,
+          329,
+          55,
+          67
+        ],
+        "text": "？",
+        "sprite": null,
+        "font_px": 51,
+        "font_weight": "700",
+        "color": "rgb(224, 160, 91)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "quiet",
+        "rect_px": [
+          630,
+          429,
+          660,
+          79.1875
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(174, 189, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BR_6",
+        "rect_px": [
+          960,
+          434,
+          0,
+          29
+        ],
+        "text": "",
+        "sprite": null,
+        "font_px": 22,
+        "font_weight": "400",
+        "color": "rgb(174, 189, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "buttons",
+        "rect_px": [
+          630,
+          542.1875,
+          660,
+          247
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 16,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "primary",
+        "rect_px": [
+          630,
+          542.1875,
+          660,
+          71
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgb(216, 208, 184)",
+        "action": "title",
+        "level": null
+      },
+      {
+        "id": "SPAN_9",
+        "rect_px": [
+          1239,
+          561.1875,
+          25,
+          33
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(23, 34, 27)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_10",
+        "rect_px": [
+          630,
+          630.1875,
+          660,
+          71
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": "hud",
+        "level": null
+      },
+      {
+        "id": "SPAN_11",
+        "rect_px": [
+          1239,
+          649.1875,
+          25,
+          33
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "BUTTON_12",
+        "rect_px": [
+          630,
+          718.1875,
+          660,
+          71
+        ],
+        "text": null,
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgb(37, 51, 44)",
+        "action": "title",
+        "level": null
+      },
+      {
+        "id": "SPAN_13",
+        "rect_px": [
+          1239,
+          737.1875,
+          25,
+          33
+        ],
+        "text": "→",
+        "sprite": null,
+        "font_px": 25,
+        "font_weight": "400",
+        "color": "rgb(216, 208, 184)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      },
+      {
+        "id": "quiet small",
+        "rect_px": [
+          630,
+          811.1875,
+          660,
+          32.390625
+        ],
+        "text": "离开无需“通关”，也不要求先拍照。",
+        "sprite": null,
+        "font_px": 18,
+        "font_weight": "400",
+        "color": "rgb(174, 189, 170)",
+        "background": "rgba(0, 0, 0, 0)",
+        "action": null,
+        "level": null
+      }
+    ]
+  }
+}

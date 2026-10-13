@@ -1,0 +1,368 @@
+{
+  "version": 2,
+  "mode": "free_exploration",
+  "levels": [
+    {
+      "id": "L1",
+      "name": "便民店初访",
+      "music": "I3_BGM_NightShift_Main",
+      "transition": "0.6–1.2s crossfade, retain musical sample phase where possible"
+    },
+    {
+      "id": "L2",
+      "name": "后仓夜游",
+      "music": "I3_BGM_NightShift_Quiet",
+      "transition": "0.6–1.2s crossfade, retain musical sample phase where possible"
+    },
+    {
+      "id": "L3",
+      "name": "整店不对劲",
+      "music": "I3_BGM_ColdAir",
+      "transition": "0.6–1.2s crossfade, retain musical sample phase where possible"
+    }
+  ],
+  "global_rules": {
+    "no_event_prerequisite_chain": true,
+    "no_task_completion_sounds": true,
+    "no_score_or_failure": true,
+    "quiet_20_seconds": "ambient pacing only; all interactions immediately available",
+    "joke_voice_limit": 1,
+    "event_retrigger": "player leaves focus/proximity, then deliberate retrigger after cooldown; no continuous proximity spam",
+    "allow_walk_during_performance": true,
+    "duck": {
+      "bus": "Music",
+      "gain_db": -5,
+      "attack_s": 0.12,
+      "release_s": 0.8,
+      "only_on_foreground_jokes": true,
+      "not_on_every_footstep": true
+    },
+    "loop_stop_fade_s": 0.1,
+    "do_not_stack_cold_main_quiet": true
+  },
+  "gag_families": {
+    "cow_solemn": {
+      "start": [
+        "I3_SFX_cow_hmm"
+      ],
+      "accent": [
+        "I3_SFX_cow_welcome"
+      ],
+      "cooldown_s": 5
+    },
+    "box_customer": {
+      "footfalls": [
+        "I3_SFX_box_step"
+      ],
+      "accent": [
+        "I3_SFX_box_fanfare"
+      ],
+      "cooldown_s": 5
+    },
+    "serious_register": {
+      "loop": "I3_SFX_print_loop",
+      "stop": "I3_SFX_print_end",
+      "cooldown_s": 6
+    },
+    "singing_fridge": {
+      "open": "I3_SFX_fridge_open",
+      "accent": "I3_SFX_fridge_choir",
+      "close": "I3_SFX_fridge_close",
+      "cooldown_s": 6
+    },
+    "walking_milk": {
+      "turn": "I3_SFX_product_turn",
+      "accent": "I3_SFX_product_whistle",
+      "cooldown_s": 4
+    },
+    "optional_machine_joke": {
+      "scale": "I3_SFX_scale_zero",
+      "stamp": "I3_SFX_stamp_hit",
+      "bell": "I3_SFX_loading_bell",
+      "rule": "free toys, never deliver/finish requirements"
+    }
+  },
+  "cue_files": {
+    "I3_BGM_NightShift_Main": {
+      "wav": "WAV/BGM/I3_BGM_NightShift_Main.wav",
+      "ogg": "OGG/BGM/I3_BGM_NightShift_Main.ogg",
+      "loop": true,
+      "gain_db": -2,
+      "cooldown_s": 0,
+      "use": "前店/后仓稀疏原声；主笑点duck -8dB，attack .12s release .9s"
+    },
+    "I3_BGM_NightShift_Quiet": {
+      "wav": "WAV/BGM/I3_BGM_NightShift_Quiet.wav",
+      "ogg": "OGG/BGM/I3_BGM_NightShift_Quiet.ogg",
+      "loop": true,
+      "gain_db": -2,
+      "cooldown_s": 0,
+      "use": "对话或多事件区域；与主曲同长同拍，可同sample位置600ms交叉淡化"
+    },
+    "I3_BGM_ColdAir": {
+      "wav": "WAV/BGM/I3_BGM_ColdAir.wav",
+      "ogg": "OGG/BGM/I3_BGM_ColdAir.ogg",
+      "loop": true,
+      "gain_db": -2,
+      "cooldown_s": 0,
+      "use": "冷库轻玻璃电琴；无恐怖低鸣，无尖锐突发"
+    },
+    "I3_BGM_ShiftClosed": {
+      "wav": "WAV/BGM/I3_BGM_ShiftClosed.wav",
+      "ogg": "OGG/BGM/I3_BGM_ShiftClosed.ogg",
+      "loop": false,
+      "gain_db": -1,
+      "cooldown_s": 0,
+      "use": "可选局部笑点收尾；不代表本班/任务完成，不锁操作"
+    },
+    "I3_AMB_Fluorescent": {
+      "wav": "WAV/Ambience/I3_AMB_Fluorescent.wav",
+      "ogg": "OGG/Ambience/I3_AMB_Fluorescent.ogg",
+      "loop": true,
+      "gain_db": -3,
+      "cooldown_s": 0,
+      "use": "前店3D近灯源，maxDistance6m；不能全图大声铺底"
+    },
+    "I3_AMB_Refrigerator": {
+      "wav": "WAV/Ambience/I3_AMB_Refrigerator.wav",
+      "ogg": "OGG/Ambience/I3_AMB_Refrigerator.ogg",
+      "loop": true,
+      "gain_db": -3,
+      "cooldown_s": 0,
+      "use": "冰柜3D局部声，maxDistance4m；开门合唱时降6dB"
+    },
+    "I3_SFX_cow_hmm": {
+      "wav": "WAV/SFX/I3_SFX_cow_hmm.wav",
+      "ogg": "OGG/SFX/I3_SFX_cow_hmm.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 2.5,
+      "use": "看向牛店员的无词轻哼"
+    },
+    "I3_SFX_cow_welcome": {
+      "wav": "WAV/SFX/I3_SFX_cow_welcome.wav",
+      "ogg": "OGG/SFX/I3_SFX_cow_welcome.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 4,
+      "use": "牛店员过度郑重的鞠躬"
+    },
+    "I3_SFX_print_loop": {
+      "wav": "WAV/SFX/I3_SFX_print_loop.wav",
+      "ogg": "OGG/SFX/I3_SFX_print_loop.ogg",
+      "loop": true,
+      "gain_db": -2,
+      "cooldown_s": 0.2,
+      "use": "机器突然认真打印；随纸条表演开关"
+    },
+    "I3_SFX_print_end": {
+      "wav": "WAV/SFX/I3_SFX_print_end.wav",
+      "ogg": "OGG/SFX/I3_SFX_print_end.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.4,
+      "use": "机器短票完成"
+    },
+    "I3_SFX_box_step": {
+      "wav": "WAV/SFX/I3_SFX_box_step.wav",
+      "ogg": "OGG/SFX/I3_SFX_box_step.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.15,
+      "use": "纸箱顾客短腿落脚"
+    },
+    "I3_SFX_box_fanfare": {
+      "wav": "WAV/SFX/I3_SFX_box_fanfare.wav",
+      "ogg": "OGG/SFX/I3_SFX_box_fanfare.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 5,
+      "use": "纸箱顾客郑重转身"
+    },
+    "I3_SFX_fridge_open": {
+      "wav": "WAV/SFX/I3_SFX_fridge_open.wav",
+      "ogg": "OGG/SFX/I3_SFX_fridge_open.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.5,
+      "use": "玩家试开冰柜"
+    },
+    "I3_SFX_fridge_choir": {
+      "wav": "WAV/SFX/I3_SFX_fridge_choir.wav",
+      "ogg": "OGG/SFX/I3_SFX_fridge_choir.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.7,
+      "use": "冰柜短暂无词合唱"
+    },
+    "I3_SFX_fridge_close": {
+      "wav": "WAV/SFX/I3_SFX_fridge_close.wav",
+      "ogg": "OGG/SFX/I3_SFX_fridge_close.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.4,
+      "use": "冰柜关门"
+    },
+    "I3_SFX_product_turn": {
+      "wav": "WAV/SFX/I3_SFX_product_turn.wav",
+      "ogg": "OGG/SFX/I3_SFX_product_turn.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.2,
+      "use": "奶盒回头"
+    },
+    "I3_SFX_product_whistle": {
+      "wav": "WAV/SFX/I3_SFX_product_whistle.wav",
+      "ogg": "OGG/SFX/I3_SFX_product_whistle.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 3,
+      "use": "奶盒偷看短口哨"
+    },
+    "I3_SFX_card_pick": {
+      "wav": "WAV/SFX/I3_SFX_card_pick.wav",
+      "ogg": "OGG/SFX/I3_SFX_card_pick.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.12,
+      "use": "可选符号小物拿起，非任务"
+    },
+    "I3_SFX_card_drop": {
+      "wav": "WAV/SFX/I3_SFX_card_drop.wav",
+      "ogg": "OGG/SFX/I3_SFX_card_drop.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.15,
+      "use": "可选符号小物放下，非任务"
+    },
+    "I3_SFX_crate_pick": {
+      "wav": "WAV/SFX/I3_SFX_crate_pick.wav",
+      "ogg": "OGG/SFX/I3_SFX_crate_pick.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.25,
+      "use": "可选空箱拿起，非任务"
+    },
+    "I3_SFX_crate_place": {
+      "wav": "WAV/SFX/I3_SFX_crate_place.wav",
+      "ogg": "OGG/SFX/I3_SFX_crate_place.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.25,
+      "use": "可选空箱放下，非任务"
+    },
+    "I3_SFX_cart_roll": {
+      "wav": "WAV/SFX/I3_SFX_cart_roll.wav",
+      "ogg": "OGG/SFX/I3_SFX_cart_roll.ogg",
+      "loop": true,
+      "gain_db": -2,
+      "cooldown_s": 0.1,
+      "use": "可选推车轮，随速度开关，非运输目标"
+    },
+    "I3_SFX_cart_brake": {
+      "wav": "WAV/SFX/I3_SFX_cart_brake.wav",
+      "ogg": "OGG/SFX/I3_SFX_cart_brake.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.3,
+      "use": "可选推车停止"
+    },
+    "I3_SFX_gate_click": {
+      "wav": "WAV/SFX/I3_SFX_gate_click.wav",
+      "ogg": "OGG/SFX/I3_SFX_gate_click.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.3,
+      "use": "普通门开关"
+    },
+    "I3_SFX_scale_zero": {
+      "wav": "WAV/SFX/I3_SFX_scale_zero.wav",
+      "ogg": "OGG/SFX/I3_SFX_scale_zero.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.5,
+      "use": "空称台过度正式确认，非称重任务"
+    },
+    "I3_SFX_stamp_hit": {
+      "wav": "WAV/SFX/I3_SFX_stamp_hit.wav",
+      "ogg": "OGG/SFX/I3_SFX_stamp_hit.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.3,
+      "use": "玩家试压章，非票据任务"
+    },
+    "I3_SFX_loading_bell": {
+      "wav": "WAV/SFX/I3_SFX_loading_bell.wav",
+      "ogg": "OGG/SFX/I3_SFX_loading_bell.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 3,
+      "use": "可选礼貌铃，非卸货完成"
+    },
+    "I3_SFX_final_small_fanfare": {
+      "wav": "WAV/SFX/I3_SFX_final_small_fanfare.wav",
+      "ogg": "OGG/SFX/I3_SFX_final_small_fanfare.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 6,
+      "use": "可选反差笑点短礼，不作为通关音"
+    },
+    "I3_SFX_footstep_left": {
+      "wav": "WAV/SFX/I3_SFX_footstep_left.wav",
+      "ogg": "OGG/SFX/I3_SFX_footstep_left.ogg",
+      "loop": false,
+      "gain_db": -6,
+      "cooldown_s": 0.16,
+      "use": "玩家左脚落脚"
+    },
+    "I3_SFX_footstep_right": {
+      "wav": "WAV/SFX/I3_SFX_footstep_right.wav",
+      "ogg": "OGG/SFX/I3_SFX_footstep_right.ogg",
+      "loop": false,
+      "gain_db": -6,
+      "cooldown_s": 0.16,
+      "use": "玩家右脚落脚"
+    },
+    "I3_SFX_ui_confirm": {
+      "wav": "WAV/SFX/I3_SFX_ui_confirm.wav",
+      "ogg": "OGG/SFX/I3_SFX_ui_confirm.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.1,
+      "use": "UI/E交互接受"
+    },
+    "I3_SFX_ui_photo": {
+      "wav": "WAV/SFX/I3_SFX_ui_photo.wav",
+      "ogg": "OGG/SFX/I3_SFX_ui_photo.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.3,
+      "use": "主动本地拍照"
+    },
+    "I3_SFX_ui_saved": {
+      "wav": "WAV/SFX/I3_SFX_ui_saved.wav",
+      "ogg": "OGG/SFX/I3_SFX_ui_saved.ogg",
+      "loop": false,
+      "gain_db": -2,
+      "cooldown_s": 0.3,
+      "use": "仅本地写盘确认后"
+    }
+  },
+  "runtime_trigger_map": "Data/runtime-cue-map.json",
+  "trigger_to_cue": {
+    "TRG_L1_01": "TRG_L1_01_CUE",
+    "TRG_L1_02": "TRG_L1_02_CUE",
+    "TRG_L1_03": "TRG_L1_03_CUE",
+    "TRG_L1_04": "TRG_L1_04_CUE",
+    "TRG_L2_01": "TRG_L2_01_CUE",
+    "TRG_L2_02": "TRG_L2_02_CUE",
+    "TRG_L2_03": "TRG_L2_03_CUE",
+    "TRG_L2_04": "TRG_L2_04_CUE",
+    "TRG_L2_05": "TRG_L2_05_CUE",
+    "TRG_L3_01": "TRG_L3_01_CUE",
+    "TRG_L3_02": "TRG_L3_02_CUE",
+    "TRG_L3_03": "TRG_L3_03_CUE",
+    "TRG_L3_04": "TRG_L3_04_CUE",
+    "TRG_L3_05": "TRG_L3_05_CUE"
+  }
+}

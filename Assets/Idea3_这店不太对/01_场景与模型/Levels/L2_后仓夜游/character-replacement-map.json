@@ -1,0 +1,52 @@
+[
+  {
+    "instance_id": "MILK_1",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_2",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_3",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_4",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  },
+  {
+    "instance_id": "MILK_5",
+    "asset_id": "PRP_ODD_PRODUCT",
+    "rigged_prefab_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT__Rig_TPose.fbx",
+    "rigged_blend_path": "../../../02_角色与动画/PRP_ODD_PRODUCT/PRP_ODD_PRODUCT_Rigged.blend",
+    "default_animation": "Idle",
+    "scene_fbx_glb_mode": "static evaluated Idle mesh, not an animatable prefab",
+    "preserve_root_transform": true,
+    "replace_only_mesh_not_scene_root": true
+  }
+]
